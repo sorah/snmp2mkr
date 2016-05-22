@@ -26,86 +26,90 @@ Or install it yourself as:
 ### Configuration
 
 ``` yaml
-api_key: ...
+api_key: ... # EnvString
 #  env: MKR_API_KEY
-templates:
-  router:
-    templates:
+persist_file: ... # EnvString
+templates: # TemplateCollection
+  router: # Template
+    templates: # TemplatesList
       - cisco-841
-  wlc:
-    templates:
+  wlc: # Template
+    templates: # TemplatesList
       - system-mib
       - if-mib
       - ip-mib
       - airespace-wireless-mib_ap-as-metrics
 
-  cisco-841:
-    templates:
+  cisco-841: # Template
+    templates: # TemplatesList
       - system-mib
       - if-mib
       - ip-mib
 
-  system-mib:
-    meta:
-      sysdescr: 'SNMPv2-MIB::system.sysDescr.0'
-  if-mib:
-    interfaces:
+  system-mib: # Template
+    meta: # MetaDefinition
       keys:
-        ifDescr: 'IF-MIB::ifDescr'
-      match:
-        ifIndex: '#{index}'
+        sysdescr: 'SNMPv2-MIB::system.sysDescr.0' # oidstring
       values:
-        name: '#{ifDescr}'
-    metrics_discovery:
-      interface:
+        sysdescr: '#{sysdescr}' # ValueDefinition
+  if-mib: # Template
+    interfaces: # InterfacesDefinition
+      keys:
+        ifDescr: 'IF-MIB::ifDescr' # Oid
+      match:
+        ifIndex: '#{index}' # TemplateString
+      values:
+        name: '#{ifDescr}' # ValueDefinition
+    metric_discoveries: # MetricDiscoveryRuleCollection
+      interface: # MetricDiscoveryRule
         keys:
-          ifDescr: 'IF-MIB::ifDescr'
+          ifDescr: 'IF-MIB::ifDescr' # Oid
         metrics:
-          "#{name}.rxBytes": "IF-MIB::ifInOctets.#{index}"
-          "#{name}.txBytes": "IF-MIB::ifOutOctets.#{index}"
-          "interface.#{name}.rxBytes.delta":
-            oid: "IF-MIB::ifInOctets.#{index}"
-            transform:
-              - type: persec
-          "interface.#{name}.txBytes.delta":
-            oid: "IF-MIB::ifOutOctets.#{index}"
-            transform:
-              - type: persec
-  ip-mib:
-    interfaces:
+          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
+          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
+          "interface.#{ifDescr}.rxBytes.delta": # MetricDefinition
+            oid: "IF-MIB::ifInOctets.#{index}" # Oid
+            transform: # TransformSpecificationList
+              - type: persec # TransformSpecification
+          "interface.#{ifDescr}.txBytes.delta": # MetricDefinition
+            oid: "IF-MIB::ifOutOctets.#{index}" # Oid
+            transform: # Transformspecification
+              - type: persec # TransformSpeccifiation
+  ip-mib: # Template
+    interfaces: # InterfacesDefinition
       keys:
-        ipAdEntIfIndex: 'IP-MIB::ipAdEntIfIndex'
-        ipAdEntAddr: 'IP-MIB::ipAdEntIfAddr'
+        ipAdEntIfIndex: 'IP-MIB::ipAdEntIfIndex' # Oid
+        ipAdEntAddr: 'IP-MIB::ipAdEntIfAddr' # Oid
       match:
-        ifIndex: '#{ipAdEntIfIndex}'
+        ifIndex: '#{ipAdEntIfIndex}' # TemplateString
       values:
-        ipv4Addresses:
-          type: append_array
-          value: '#{ipAdEntAddr}'
+        ipv4Addresses: # ValueDefinition
+          type: array_append
+          value: '#{ipAdEntAddr}' # TemplateString
 
-  airespace-wireless-mib_ap-as-metrics:
-    metrics_discovery:
-      ap:
+  airespace-wireless-mib_ap-as-metrics: # Template
+    metric_discoveries: # MetricDiscoveryRuleCollection
+      ap: # MetricDiscoveryRule
         keys:
-          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName'
+          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
         metrics:
-          "custom.wlc.ap.#{bsnAPName}.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0'
-          "custom.wlc.ap.#{bsnAPName}.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1'
+          "custom.wlc.ap.#{bsnAPName}.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.wlc.ap.#{bsnAPName}.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
 
   airespace-wireless-mib_ap-as-hosts:
-    vhosts_discovery:
-      ap:
+    vhost_discoveries: # VhostsDiscoveryRuleCollection
+      ap: # VhostDiscoveryRule
         keys:
-          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName'
-        name: 'ap-#{bsnAPName}'
+          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
+        name: 'ap-#{bsnAPName}' # TemplateString
         roles:
           - aaa:bbb
         metrics:
-          "custom.ap.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0'
-          "custom.ap.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1'
+          "custom.ap.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.ap.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
 
   airespace-wireless-mib_ess:
-    metrics_discovery:
+    metric_discoveries: # MetricDiscoveryRuleCollection
       ap:
         keys:
           bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
