@@ -17,11 +17,12 @@ module Snmp2mkr
 
         @host = h['host']
         @port = h.fetch('port', 161)
+        @interval = h.fetch('interval', 60)
         @templates = TemplatesList.new(h['templates'])
         @snmp = HostSnmpDefinition.new(h['snmp'])
       end
 
-      attr_reader :host, :port, :templates, :snmp
+      attr_reader :host, :port, :interval, :templates, :snmp
 
       def collect_children
         [@templates, @snmp]
