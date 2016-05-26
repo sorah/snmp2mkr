@@ -22,11 +22,25 @@ module Snmp2mkr
         @type = v.fetch('type')
         raise TypeError, "#{self.class} value, key 'type' must be a String" unless @type.kind_of?(String)
 
-        @value = v['value']
-        @value = RawString.new(v['value']) if @value.kind_of?(String)
+        case @type
+        when 'array_append', 'string'
+          @value = v['value']
+          @value = TemplateString.new(v['value']) if @value.kind_of?(String)
+        else
+          raise ArgumentError, "#{self.class} doesn't know type #{@type.inspect}"
+        end
       end
 
       attr_reader :name, :type, :value
+
+      def evaluate(context: binded_context, previous: nil)
+        case @type
+        when 'string'
+          @value.evaluate
+        when 'array_append'
+          [*previous, @value.evaluate]
+        end
+      end
 
       def collect_children
         [@value]
