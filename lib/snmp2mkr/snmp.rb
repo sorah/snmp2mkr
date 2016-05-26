@@ -42,9 +42,11 @@ module Snmp2mkr
       raise Closed if closed?
       return to_enum(__method__, *oids_) unless block_given?
 
-      oids = oids_.flatten
-      @manager.get(oids.map(&:to_s)).varbind_list.each do |varbind|
-        yield Varbind.new(Snmp2mkr::Oid.new(varbind.name.to_a, mib: mib), varbind.value)
+      oids = oids_.flatten.map(&:to_s)
+      oids.each_slice(8) do |slice|
+        @manager.get(slice).varbind_list.each do |varbind|
+          yield Varbind.new(Snmp2mkr::Oid.new(varbind.name.to_a, mib: mib), varbind.value)
+        end
       end
     end
 
