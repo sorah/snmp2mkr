@@ -1,5 +1,7 @@
 # Snmp2mkr: Send SNMP values to Mackerel
 
+__still in early development phase, document may inaccurate__
+
 ## Features
 
 - Collect SNMP values then send it to Mackerel
