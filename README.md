@@ -1,5 +1,7 @@
 # Snmp2mkr: Send SNMP values to Mackerel
 
+[![CircleCI](https://circleci.com/gh/sorah/snmp2mkr.svg?style=svg)](https://circleci.com/gh/sorah/snmp2mkr)
+
 __still in early development phase, document may inaccurate__
 
 ## Features
@@ -8,6 +10,8 @@ __still in early development phase, document may inaccurate__
 - Supports sending values in indivisual hosts (e.g. Create host on mackerel for each wi-fi access points)
 
 ## Installation
+
+### Rubygems
 
 Add this line to your application's Gemfile:
 
@@ -22,6 +26,19 @@ And then execute:
 Or install it yourself as:
 
     $ gem install snmp2mkr
+
+### Docker image
+
+https://quay.io/repository/sorah/snmp2mkr
+
+`/var/lib/snmp2mkr/config.yml` is loaded by default. It's recommended to give a volume (`-v /somewhere:/var/lib/snmp2mkr`) then place config.yml, and let snmp2mkr allow to write `persist_file` there.
+
+#### Tags
+
+- commit: `quay.io/sorah/snmp2mkr:{GIT_COMMIT_SHA}`
+- master: `quay.io/sorah/snmp2mkr:master`
+- released version: `quay.io/sorah/snmp2mkr:v0.1.0`
+
 
 ## Usage
 
