@@ -2,8 +2,6 @@
 
 [![CircleCI](https://circleci.com/gh/sorah/snmp2mkr.svg?style=svg)](https://circleci.com/gh/sorah/snmp2mkr)
 
-__still in early development phase, document may inaccurate__
-
 ## Features
 
 - Collect SNMP values then send it to Mackerel
