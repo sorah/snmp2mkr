@@ -3,17 +3,21 @@ module Snmp2mkr
     class Base
       def initialize(obj, context: {})
         @original = obj
-        @binded_context = context
         setup obj
+        self.binded_context = context
+      end
+
+      def inspect
+        "#<#{self.class}: #{@original.inspect} (#{@binded_context.inspect})>"
       end
 
       def evaluate(context: binded_context, previous: nil)
         value
       end
 
-      def children(type: nil)
+      def children(type = nil)
         @children ||= collect_children.flat_map { |ch| ch.kind_of?(Base) ? [ch, *ch.children] : [ch] }
-        @children.select { |_| type === _ }
+        type ? @children.select { |_| type === _ } : @children
       end
 
       def collect_children
@@ -24,6 +28,15 @@ module Snmp2mkr
 
       def bind_context(ctx)
         self.class.new(@original, context: ctx)
+      end
+
+      protected
+
+      def binded_context=(o)
+        @binded_context = o
+        collect_children.each do |child|
+          child.binded_context = o
+        end
       end
     end
   end

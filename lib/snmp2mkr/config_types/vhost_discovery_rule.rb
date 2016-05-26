@@ -32,7 +32,7 @@ module Snmp2mkr
 
       def collect_children
         [
-          *@metrics.values,
+          *@metrics,
           *@keys.values,
           *@roles,
           @name,

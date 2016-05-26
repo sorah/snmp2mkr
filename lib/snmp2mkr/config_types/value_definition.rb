@@ -1,7 +1,7 @@
-
 require 'snmp2mkr/config_types/base'
 require 'snmp2mkr/config_types/oid'
 require 'snmp2mkr/config_types/template_string'
+require 'snmp2mkr/config_types/raw_string'
 require 'snmp2mkr/config_types/transformation'
 
 module Snmp2mkr
@@ -23,12 +23,13 @@ module Snmp2mkr
         raise TypeError, "#{self.class} value, key 'type' must be a String" unless @type.kind_of?(String)
 
         @value = v['value']
+        @value = RawString.new(v['value']) if @value.kind_of?(String)
       end
 
       attr_reader :name, :type, :value
 
       def collect_children
-        [@type]
+        [@value]
       end
     end
   end

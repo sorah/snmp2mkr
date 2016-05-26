@@ -9,11 +9,15 @@ module Snmp2mkr
           raise TypeError, "#{self.class} must be given a Hash<String, Object)>"
         end
 
-        @value = hash.map { |k, v| [k, Template.new(v)] }.to_h
+        @value = hash.map { |k, v| [k, Template.new([k,v])] }.to_h
       end
 
       def [](k)
         @value[k]
+      end
+
+      def fetch(k)
+        @value.fetch(k)
       end
 
       def collect_children

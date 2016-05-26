@@ -10,6 +10,9 @@ module Snmp2mkr
       def setup(hash)
         raise TypeError, "#{self.class} must be given a Hash" unless hash.kind_of?(Hash)
 
+        @mib_load_path = hash.fetch('mib_load_path', [])
+        raise TypeError, "mib_load_path should be an Array" unless @mib_load_path.kind_of?(Array)
+
         @hosts = HostCollection.new(hash.fetch('hosts'))
         @templates = TemplateCollection.new(hash.fetch('templates'))
         @persist_file = EnvString.new(hash.fetch('persist_file'))
@@ -25,7 +28,7 @@ module Snmp2mkr
         ].compact
       end
 
-      attr_reader :hosts, :templates, :persist_file, :api_key
+      attr_reader :hosts, :templates, :persist_file, :api_key, :mib_load_path
     end
   end
 end
