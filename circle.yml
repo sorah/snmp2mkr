@@ -1,0 +1,33 @@
+machine:
+  ruby:
+    version: 2.3
+  services:
+    - docker
+
+dependencies:
+  cache_directories:
+    - bin
+    - ~/docker
+  pre:
+    - if [ ! -d bin ]; then mkdir bin; fi
+    - if [ ! -x bin/git-set-mtime ]; then curl -o bin/git-set-mtime https://drone.io/github.com/rosylilly/git-set-mtime/files/artifacts/bin/linux_amd64/git-set-mtime && chmod +x bin/git-set-mtime; fi
+    - docker login -u "${DOCKER_USER}" -p "${DOCKER_PASSWORD}" -e "${DOCKER_EMAIL}" https://quay.io
+    - mkdir -p ~/docker
+    - if [[ -e ~/docker/cache.tar ]]; then docker load -i ~/docker/cache.tar; fi
+    - docker pull quay.io/sorah/rbenv:2.3
+    - BASE_ID="$(docker inspect -f '{{.Id}}' quay.io/sorah/rbenv:2.3)"; if [[ "_${BASE_ID}" != "_$(cat ~/docker/cache.id)" ]]; then docker save quay.io/sorah/rbenv:2.3 > ~/docker/cache.tar && echo "${BASE_ID}" > ~/docker/cache.id; fi
+    - 'docker pull quay.io/sorah/snmp2mkr:latest || :'
+
+test:
+  override:
+    - bundle exec rspec -fd ./spec
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bin/git-set-mtime
+      - docker build -t quay.io/sorah/snmp2mkr:master .
+      - docker tag -f quay.io/sorah/snmp2mkr:master quay.io/sorah/snmp2mkr:${CIRCLE_SHA1}
+      - docker push quay.io/sorah/snmp2mkr:${CIRCLE_SHA1}
+      - docker push quay.io/sorah/snmp2mkr:master
