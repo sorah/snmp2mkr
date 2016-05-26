@@ -1,0 +1,21 @@
+---
+ciscoTcpOffloadMIB: 1.3.6.1.4.1.9.9.31
+tcpOffloadObjects: 1.3.6.1.4.1.9.9.31.1
+cipCardOffloadConfig: 1.3.6.1.4.1.9.9.31.1.1
+cipCardOffloadConfigTable: 1.3.6.1.4.1.9.9.31.1.1.1
+cipCardOffloadConfigEntry: 1.3.6.1.4.1.9.9.31.1.1.1.1
+cipCardOffloadConfigPath: 1.3.6.1.4.1.9.9.31.1.1.1.1.1
+cipCardOffloadConfigDevice: 1.3.6.1.4.1.9.9.31.1.1.1.1.2
+cipCardOffloadConfigIpAddr: 1.3.6.1.4.1.9.9.31.1.1.1.1.3
+cipCardOffloadConfigHostName: 1.3.6.1.4.1.9.9.31.1.1.1.1.4
+cipCardOffloadConfigRouterName: 1.3.6.1.4.1.9.9.31.1.1.1.1.5
+cipCardOffloadConfigLinkHostAppl: 1.3.6.1.4.1.9.9.31.1.1.1.1.6
+cipCardOffloadConfigLinkRouterAppl: 1.3.6.1.4.1.9.9.31.1.1.1.1.7
+cipCardOffloadConfigAPIHostAppl: 1.3.6.1.4.1.9.9.31.1.1.1.1.8
+cipCardOffloadConfigAPIRouterAppl: 1.3.6.1.4.1.9.9.31.1.1.1.1.9
+cipCardOffloadConfigBroadcastEnable: 1.3.6.1.4.1.9.9.31.1.1.1.1.10
+cipCardOffloadConfigRowStatus: 1.3.6.1.4.1.9.9.31.1.1.1.1.11
+ciscoTcpOffloadMibConformance: 1.3.6.1.4.1.9.9.31.2
+ciscoTcpOffloadMibCompliances: 1.3.6.1.4.1.9.9.31.2.1
+ciscoTcpOffloadMibGroups: 1.3.6.1.4.1.9.9.31.2.2
+

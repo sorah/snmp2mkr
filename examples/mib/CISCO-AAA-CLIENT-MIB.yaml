@@ -1,0 +1,23 @@
+---
+ciscoAAAClientMIB: 1.3.6.1.4.1.9.9.158
+cacMIBObjects: 1.3.6.1.4.1.9.9.158.1
+cacPriority: 1.3.6.1.4.1.9.9.158.1.1
+cacPriorityTable: 1.3.6.1.4.1.9.9.158.1.1.1
+cacPriorityEntry: 1.3.6.1.4.1.9.9.158.1.1.1.1
+cacSession: 1.3.6.1.4.1.9.9.158.1.1.1.1.1
+cacAuthen: 1.3.6.1.4.1.9.9.158.1.1.1.1.2
+cacLoginMode: 1.3.6.1.4.1.9.9.158.1.1.1.1.3
+cacEnable: 1.3.6.1.4.1.9.9.158.1.1.1.1.4
+cacPriorityNumber: 1.3.6.1.4.1.9.9.158.1.1.1.1.5
+cacPrimaryMethod: 1.3.6.1.4.1.9.9.158.1.1.1.1.6
+cacLoginConfig: 1.3.6.1.4.1.9.9.158.1.2
+cacLoginConfigTable: 1.3.6.1.4.1.9.9.158.1.2.1
+cacLoginConfigEntry: 1.3.6.1.4.1.9.9.158.1.2.1.1
+cacMaxLoginAttempt: 1.3.6.1.4.1.9.9.158.1.2.1.1.1
+cacLockoutPeriod: 1.3.6.1.4.1.9.9.158.1.2.1.1.2
+cacLockoutPeriodExt: 1.3.6.1.4.1.9.9.158.1.2.1.1.3
+cacMIBNotifications: 1.3.6.1.4.1.9.9.158.2
+cacMIBConformance: 1.3.6.1.4.1.9.9.158.3
+cacMIBCompliances: 1.3.6.1.4.1.9.9.158.3.1
+cacMIBGroups: 1.3.6.1.4.1.9.9.158.3.2
+

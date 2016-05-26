@@ -1,0 +1,10 @@
+---
+onlineDiagnostics: 1.3.6.1.4.1.351.110.6.3
+diagType: 1.3.6.1.4.1.351.110.6.3.1
+diagResult: 1.3.6.1.4.1.351.110.6.3.2
+diagTestId: 1.3.6.1.4.1.351.110.6.3.3
+basisOnlineDiagMIB: 1.3.6.1.4.1.351.150.80
+boDiagMIBConformance: 1.3.6.1.4.1.351.150.80.2
+boDiagMIBCompliances: 1.3.6.1.4.1.351.150.80.2.1
+boDiagMIBGroups: 1.3.6.1.4.1.351.150.80.2.2
+

@@ -1,0 +1,25 @@
+---
+ciscoUnifiedComputingMIB: 1.3.6.1.4.1.9.9.719
+ciscoUnifiedComputingMIBNotifs: 1.3.6.1.4.1.9.9.719.0
+ciscoUnifiedComputingMIBObjects: 1.3.6.1.4.1.9.9.719.1
+cucsFaultObjects: 1.3.6.1.4.1.9.9.719.1.1
+cucsFaultTable: 1.3.6.1.4.1.9.9.719.1.1.1
+cucsFaultEntry: 1.3.6.1.4.1.9.9.719.1.1.1.1
+cucsFaultIndex: 1.3.6.1.4.1.9.9.719.1.1.1.1.1
+cucsFaultAffectedObjectId: 1.3.6.1.4.1.9.9.719.1.1.1.1.4
+cucsFaultAffectedObjectDn: 1.3.6.1.4.1.9.9.719.1.1.1.1.5
+cucsFaultProbableCause: 1.3.6.1.4.1.9.9.719.1.1.1.1.7
+cucsFaultCode: 1.3.6.1.4.1.9.9.719.1.1.1.1.9
+cucsFaultCreationTime: 1.3.6.1.4.1.9.9.719.1.1.1.1.10
+cucsFaultDescription: 1.3.6.1.4.1.9.9.719.1.1.1.1.11
+cucsFaultLastModificationTime: 1.3.6.1.4.1.9.9.719.1.1.1.1.14
+cucsFaultOccur: 1.3.6.1.4.1.9.9.719.1.1.1.1.16
+cucsFaultSeverity: 1.3.6.1.4.1.9.9.719.1.1.1.1.20
+cucsFaultType: 1.3.6.1.4.1.9.9.719.1.1.1.1.22
+ciscoUnifiedComputingMIBConform: 1.3.6.1.4.1.9.9.719.2
+cucsFaultMIBConform: 1.3.6.1.4.1.9.9.719.2.1
+cucsFaultMIBCompliances: 1.3.6.1.4.1.9.9.719.2.1.1
+cucsFaultMIBGroups: 1.3.6.1.4.1.9.9.719.2.1.2
+cucsFaultActiveNotif: 1.3.6.1.4.1.9.9.719.0.1
+cucsFaultClearNotif: 1.3.6.1.4.1.9.9.719.0.2
+

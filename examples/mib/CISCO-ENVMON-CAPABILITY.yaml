@@ -1,0 +1,26 @@
+---
+ciscoEnvMonCapability: 1.3.6.1.4.1.9.7.33
+ciscoEnvMonCapabilityV10R03: 1.3.6.1.4.1.9.7.33.1
+ciscoEnvMonCapabilityV11R02: 1.3.6.1.4.1.9.7.33.2
+ciscoEnvMonCapCatOSV08R0101Cat6k: 1.3.6.1.4.1.9.7.33.3
+ciscoEnvMonCapCatOSV08R0101Cat4k: 1.3.6.1.4.1.9.7.33.4
+ciscoEnvMonCapV12R0119ECat6K: 1.3.6.1.4.1.9.7.33.5
+ciscoEnvMonCapV12R04TP37xx: 1.3.6.1.4.1.9.7.33.6
+ciscoEnvMonCapV12R04TP28xx: 1.3.6.1.4.1.9.7.33.7
+ciscoEnvMonCapV12R04TP26xx: 1.3.6.1.4.1.9.7.33.8
+ciscoEnvMonCapV12R04TPIAD243x: 1.3.6.1.4.1.9.7.33.9
+ciscoEnvMonCapV12R04TPVG224: 1.3.6.1.4.1.9.7.33.10
+ciscoEnvMonCapV12R04TP3825: 1.3.6.1.4.1.9.7.33.11
+ciscoEnvMonCapV12R04TP3845: 1.3.6.1.4.1.9.7.33.12
+ciscoEnvMonCapV12R04TP2691: 1.3.6.1.4.1.9.7.33.13
+ciscoEnvMonCapV12R05TPMARS: 1.3.6.1.4.1.9.7.33.14
+ciscoEnvMonCapV12R05TP180x: 1.3.6.1.4.1.9.7.33.15
+ciscoEnvMonCapV12R05TP181x: 1.3.6.1.4.1.9.7.33.16
+ciscoEnvMonCapV12R05TP1841: 1.3.6.1.4.1.9.7.33.17
+ciscoEnvMonCapV12R05TP28xx: 1.3.6.1.4.1.9.7.33.18
+ciscoEnvMonCapV12R05TP3825: 1.3.6.1.4.1.9.7.33.19
+ciscoEnvMonCapV12R05TP3845: 1.3.6.1.4.1.9.7.33.20
+ciscoEnvMonCapV12R05TP1841Rev1: 1.3.6.1.4.1.9.7.33.21
+ciscoEnvMonCapabilityCTSV140: 1.3.6.1.4.1.9.7.33.22
+ciscoEnvMonCapabilityWLCV70: 1.3.6.1.4.1.9.7.33.23
+

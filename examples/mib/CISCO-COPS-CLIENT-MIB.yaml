@@ -1,0 +1,34 @@
+---
+ciscoCopsClientMIB: 1.3.6.1.4.1.9.9.140
+ccopsMIBObjects: 1.3.6.1.4.1.9.9.140.1
+ccopsGlobalObjects: 1.3.6.1.4.1.9.9.140.1.1
+ccopsServerMax: 1.3.6.1.4.1.9.9.140.1.1.1
+ccopsMaxRole: 1.3.6.1.4.1.9.9.140.1.1.2
+ccopsMaxRoleCombination: 1.3.6.1.4.1.9.9.140.1.1.3
+ccopsServerConfigTable: 1.3.6.1.4.1.9.9.140.1.1.4
+ccopsServerConfigEntry: 1.3.6.1.4.1.9.9.140.1.1.4.1
+ccopsServerConfigClientType: 1.3.6.1.4.1.9.9.140.1.1.4.1.1
+ccopsServerConfigName: 1.3.6.1.4.1.9.9.140.1.1.4.1.2
+ccopsServerConfigPriority: 1.3.6.1.4.1.9.9.140.1.1.4.1.3
+ccopsServerConfigPort: 1.3.6.1.4.1.9.9.140.1.1.4.1.4
+ccopsServerConfigStatus: 1.3.6.1.4.1.9.9.140.1.1.4.1.5
+ccopsInitialTimeout: 1.3.6.1.4.1.9.9.140.1.1.5
+ccopsTimeoutIncrement: 1.3.6.1.4.1.9.9.140.1.1.6
+ccopsTimeoutMax: 1.3.6.1.4.1.9.9.140.1.1.7
+ccopsDomainTable: 1.3.6.1.4.1.9.9.140.1.1.8
+ccopsDomainEntry: 1.3.6.1.4.1.9.9.140.1.1.8.1
+ccopsDomainClientType: 1.3.6.1.4.1.9.9.140.1.1.8.1.1
+ccopsDomainName: 1.3.6.1.4.1.9.9.140.1.1.8.1.2
+ccopsRoleTable: 1.3.6.1.4.1.9.9.140.1.1.9
+ccopsRoleEntry: 1.3.6.1.4.1.9.9.140.1.1.9.1
+ccopsRoleName: 1.3.6.1.4.1.9.9.140.1.1.9.1.1
+ccopsRoleStatus: 1.3.6.1.4.1.9.9.140.1.1.9.1.2
+ccopsIfTable: 1.3.6.1.4.1.9.9.140.1.1.10
+ccopsIfEntry: 1.3.6.1.4.1.9.9.140.1.1.10.1
+ccopsIfRoleCombination: 1.3.6.1.4.1.9.9.140.1.1.10.1.1
+ccopsRoleConfigSupported: 1.3.6.1.4.1.9.9.140.1.1.11
+ccopsMIBNotifications: 1.3.6.1.4.1.9.9.140.2
+ccopsMIBConformance: 1.3.6.1.4.1.9.9.140.3
+ccopsMIBCompliances: 1.3.6.1.4.1.9.9.140.3.1
+ccopsMIBGroups: 1.3.6.1.4.1.9.9.140.3.2
+

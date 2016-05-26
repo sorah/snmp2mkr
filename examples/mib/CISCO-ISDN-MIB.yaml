@@ -1,0 +1,33 @@
+---
+ciscoIsdnMib: 1.3.6.1.4.1.9.9.26
+ciscoIsdnMibObjects: 1.3.6.1.4.1.9.9.26.1
+isdnNeighbor: 1.3.6.1.4.1.9.9.26.1.1
+demandNbrTable: 1.3.6.1.4.1.9.9.26.1.1.1
+demandNbrEntry: 1.3.6.1.4.1.9.9.26.1.1.1.1
+demandNbrPhysIf: 1.3.6.1.4.1.9.9.26.1.1.1.1.1
+demandNbrId: 1.3.6.1.4.1.9.9.26.1.1.1.1.2
+demandNbrLogIf: 1.3.6.1.4.1.9.9.26.1.1.1.1.3
+demandNbrName: 1.3.6.1.4.1.9.9.26.1.1.1.1.4
+demandNbrAddress: 1.3.6.1.4.1.9.9.26.1.1.1.1.5
+demandNbrPermission: 1.3.6.1.4.1.9.9.26.1.1.1.1.6
+demandNbrMaxDuration: 1.3.6.1.4.1.9.9.26.1.1.1.1.7
+demandNbrLastDuration: 1.3.6.1.4.1.9.9.26.1.1.1.1.8
+demandNbrClearReason: 1.3.6.1.4.1.9.9.26.1.1.1.1.9
+demandNbrClearCode: 1.3.6.1.4.1.9.9.26.1.1.1.1.10
+demandNbrSuccessCalls: 1.3.6.1.4.1.9.9.26.1.1.1.1.11
+demandNbrFailCalls: 1.3.6.1.4.1.9.9.26.1.1.1.1.12
+demandNbrAcceptCalls: 1.3.6.1.4.1.9.9.26.1.1.1.1.13
+demandNbrRefuseCalls: 1.3.6.1.4.1.9.9.26.1.1.1.1.14
+demandNbrLastAttemptTime: 1.3.6.1.4.1.9.9.26.1.1.1.1.15
+demandNbrStatus: 1.3.6.1.4.1.9.9.26.1.1.1.1.16
+demandNbrCallOrigin: 1.3.6.1.4.1.9.9.26.1.1.1.1.17
+ciscoIsdnMibTrapPrefix: 1.3.6.1.4.1.9.9.26.2
+ciscoIsdnMibTraps: 1.3.6.1.4.1.9.9.26.2.0
+ciscoIsdnMibConformance: 1.3.6.1.4.1.9.9.26.3
+ciscoIsdnMibCompliances: 1.3.6.1.4.1.9.9.26.3.1
+ciscoIsdnMibGroups: 1.3.6.1.4.1.9.9.26.3.2
+demandNbrCallInformation: 1.3.6.1.4.1.9.9.26.2.0.1
+demandNbrCallDetails: 1.3.6.1.4.1.9.9.26.2.0.2
+demandNbrLayer2Change: 1.3.6.1.4.1.9.9.26.2.0.3
+demandNbrCNANotification: 1.3.6.1.4.1.9.9.26.2.0.4
+

@@ -1,0 +1,17 @@
+---
+ciscoCdstvFsiMIB: 1.3.6.1.4.1.9.9.735
+ciscoCdstvFsiMIBNotifs: 1.3.6.1.4.1.9.9.735.0
+ciscoCdstvFsiMIBObjects: 1.3.6.1.4.1.9.9.735.1
+cdstvFsiIpAddressType: 1.3.6.1.4.1.9.9.735.1.1
+cdstvFsiIpAddress: 1.3.6.1.4.1.9.9.735.1.2
+cdstvFsiServerPort: 1.3.6.1.4.1.9.9.735.1.3
+cdstvFsiFtpClientPort: 1.3.6.1.4.1.9.9.735.1.4
+cdstvFsiFtpOutServerPort: 1.3.6.1.4.1.9.9.735.1.5
+cdstvFsiFtpOutLoginTTL: 1.3.6.1.4.1.9.9.735.1.6
+cdstvFsiLogLevel: 1.3.6.1.4.1.9.9.735.1.7
+cdstvFsiContentRootPath: 1.3.6.1.4.1.9.9.735.1.8
+cdstvFsiAsyncCallbackURL: 1.3.6.1.4.1.9.9.735.1.9
+ciscoCdstvFsiMIBConform: 1.3.6.1.4.1.9.9.735.2
+ciscoCdstvFsiMIBCompliances: 1.3.6.1.4.1.9.9.735.2.1
+ciscoCdstvFsiMIBGroups: 1.3.6.1.4.1.9.9.735.2.2
+

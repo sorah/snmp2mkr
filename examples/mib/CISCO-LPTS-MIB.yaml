@@ -1,0 +1,22 @@
+---
+ciscoLptsMIB: 1.3.6.1.4.1.9.9.812
+ciscoLptsMIBNotifs: 1.3.6.1.4.1.9.9.812.0
+ciscoLptsMIBObjects: 1.3.6.1.4.1.9.9.812.1
+clGlobalFlowTable: 1.3.6.1.4.1.9.9.812.1.1
+clGlobalFlowEntry: 1.3.6.1.4.1.9.9.812.1.1.1
+clGlobalFlowIndex: 1.3.6.1.4.1.9.9.812.1.1.1.1
+clGlobalFlowType: 1.3.6.1.4.1.9.9.812.1.1.1.2
+clGlobalType: 1.3.6.1.4.1.9.9.812.1.1.1.3
+clGlobalCurrentRate: 1.3.6.1.4.1.9.9.812.1.1.1.4
+clLocalFlowTable: 1.3.6.1.4.1.9.9.812.1.2
+clLocalFlowEntry: 1.3.6.1.4.1.9.9.812.1.2.1
+clLocalNodeID: 1.3.6.1.4.1.9.9.812.1.2.1.1
+clLocalType: 1.3.6.1.4.1.9.9.812.1.2.1.2
+clLocalCurrentRate: 1.3.6.1.4.1.9.9.812.1.2.1.3
+clLocalAccepted: 1.3.6.1.4.1.9.9.812.1.2.1.4
+clLocalDropped: 1.3.6.1.4.1.9.9.812.1.2.1.5
+clLocalTosValue: 1.3.6.1.4.1.9.9.812.1.2.1.6
+ciscoLptsMIBConform: 1.3.6.1.4.1.9.9.812.2
+ciscoLptsMIBCompliances: 1.3.6.1.4.1.9.9.812.2.1
+ciscoLptsMIBGroups: 1.3.6.1.4.1.9.9.812.2.2
+

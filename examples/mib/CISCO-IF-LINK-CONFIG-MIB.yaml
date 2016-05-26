@@ -1,0 +1,14 @@
+---
+ciscoIfLinkConfigMIB: 1.3.6.1.4.1.9.9.175
+cilConfigMIBObjects: 1.3.6.1.4.1.9.9.175.1
+cilConfig: 1.3.6.1.4.1.9.9.175.1.1
+cilConfTable: 1.3.6.1.4.1.9.9.175.1.1.1
+cilConfEntry: 1.3.6.1.4.1.9.9.175.1.1.1.1
+cilSourceInterface: 1.3.6.1.4.1.9.9.175.1.1.1.1.1
+cilTargetModuleInterface: 1.3.6.1.4.1.9.9.175.1.1.1.1.2
+cilRowStatus: 1.3.6.1.4.1.9.9.175.1.1.1.1.3
+cilTargetModuleFramingType: 1.3.6.1.4.1.9.9.175.1.1.1.1.4
+cilConfigMIBConformance: 1.3.6.1.4.1.9.9.175.3
+cilConfigMIBCompliances: 1.3.6.1.4.1.9.9.175.3.1
+cilConfigMIBGroups: 1.3.6.1.4.1.9.9.175.3.2
+

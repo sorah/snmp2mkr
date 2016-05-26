@@ -1,0 +1,11 @@
+---
+cmplsIdStdMIB: 1.3.6.1.4.1.9.10.147
+cmplsIdNotifications: 1.3.6.1.4.1.9.10.147.0
+cmplsIdObjects: 1.3.6.1.4.1.9.10.147.1
+cmplsGlobalId: 1.3.6.1.4.1.9.10.147.1.1
+cmplsIcc: 1.3.6.1.4.1.9.10.147.1.2
+cmplsNodeId: 1.3.6.1.4.1.9.10.147.1.3
+cmplsIdConformance: 1.3.6.1.4.1.9.10.147.2
+cmplsIdGroups: 1.3.6.1.4.1.9.10.147.2.1
+cmplsIdCompliances: 1.3.6.1.4.1.9.10.147.2.2
+

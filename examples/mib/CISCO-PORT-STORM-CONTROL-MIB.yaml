@@ -1,0 +1,34 @@
+---
+ciscoPortStormControlMIB: 1.3.6.1.4.1.9.9.362
+ciscoPortStormControlMIBNotifs: 1.3.6.1.4.1.9.9.362.0
+cpscNotificationsPrefix: 1.3.6.1.4.1.9.9.362.0.1
+ciscoPortStormControlMIBObjects: 1.3.6.1.4.1.9.9.362.1
+cpscConfigObjects: 1.3.6.1.4.1.9.9.362.1.1
+cpscThresholdTable: 1.3.6.1.4.1.9.9.362.1.1.1
+cpscThresholdEntry: 1.3.6.1.4.1.9.9.362.1.1.1.1
+cpscTrafficType: 1.3.6.1.4.1.9.9.362.1.1.1.1.1
+cpscUpperThreshold: 1.3.6.1.4.1.9.9.362.1.1.1.1.2
+cpscLowerThreshold: 1.3.6.1.4.1.9.9.362.1.1.1.1.3
+cpscActionTable: 1.3.6.1.4.1.9.9.362.1.1.2
+cpscActionEntry: 1.3.6.1.4.1.9.9.362.1.1.2.1
+cpscAction: 1.3.6.1.4.1.9.9.362.1.1.2.1.1
+cpscNotificationControl: 1.3.6.1.4.1.9.9.362.1.1.2.1.2
+cpscNotificationThreshold: 1.3.6.1.4.1.9.9.362.1.1.3
+cpscStatusObjects: 1.3.6.1.4.1.9.9.362.1.2
+cpscStatusTable: 1.3.6.1.4.1.9.9.362.1.2.1
+cpscStatusEntry: 1.3.6.1.4.1.9.9.362.1.2.1.1
+cpscStatus: 1.3.6.1.4.1.9.9.362.1.2.1.1.1
+cpscCurrentLevel: 1.3.6.1.4.1.9.9.362.1.2.1.1.2
+cpscSuppressedPacket: 1.3.6.1.4.1.9.9.362.1.2.1.1.3
+cpscHistoryTable: 1.3.6.1.4.1.9.9.362.1.2.2
+cpscHistoryEntry: 1.3.6.1.4.1.9.9.362.1.2.2.1
+cpscHistoryTrafficType: 1.3.6.1.4.1.9.9.362.1.2.2.1.1
+cpscHistoryIndex: 1.3.6.1.4.1.9.9.362.1.2.2.1.2
+cpscHistoryStartTime: 1.3.6.1.4.1.9.9.362.1.2.2.1.3
+cpscHistoryEndTime: 1.3.6.1.4.1.9.9.362.1.2.2.1.4
+ciscoPortStormControlMIBConform: 1.3.6.1.4.1.9.9.362.2
+ciscoPortStormControlMIBCompliances: 1.3.6.1.4.1.9.9.362.2.1
+ciscoPortStormControlMIBGroups: 1.3.6.1.4.1.9.9.362.2.2
+cpscEvent: 1.3.6.1.4.1.9.9.362.0.1.1
+cpscEventRev1: 1.3.6.1.4.1.9.9.362.0.2
+

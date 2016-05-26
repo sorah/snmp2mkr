@@ -1,0 +1,22 @@
+---
+ciscoVirtualNwIfMIB: 1.3.6.1.4.1.9.9.290
+ciscoVirtualNwIfObjects: 1.3.6.1.4.1.9.9.290.1
+virtualNwIfConfig: 1.3.6.1.4.1.9.9.290.1.1
+virtualNwIfTable: 1.3.6.1.4.1.9.9.290.1.1.1
+virtualNwIfEntry: 1.3.6.1.4.1.9.9.290.1.1.1.1
+virtualNwIfType: 1.3.6.1.4.1.9.9.290.1.1.1.1.1
+virtualNwIfId: 1.3.6.1.4.1.9.9.290.1.1.1.1.2
+virtualNwIfIndex: 1.3.6.1.4.1.9.9.290.1.1.1.1.3
+virtualNwIfFcId: 1.3.6.1.4.1.9.9.290.1.1.1.1.4
+virtualNwIfOperStatusCause: 1.3.6.1.4.1.9.9.290.1.1.1.1.5
+virtualNwIfOperStatusCauseDescr: 1.3.6.1.4.1.9.9.290.1.1.1.1.6
+virtualNwIfRowStatus: 1.3.6.1.4.1.9.9.290.1.1.1.1.7
+virtualNwIfStatistics: 1.3.6.1.4.1.9.9.290.1.2
+virtualNwIfNotification: 1.3.6.1.4.1.9.9.290.1.3
+virtualNwIfNotifications: 1.3.6.1.4.1.9.9.290.1.3.0
+virtualNwIfMIBConformance: 1.3.6.1.4.1.9.9.290.2
+virtualNwIfMIBCompliances: 1.3.6.1.4.1.9.9.290.2.1
+virtualNwIfMIBGroups: 1.3.6.1.4.1.9.9.290.2.2
+virtualNwIfCreateEntryNotify: 1.3.6.1.4.1.9.9.290.1.3.0.1
+virtualNwIfDeleteEntryNotify: 1.3.6.1.4.1.9.9.290.1.3.0.2
+

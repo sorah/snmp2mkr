@@ -1,0 +1,31 @@
+---
+ciscoIpNetworkDiscoveryMIB: 1.3.6.1.4.1.9.9.434
+cIpNetworkDiscoveryMIBNotifs: 1.3.6.1.4.1.9.9.434.0
+cIpNetworkDiscoveryMIBObjs: 1.3.6.1.4.1.9.9.434.1
+cIpNetworkDiscoveryConfig: 1.3.6.1.4.1.9.9.434.1.1
+cIpNetworkAutomaticDiscovery: 1.3.6.1.4.1.9.9.434.1.1.1
+cIpNetworkDiscoveryDelay: 1.3.6.1.4.1.9.9.434.1.1.2
+cIpNetworkDiscoveryTypeSpinLock: 1.3.6.1.4.1.9.9.434.1.1.3
+cIpNetworkDiscoveryType: 1.3.6.1.4.1.9.9.434.1.1.4
+cIpNetworkDiscoveryPort: 1.3.6.1.4.1.9.9.434.1.1.5
+cIpNetworkDiscoverySpinLock: 1.3.6.1.4.1.9.9.434.1.1.6
+cIpNetworkGigEIfIndexToDiscover: 1.3.6.1.4.1.9.9.434.1.1.7
+cIpNetworkInetAddrTypeToDiscover: 1.3.6.1.4.1.9.9.434.1.1.8
+cIpNetworkGigEInetAddrToDiscover: 1.3.6.1.4.1.9.9.434.1.1.9
+cIpNetworkDiscoveryCommand: 1.3.6.1.4.1.9.9.434.1.1.10
+cIpNetworkDiscoveryCmdStatus: 1.3.6.1.4.1.9.9.434.1.1.11
+cIpNetworkDiscoveryInfo: 1.3.6.1.4.1.9.9.434.1.2
+cIpNetworkTable: 1.3.6.1.4.1.9.9.434.1.2.1
+cIpNetworkEntry: 1.3.6.1.4.1.9.9.434.1.2.1.1
+cIpNetworkIndex: 1.3.6.1.4.1.9.9.434.1.2.1.1.1
+cIpNetworkSwitchWWN: 1.3.6.1.4.1.9.9.434.1.2.1.1.2
+cIpNetworkInterfaceTable: 1.3.6.1.4.1.9.9.434.1.2.2
+cIpNetworkInterfaceEntry: 1.3.6.1.4.1.9.9.434.1.2.2.1
+cIpNetworkGigEPortSwitchWWN: 1.3.6.1.4.1.9.9.434.1.2.2.1.1
+cIpNetworkGigEPortIfIndex: 1.3.6.1.4.1.9.9.434.1.2.2.1.2
+cIpNetworkGigEPortInetAddrType: 1.3.6.1.4.1.9.9.434.1.2.2.1.3
+cIpNetworkGigEPortInetAddr: 1.3.6.1.4.1.9.9.434.1.2.2.1.4
+cIpNetworkDiscoveryConform: 1.3.6.1.4.1.9.9.434.2
+cIpNetworkDiscoverCompliance: 1.3.6.1.4.1.9.9.434.2.1
+cIpNetworkDiscoveryMIBGroups: 1.3.6.1.4.1.9.9.434.2.2
+

@@ -1,0 +1,28 @@
+---
+altigaMultiLinkStatsMibModule: 1.3.6.1.4.1.3076.1.1.39.2
+altigaMultiLinkStatsMibConformance: 1.3.6.1.4.1.3076.1.1.39.2.1
+altigaMultiLinkStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.39.2.1.1
+alStatsMultiLinkGlobal: 1.3.6.1.4.1.3076.2.1.2.34.1
+alMultiLinkStatsTable: 1.3.6.1.4.1.3076.2.1.2.34.2
+alMultiLinkStatsEntry: 1.3.6.1.4.1.3076.2.1.2.34.2.1
+alMultiLinkStatsRowStatus: 1.3.6.1.4.1.3076.2.1.2.34.2.1.1
+alMultiLinkStatsIndex: 1.3.6.1.4.1.3076.2.1.2.34.2.1.2
+alMultiLinkStatsTxOctets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.3
+alMultiLinkStatsTxPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.4
+alMultiLinkStatsTxMlpFragments: 1.3.6.1.4.1.3076.2.1.2.34.2.1.5
+alMultiLinkStatsTxMlpPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.6
+alMultiLinkStatsTxNonMlpPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.7
+alMultiLinkStatsTxThroughput: 1.3.6.1.4.1.3076.2.1.2.34.2.1.8
+alMultiLinkStatsRxOctets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.9
+alMultiLinkStatsRxPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.10
+alMultiLinkStatsRxMlpFragments: 1.3.6.1.4.1.3076.2.1.2.34.2.1.11
+alMultiLinkStatsRxMlpPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.12
+alMultiLinkStatsRxNonMlpPackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.13
+alMultiLinkStatsRxThroughput: 1.3.6.1.4.1.3076.2.1.2.34.2.1.14
+alMultiLinkStatsRxLostEnd: 1.3.6.1.4.1.3076.2.1.2.34.2.1.15
+alMultiLinkStatsRxStalePackets: 1.3.6.1.4.1.3076.2.1.2.34.2.1.16
+alMultiLinkStatsRxStaleFragments: 1.3.6.1.4.1.3076.2.1.2.34.2.1.17
+alMultiLinkStatsRxDroppedFragments: 1.3.6.1.4.1.3076.2.1.2.34.2.1.18
+alMultiLinkStatsRxOOSFragments: 1.3.6.1.4.1.3076.2.1.2.34.2.1.19
+alMultiLinkStatsIdleTmrCleanup: 1.3.6.1.4.1.3076.2.1.2.34.2.1.20
+

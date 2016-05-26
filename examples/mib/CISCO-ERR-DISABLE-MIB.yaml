@@ -1,0 +1,32 @@
+---
+ciscoErrDisableMIB: 1.3.6.1.4.1.9.9.548
+ciscoErrDisableMIBNotifs: 1.3.6.1.4.1.9.9.548.0
+cErrDisableNotificationsPrefix: 1.3.6.1.4.1.9.9.548.0.1
+ciscoErrDisableMIBObjects: 1.3.6.1.4.1.9.9.548.1
+cErrDisableGlobalObjects: 1.3.6.1.4.1.9.9.548.1.1
+cErrDisableRecoveryInterval: 1.3.6.1.4.1.9.9.548.1.1.1
+cErrDisableNotifEnable: 1.3.6.1.4.1.9.9.548.1.1.2
+cErrDisableNotifRate: 1.3.6.1.4.1.9.9.548.1.1.3
+cErrDisableFeatureObjects: 1.3.6.1.4.1.9.9.548.1.2
+cErrDisableFeatureTable: 1.3.6.1.4.1.9.9.548.1.2.1
+cErrDisableFeatureEntry: 1.3.6.1.4.1.9.9.548.1.2.1.1
+cErrDisableFeatureIndex: 1.3.6.1.4.1.9.9.548.1.2.1.1.1
+cErrDisableFeatureConfigurable: 1.3.6.1.4.1.9.9.548.1.2.1.1.2
+cErrDisableFeatureDetectEnable: 1.3.6.1.4.1.9.9.548.1.2.1.1.3
+cErrDisableFeatureRecoveryEnable: 1.3.6.1.4.1.9.9.548.1.2.1.1.4
+cErrDisableFeatureRecoveryInterval: 1.3.6.1.4.1.9.9.548.1.2.1.1.5
+cErrDisableFeatureDetectShutdownVlan: 1.3.6.1.4.1.9.9.548.1.2.1.1.6
+cErrDisableFeatureMaxFlapCount: 1.3.6.1.4.1.9.9.548.1.2.1.1.7
+cErrDisableFeatureFlapTimePeriod: 1.3.6.1.4.1.9.9.548.1.2.1.1.8
+cErrDisableIfObjects: 1.3.6.1.4.1.9.9.548.1.3
+cErrDisableIfStatusTable: 1.3.6.1.4.1.9.9.548.1.3.1
+cErrDisableIfStatusEntry: 1.3.6.1.4.1.9.9.548.1.3.1.1
+cErrDisableIfStatusVlanIndex: 1.3.6.1.4.1.9.9.548.1.3.1.1.1
+cErrDisableIfStatusCause: 1.3.6.1.4.1.9.9.548.1.3.1.1.2
+cErrDisableIfStatusTimeToRecover: 1.3.6.1.4.1.9.9.548.1.3.1.1.3
+ciscoErrDisableMIBConform: 1.3.6.1.4.1.9.9.548.2
+ciscoErrDisableMIBCompliances: 1.3.6.1.4.1.9.9.548.2.1
+ciscoErrDisableMIBGroups: 1.3.6.1.4.1.9.9.548.2.2
+cErrDisableInterfaceEvent: 1.3.6.1.4.1.9.9.548.0.1.1
+cErrDisableInterfaceEventRev1: 1.3.6.1.4.1.9.9.548.0.2
+

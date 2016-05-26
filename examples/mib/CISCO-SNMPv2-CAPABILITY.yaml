@@ -1,0 +1,11 @@
+---
+ciscoSnmpV2Capability: 1.3.6.1.4.1.9.7.113
+ciscoSnmpV2CapabilityV10R02: 1.3.6.1.4.1.9.7.113.1
+ciscoRpmsSnmpV2CapabilityV20: 1.3.6.1.4.1.9.7.113.2
+ciscoMgxSnmpV2CapabilityV20: 1.3.6.1.4.1.9.7.113.3
+ciscoBpxSesSnmpV2CapabilityV10: 1.3.6.1.4.1.9.7.113.4
+ciscoSnmpV2CapCatOSV08R0301: 1.3.6.1.4.1.9.7.113.5
+ciscoSnmpV2CapCatOSV08R0601: 1.3.6.1.4.1.9.7.113.6
+ciscoSnmpV2CapACSWV03R000: 1.3.6.1.4.1.9.7.113.7
+ciscoSnmpV2Capc4710aceVA1R700: 1.3.6.1.4.1.9.7.113.8
+

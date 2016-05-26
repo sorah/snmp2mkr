@@ -1,0 +1,23 @@
+---
+cableLabs: 1.3.6.1.4.1.4491
+clabFunction: 1.3.6.1.4.1.4491.1
+clabFuncMib2: 1.3.6.1.4.1.4491.1.1
+clabFuncProprietary: 1.3.6.1.4.1.4491.1.2
+clabProject: 1.3.6.1.4.1.4491.2
+clabProjDocsis: 1.3.6.1.4.1.4491.2.1
+docsTestMIB: 1.3.6.1.4.1.4491.2.1.12
+docsTestMibObjects: 1.3.6.1.4.1.4491.2.1.12.1
+docsTestBaseObjects: 1.3.6.1.4.1.4491.2.1.12.1.1
+docsTestCapability: 1.3.6.1.4.1.4491.2.1.12.1.1.1
+docsTestStatus: 1.3.6.1.4.1.4491.2.1.12.1.1.2
+docsTestSetupObjects: 1.3.6.1.4.1.4491.2.1.12.1.2
+docsTestType: 1.3.6.1.4.1.4491.2.1.12.1.2.1
+docsTestData: 1.3.6.1.4.1.4491.2.1.12.1.2.2
+docsTestEnable: 1.3.6.1.4.1.4491.2.1.12.1.2.3
+docsTestConformance: 1.3.6.1.4.1.4491.2.1.12.2
+docsTestCompliances: 1.3.6.1.4.1.4491.2.1.12.2.1
+docsTestGroups: 1.3.6.1.4.1.4491.2.1.12.2.2
+clabProjPacketCable: 1.3.6.1.4.1.4491.2.2
+clabProjOpenCable: 1.3.6.1.4.1.4491.2.3
+clabProjCableHome: 1.3.6.1.4.1.4491.2.4
+

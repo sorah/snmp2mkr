@@ -1,0 +1,24 @@
+---
+ciscoLwappDot11ClientMIB: 1.3.6.1.4.1.9.9.599
+ciscoLwappDot11ClientMIBNotifs: 1.3.6.1.4.1.9.9.599.0
+ciscoLwappDot11ClientMIBObjects: 1.3.6.1.4.1.9.9.599.1
+cldcConfigObjects: 1.3.6.1.4.1.9.9.599.1.1
+cldcKeyDecryptErrorEnabled: 1.3.6.1.4.1.9.9.599.1.1.1
+cldcNotifObjects: 1.3.6.1.4.1.9.9.599.1.2
+cldcStatusObjects: 1.3.6.1.4.1.9.9.599.1.3
+cldcClientTable: 1.3.6.1.4.1.9.9.599.1.3.1
+cldcClientEntry: 1.3.6.1.4.1.9.9.599.1.3.1.1
+cldcClientMacAddress: 1.3.6.1.4.1.9.9.599.1.3.1.1.1
+cldcClientStatus: 1.3.6.1.4.1.9.9.599.1.3.1.1.2
+cldcClientWlanProfileName: 1.3.6.1.4.1.9.9.599.1.3.1.1.3
+cldcClientWgbStatus: 1.3.6.1.4.1.9.9.599.1.3.1.1.4
+cldcClientWgbMacAddress: 1.3.6.1.4.1.9.9.599.1.3.1.1.5
+cldcClientProtocol: 1.3.6.1.4.1.9.9.599.1.3.1.1.6
+cldcAssociationMode: 1.3.6.1.4.1.9.9.599.1.3.1.1.7
+cldcApMacAddress: 1.3.6.1.4.1.9.9.599.1.3.1.1.8
+cldcIfType: 1.3.6.1.4.1.9.9.599.1.3.1.1.9
+ciscoLwappDot11ClientMIBConform: 1.3.6.1.4.1.9.9.599.2
+ciscoLwappDot11ClientMIBCompliances: 1.3.6.1.4.1.9.9.599.2.1
+ciscoLwappDot11ClientMIBGroups: 1.3.6.1.4.1.9.9.599.2.2
+ciscoLwappDot11ClientKeyDecryptError: 1.3.6.1.4.1.9.9.599.0.1
+

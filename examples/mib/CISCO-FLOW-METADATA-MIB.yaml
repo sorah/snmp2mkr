@@ -1,0 +1,29 @@
+---
+ciscoFlowMetadataMIB: 1.3.6.1.4.1.9.9.789
+cFlowMetadataMIBNotifs: 1.3.6.1.4.1.9.9.789.0
+cFlowMetadataMIBObjects: 1.3.6.1.4.1.9.9.789.1
+cfmMetadataFlowTable: 1.3.6.1.4.1.9.9.789.1.1
+cfmMetadataFlowEntry: 1.3.6.1.4.1.9.9.789.1.1.1
+cfmMetadataFlowId: 1.3.6.1.4.1.9.9.789.1.1.1.1
+cfmMetadataFlowProtocolType: 1.3.6.1.4.1.9.9.789.1.1.1.2
+cfmMetadataFlowDestAddrType: 1.3.6.1.4.1.9.9.789.1.1.1.3
+cfmMetadataFlowDestAddr: 1.3.6.1.4.1.9.9.789.1.1.1.4
+cfmMetadataFlowDestPort: 1.3.6.1.4.1.9.9.789.1.1.1.5
+cfmMetadataFlowSrcAddrType: 1.3.6.1.4.1.9.9.789.1.1.1.6
+cfmMetadataFlowSrcAddr: 1.3.6.1.4.1.9.9.789.1.1.1.7
+cfmMetadataFlowSrcPort: 1.3.6.1.4.1.9.9.789.1.1.1.8
+cfmMetadataFlowSSRC: 1.3.6.1.4.1.9.9.789.1.1.1.9
+cfmMetadataFlowAttrTable: 1.3.6.1.4.1.9.9.789.1.2
+cfmMetadataFlowAttrEntry: 1.3.6.1.4.1.9.9.789.1.2.1
+cfmMetadataFlowAttrType: 1.3.6.1.4.1.9.9.789.1.2.1.1
+cfmMetadataFlowAttrValue: 1.3.6.1.4.1.9.9.789.1.2.1.2
+cfmMetadataFlowAllAttrTable: 1.3.6.1.4.1.9.9.789.1.3
+cfmMetadataFlowAllAttrEntry: 1.3.6.1.4.1.9.9.789.1.3.1
+cfmMetadataIpFixIeId: 1.3.6.1.4.1.9.9.789.1.3.1.1
+cfmMetadataFlowAllAttrInstanceId: 1.3.6.1.4.1.9.9.789.1.3.1.2
+cfmMetadataFlowAllAttrValue: 1.3.6.1.4.1.9.9.789.1.3.1.3
+cfmMetadataFlowAllAttrPen: 1.3.6.1.4.1.9.9.789.1.3.1.4
+cFlowMetadataMIBConform: 1.3.6.1.4.1.9.9.789.2
+cfmMetadataMIBCompliances: 1.3.6.1.4.1.9.9.789.2.1
+cfmMetadataMIBGroups: 1.3.6.1.4.1.9.9.789.2.2
+

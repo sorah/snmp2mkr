@@ -1,0 +1,19 @@
+---
+ciscoVoiceEnabledLinkMIB: 1.3.6.1.4.1.9.10.53
+cvenabledlinkMIBObjects: 1.3.6.1.4.1.9.10.53.1
+cvEnabledLink: 1.3.6.1.4.1.9.10.53.1.1
+cvEnabledDefaultMacAddr: 1.3.6.1.4.1.9.10.53.1.1.1
+cvEnabledLinkTable: 1.3.6.1.4.1.9.10.53.1.1.2
+cvEnabledLinkEntry: 1.3.6.1.4.1.9.10.53.1.1.2.1
+cvEnabledLinkIndex: 1.3.6.1.4.1.9.10.53.1.1.2.1.1
+cvEnabledLinkType: 1.3.6.1.4.1.9.10.53.1.1.2.1.2
+cvEnabledLinkInterfaceName: 1.3.6.1.4.1.9.10.53.1.1.2.1.3
+cvEnabledLinkVpiDlci: 1.3.6.1.4.1.9.10.53.1.1.2.1.4
+cvEnabledLinkVci: 1.3.6.1.4.1.9.10.53.1.1.2.1.5
+cvEnabledLinkRemoteMacAddr: 1.3.6.1.4.1.9.10.53.1.1.2.1.6
+ciscoVoiceEnabledLinkMIBNotificationPrefix: 1.3.6.1.4.1.9.10.53.2
+ciscoVoiceEnabledLinkMIBNotifications: 1.3.6.1.4.1.9.10.53.2.0
+ciscoVoiceEnabledlinkMIBConformance: 1.3.6.1.4.1.9.10.53.3
+ciscoVoiceEnabledlinkMIBCompliances: 1.3.6.1.4.1.9.10.53.3.1
+ciscoVoiceEnabledlinkMIBGroups: 1.3.6.1.4.1.9.10.53.3.2
+

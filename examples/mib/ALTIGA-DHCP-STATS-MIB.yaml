@@ -1,0 +1,35 @@
+---
+altigaDhcpStatsMibModule: 1.3.6.1.4.1.3076.1.1.25.2
+altigaDhcpStatsMibConformance: 1.3.6.1.4.1.3076.1.1.25.2.1
+altigaDhcpStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.25.2.1.1
+alStatsDhcpGlobal: 1.3.6.1.4.1.3076.2.1.2.20.1
+alDhcpStatsActiveLeases: 1.3.6.1.4.1.3076.2.1.2.20.1.1
+alDhcpStatsMaximumLeases: 1.3.6.1.4.1.3076.2.1.2.20.1.2
+alDhcpStatsDiscoversSent: 1.3.6.1.4.1.3076.2.1.2.20.1.3
+alDhcpStatsOffersRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.4
+alDhcpStatsInitRequestsSent: 1.3.6.1.4.1.3076.2.1.2.20.1.5
+alDhcpStatsT1RequestsSent: 1.3.6.1.4.1.3076.2.1.2.20.1.6
+alDhcpStatsT2RequestsSent: 1.3.6.1.4.1.3076.2.1.2.20.1.7
+alDhcpStatsInitAcksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.8
+alDhcpStatsInitNaksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.9
+alDhcpStatsT1AcksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.10
+alDhcpStatsT1NaksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.11
+alDhcpStatsT2AcksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.12
+alDhcpStatsT2NaksRcvd: 1.3.6.1.4.1.3076.2.1.2.20.1.13
+alDhcpStatsT1Timeouts: 1.3.6.1.4.1.3076.2.1.2.20.1.14
+alDhcpStatsT2Timeouts: 1.3.6.1.4.1.3076.2.1.2.20.1.15
+alDhcpStatsApiRequests: 1.3.6.1.4.1.3076.2.1.2.20.1.16
+alDhcpStatsLeaseTimeouts: 1.3.6.1.4.1.3076.2.1.2.20.1.17
+alDhcpStatsSessTable: 1.3.6.1.4.1.3076.2.1.2.20.2
+alDhcpStatsSessEntry: 1.3.6.1.4.1.3076.2.1.2.20.2.1
+alDhcpStatsSessRowStatus: 1.3.6.1.4.1.3076.2.1.2.20.2.1.1
+alDhcpStatsSessId: 1.3.6.1.4.1.3076.2.1.2.20.2.1.2
+alDhcpStatsSessKey: 1.3.6.1.4.1.3076.2.1.2.20.2.1.3
+alDhcpStatsSessIpAddr: 1.3.6.1.4.1.3076.2.1.2.20.2.1.4
+alDhcpStatsSessUpTime: 1.3.6.1.4.1.3076.2.1.2.20.2.1.5
+alDhcpStatsSessLeaseDuration: 1.3.6.1.4.1.3076.2.1.2.20.2.1.6
+alDhcpStatsSessLeaseExpire: 1.3.6.1.4.1.3076.2.1.2.20.2.1.7
+alDhcpStatsSessState: 1.3.6.1.4.1.3076.2.1.2.20.2.1.8
+alDhcpStatsSessClientId: 1.3.6.1.4.1.3076.2.1.2.20.2.1.9
+alDhcpStatsSessSrvrIpAddr: 1.3.6.1.4.1.3076.2.1.2.20.2.1.10
+

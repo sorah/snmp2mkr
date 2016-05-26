@@ -1,0 +1,25 @@
+---
+ciscoQinqVlanMIB: 1.3.6.1.4.1.9.9.445
+ciscoQinqVlanMIBNotifs: 1.3.6.1.4.1.9.9.445.0
+ciscoQinqVlanMIBObjects: 1.3.6.1.4.1.9.9.445.1
+cqvTermination: 1.3.6.1.4.1.9.9.445.1.1
+cqvTerminationTable: 1.3.6.1.4.1.9.9.445.1.1.1
+cqvTerminationEntry: 1.3.6.1.4.1.9.9.445.1.1.1.1
+cqvTerminationPeVlanId: 1.3.6.1.4.1.9.9.445.1.1.1.1.1
+cqvTerminationCeVlanId: 1.3.6.1.4.1.9.9.445.1.1.1.1.2
+cqvTerminationPeEncap: 1.3.6.1.4.1.9.9.445.1.1.1.1.3
+cqvTerminationRowStatus: 1.3.6.1.4.1.9.9.445.1.1.1.1.4
+cqvTranslation: 1.3.6.1.4.1.9.9.445.1.2
+cqvTranslationTable: 1.3.6.1.4.1.9.9.445.1.2.1
+cqvTranslationEntry: 1.3.6.1.4.1.9.9.445.1.2.1.1
+cqvTranslationInternalPeVlanId: 1.3.6.1.4.1.9.9.445.1.2.1.1.1
+cqvTranslationInternalCeVlanId: 1.3.6.1.4.1.9.9.445.1.2.1.1.2
+cqvTranslationTrunkPeVlanId: 1.3.6.1.4.1.9.9.445.1.2.1.1.3
+cqvTranslationTrunkCeVlanId: 1.3.6.1.4.1.9.9.445.1.2.1.1.4
+cqvTranslationType: 1.3.6.1.4.1.9.9.445.1.2.1.1.5
+cqvTranslationCosPBits: 1.3.6.1.4.1.9.9.445.1.2.1.1.6
+cqvTranslationRowStatus: 1.3.6.1.4.1.9.9.445.1.2.1.1.7
+ciscoQinqVlanMIBConform: 1.3.6.1.4.1.9.9.445.2
+ciscoQinqVlanMIBCompliances: 1.3.6.1.4.1.9.9.445.2.1
+ciscoQinqVlanMIBGroups: 1.3.6.1.4.1.9.9.445.2.2
+

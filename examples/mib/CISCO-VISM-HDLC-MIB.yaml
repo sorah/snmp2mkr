@@ -1,0 +1,20 @@
+---
+vismSigGrp: 1.3.6.1.4.1.351.110.5.5.6
+vismHdlcChanTable: 1.3.6.1.4.1.351.110.5.5.6.1
+vismHdlcChanEntry: 1.3.6.1.4.1.351.110.5.5.6.1.1
+vismHdlcChanNum: 1.3.6.1.4.1.351.110.5.5.6.1.1.1
+vismHdlcRowStatus: 1.3.6.1.4.1.351.110.5.5.6.1.1.2
+vismHdlcMaxFrameSize: 1.3.6.1.4.1.351.110.5.5.6.1.1.3
+vismHdlcLcnNum: 1.3.6.1.4.1.351.110.5.5.6.1.1.4
+vismHdlcXmtFrames: 1.3.6.1.4.1.351.110.5.5.6.1.1.5
+vismHdlcRcvFrames: 1.3.6.1.4.1.351.110.5.5.6.1.1.6
+vismHdlcRcvCrcErrors: 1.3.6.1.4.1.351.110.5.5.6.1.1.7
+vismHdlcRcvBufOverflows: 1.3.6.1.4.1.351.110.5.5.6.1.1.8
+vismHdlcTxUnderflows: 1.3.6.1.4.1.351.110.5.5.6.1.1.9
+vismHdlcTxAbortFrames: 1.3.6.1.4.1.351.110.5.5.6.1.1.10
+vismHdlcRxAbortFrames: 1.3.6.1.4.1.351.110.5.5.6.1.1.11
+ciscoVismHdlcMIB: 1.3.6.1.4.1.351.150.91
+ciscoVismHdlcMIBConformance: 1.3.6.1.4.1.351.150.91.2
+ciscoVismHdlcMIBGroups: 1.3.6.1.4.1.351.150.91.2.1
+ciscoVismHdlcMIBCompliances: 1.3.6.1.4.1.351.150.91.2.2
+

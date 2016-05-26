@@ -1,0 +1,120 @@
+api_key:
+  env: SNMP2MKR_API_KEY
+
+persist_file: persist.yml
+
+mib_load_path:
+  - ./mib
+mib_modules: # add modules
+  - CISCO-PROCESS-MIB
+  - AIRESPACE-WIRELESS-MIB
+
+templates:
+  cisco-router:
+    templates:
+      - router-sys-meta
+      - cisco-process-mib
+      - if-mib
+      - ip-mib
+
+  cisco-process-mib:
+    metrics:
+      #"custom.cpu": "1.3.6.1.4.1.9.9.109.1.1.1.1.6.1"
+
+  router-sys-meta:
+    meta: # MetaDefinition
+      keys:
+        sysdescr: 'SNMPv2-MIB::sysDescr.0' # Oid
+      values:
+        sysdescr: '#{sysdescr}' # ValueDefinition
+
+
+  ip-mib:
+    interfaces: # InterfacesDefinition
+      keys:
+        ipAdEntIfIndex: 'IP-MIB::ipAdEntIfIndex' # Oid
+        ipAdEntAddr: 'IP-MIB::ipAdEntAddr' # Oid
+      match:
+        ifIndex: '#{ipAdEntIfIndex}' # TemplateString
+      values:
+        address: '#{ipAdEntAddr}'
+        ipv4Addresses: # ValueDefinition
+          type: array_append
+          value: '#{ipAdEntAddr}' # TemplateString
+
+  if-mib: # Template
+    interfaces: # InterfacesDefinition
+      keys:
+        ifDescr: 'IF-MIB::ifDescr' # Oid
+        ifPhysAddress: 'IF-MIB::ifPhysAddress'
+      match:
+        ifIndex: '#{index}' # TemplateString
+      values:
+        #macAddress: '#{ifPhysAddress}'
+        name: '#{ifDescr}' # ValueDefinition
+    metric_discoveries: # MetricDiscoveryRuleCollection
+      interface: # MetricDiscoveryRule
+        keys:
+          ifDescr: 'IF-MIB::ifDescr' # Oid
+        metrics:
+          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
+          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
+          "interface.#{ifDescr}.rxBytes.delta": # MetricDefinition
+            oid: "IF-MIB::ifInOctets.#{index}" # Oid
+            transformations: # TransformSpecificationList
+              - type: persec # TransformSpecification
+          "interface.#{ifDescr}.txBytes.delta": # MetricDefinition
+            oid: "IF-MIB::ifOutOctets.#{index}" # Oid
+            transformations: # Transformspecification
+              - type: persec # TransformSpeccifiation
+
+  if-mib-vhost:
+    vhost_discoveries: # MetricDiscoveryRuleCollection
+      interface: # MetricDiscoveryRule
+        keys:
+          ifDescr: 'IF-MIB::ifDescr' # Oid
+        name: 'kotori-if-#{ifDescr}'
+        metrics:
+          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
+          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
+
+  airespace-wireless-mib_ap-as-metrics: # Template
+    metric_discoveries: # MetricDiscoveryRuleCollection
+      ap: # MetricDiscoveryRule
+        keys:
+          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
+        metrics:
+          "custom.wlc.ap.#{bsnAPName}.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.wlc.ap.#{bsnAPName}.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
+
+  airespace-wireless-mib_ap-as-hosts:
+    vhost_discoveries: # VhostsDiscoveryRuleCollection
+      ap: # VhostDiscoveryRule
+        keys:
+          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
+        name: 'ap-#{bsnAPName}' # TemplateString
+        roles:
+          - aaa:bbb
+        metrics:
+          "custom.ap.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.ap.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
+
+  airespace-wireless-mib_ess:
+    metric_discoveries: # MetricDiscoveryRuleCollection
+      ap:
+        keys:
+          bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
+        metrics:
+          "custom.wlc.ess.#{bsnDot11EssSsid}.clients.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
+
+hosts:
+  rt01:
+    discovery_interval: 120
+    interval: 60
+    host: 192.168.1.1
+    port: 161
+    snmp:
+      verison: 2c
+      community: public
+    templates:
+      - cisco-router

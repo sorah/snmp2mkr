@@ -1,0 +1,26 @@
+---
+ciscoLinkErrorMonitorMIB: 1.3.6.1.4.1.9.9.426
+ciscoLinkErrMonMIBNotifs: 1.3.6.1.4.1.9.9.426.0
+ciscoLinkErrMonMIBObjects: 1.3.6.1.4.1.9.9.426.1
+clemGlobalObjects: 1.3.6.1.4.1.9.9.426.1.1
+clemEnabled: 1.3.6.1.4.1.9.9.426.1.1.1
+clemSamplingInterval: 1.3.6.1.4.1.9.9.426.1.1.2
+clemSamplingTimes: 1.3.6.1.4.1.9.9.426.1.1.3
+clemAction: 1.3.6.1.4.1.9.9.426.1.1.4
+clemThresholdTable: 1.3.6.1.4.1.9.9.426.1.1.5
+clemThresholdEntry: 1.3.6.1.4.1.9.9.426.1.1.5.1
+clemThresholdCounterType: 1.3.6.1.4.1.9.9.426.1.1.5.1.1
+clemThresholdLow: 1.3.6.1.4.1.9.9.426.1.1.5.1.2
+clemThresholdHigh: 1.3.6.1.4.1.9.9.426.1.1.5.1.3
+clemNotifEnable: 1.3.6.1.4.1.9.9.426.1.1.6
+clemInterfaceObjects: 1.3.6.1.4.1.9.9.426.1.2
+clemIfCounterTable: 1.3.6.1.4.1.9.9.426.1.2.1
+clemIfCounterEntry: 1.3.6.1.4.1.9.9.426.1.2.1.1
+clemIfCounterType: 1.3.6.1.4.1.9.9.426.1.2.1.1.1
+clemIfCounterEnable: 1.3.6.1.4.1.9.9.426.1.2.1.1.2
+ciscoLinkErrMonMIBConform: 1.3.6.1.4.1.9.9.426.2
+ciscoLinkErrMonMIBCompliances: 1.3.6.1.4.1.9.9.426.2.1
+ciscoLinkErrMonMIBGroups: 1.3.6.1.4.1.9.9.426.2.2
+clemLowThresholdExceeded: 1.3.6.1.4.1.9.9.426.0.1
+clemHighThresholdExceeded: 1.3.6.1.4.1.9.9.426.0.2
+

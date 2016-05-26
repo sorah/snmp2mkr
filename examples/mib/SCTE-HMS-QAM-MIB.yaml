@@ -1,0 +1,32 @@
+---
+heDigitalQamMIB: 1.3.6.1.4.1.5591.1.11.5.3.1
+qamMIBObjects: 1.3.6.1.4.1.5591.1.11.5.3.1.1
+qamChannelTable: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1
+qamChannelEntry: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1
+qamChannelFrequency: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.1
+qamChannelModulationFormat: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.2
+qamChannelInterleaverLevel: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.3
+qamChannelInterleaverMode: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.4
+qamChannelPower: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.5
+qamChannelSquelch: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.6
+qamChannelContWaveMode: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.7
+qamChannelAnnexMode: 1.3.6.1.4.1.5591.1.11.5.3.1.1.1.1.8
+qamChannelCommonTable: 1.3.6.1.4.1.5591.1.11.5.3.1.1.2
+qamChannelCommonEntry: 1.3.6.1.4.1.5591.1.11.5.3.1.1.2.1
+qamChannelCommonOutputBw: 1.3.6.1.4.1.5591.1.11.5.3.1.1.2.1.1
+qamChannelCommonUtilization: 1.3.6.1.4.1.5591.1.11.5.3.1.1.2.1.2
+qamConfigTable: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3
+qamConfigEntry: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1
+qamConfigIndex: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.1
+qamConfigQamChannelIdMin: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.2
+qamConfigQamChannelIdMax: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.3
+qamConfigIPAddrType: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.4
+qamConfigIPAddr: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.5
+qamConfigUdpPortRangeMin: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.6
+qamConfigUdpPortRangeMax: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.7
+qamConfigOutputProgNoMin: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.8
+qamConfigOutputProgNoMax: 1.3.6.1.4.1.5591.1.11.5.3.1.1.3.1.9
+qamMIBConformance: 1.3.6.1.4.1.5591.1.11.5.3.1.2
+qamMIBCompliances: 1.3.6.1.4.1.5591.1.11.5.3.1.2.1
+qamMIBGroups: 1.3.6.1.4.1.5591.1.11.5.3.1.2.2
+

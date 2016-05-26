@@ -1,0 +1,18 @@
+---
+ciscoLwappDot11MIB: 1.3.6.1.4.1.9.9.612
+ciscoLwappDot11MIBNotifs: 1.3.6.1.4.1.9.9.612.0
+ciscoLwappDot11MIBObjects: 1.3.6.1.4.1.9.9.612.1
+cldConfig: 1.3.6.1.4.1.9.9.612.1.1
+cldHtMacOperationsTable: 1.3.6.1.4.1.9.9.612.1.1.1
+cldHtMacOperationsEntry: 1.3.6.1.4.1.9.9.612.1.1.1.1
+cldHtDot11nBand: 1.3.6.1.4.1.9.9.612.1.1.1.1.1
+cldHtDot11nChannelBandwidth: 1.3.6.1.4.1.9.9.612.1.1.1.1.2
+cldHtDot11nRifsEnable: 1.3.6.1.4.1.9.9.612.1.1.1.1.3
+cldHtDot11nAmsduEnable: 1.3.6.1.4.1.9.9.612.1.1.1.1.4
+cldHtDot11nAmpduEnable: 1.3.6.1.4.1.9.9.612.1.1.1.1.5
+cldHtDot11nGuardIntervalEnable: 1.3.6.1.4.1.9.9.612.1.1.1.1.6
+cldStatus: 1.3.6.1.4.1.9.9.612.1.2
+ciscoLwappDot11MIBConform: 1.3.6.1.4.1.9.9.612.2
+ciscoLwappDot11MIBCompliances: 1.3.6.1.4.1.9.9.612.2.1
+ciscoLwappDot11MIBGroups: 1.3.6.1.4.1.9.9.612.2.2
+

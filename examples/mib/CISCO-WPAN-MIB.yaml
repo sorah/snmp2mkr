@@ -1,0 +1,24 @@
+---
+ciscoWpanMIB: 1.3.6.1.4.1.9.9.819
+ciscoWpanMIBNotifs: 1.3.6.1.4.1.9.9.819.0
+ciscoWpanMIBObjects: 1.3.6.1.4.1.9.9.819.1
+ciscoWpanConfig: 1.3.6.1.4.1.9.9.819.1.1
+cwpanInterfaceTable: 1.3.6.1.4.1.9.9.819.1.1.1
+cwpanInterfaceEntry: 1.3.6.1.4.1.9.9.819.1.1.1.1
+cwpanIfServiceStatus: 1.3.6.1.4.1.9.9.819.1.1.1.1.1
+cwpanIfServiceStatusReason: 1.3.6.1.4.1.9.9.819.1.1.1.1.2
+cwpanIfRplTableResetReason: 1.3.6.1.4.1.9.9.819.1.1.1.1.3
+cwpanIfRplTableNodes: 1.3.6.1.4.1.9.9.819.1.1.1.1.4
+cwpanIfRplTableMajorThreshNodes: 1.3.6.1.4.1.9.9.819.1.1.1.1.5
+cwpanIfRplTableMinorThreshNodes: 1.3.6.1.4.1.9.9.819.1.1.1.1.6
+cwpanNotificationEnable: 1.3.6.1.4.1.9.9.819.1.1.2
+ciscoWpanMIBConform: 1.3.6.1.4.1.9.9.819.2
+ciscoWpanMIBCompliances: 1.3.6.1.4.1.9.9.819.2.1
+ciscoWpanMIBGroups: 1.3.6.1.4.1.9.9.819.2.2
+cwpanServiceStatusChangeNotif: 1.3.6.1.4.1.9.9.819.0.1
+cwpanRplTableResetNotif: 1.3.6.1.4.1.9.9.819.0.2
+cwpanRisingIfRplTblMinorThreshNodesNotif: 1.3.6.1.4.1.9.9.819.0.3
+cwpanFallingIfRplTblMinorThreshNodesNotif: 1.3.6.1.4.1.9.9.819.0.4
+cwpanRisingIfRplTblMajorThreshNodesNotif: 1.3.6.1.4.1.9.9.819.0.5
+cwpanFallingIfRplTblMajorThreshNodesNotif: 1.3.6.1.4.1.9.9.819.0.6
+

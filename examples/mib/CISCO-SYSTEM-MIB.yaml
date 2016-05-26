@@ -1,0 +1,32 @@
+---
+ciscoSystemMIB: 1.3.6.1.4.1.9.9.131
+ciscoSystemMIBObjects: 1.3.6.1.4.1.9.9.131.1
+csyClock: 1.3.6.1.4.1.9.9.131.1.1
+csyClockDateAndTime: 1.3.6.1.4.1.9.9.131.1.1.1
+csyClockLostOnReboot: 1.3.6.1.4.1.9.9.131.1.1.2
+csyLocation: 1.3.6.1.4.1.9.9.131.1.2
+csyLocationCountry: 1.3.6.1.4.1.9.9.131.1.2.1
+csySummerTime: 1.3.6.1.4.1.9.9.131.1.3
+csySummerTimeStatus: 1.3.6.1.4.1.9.9.131.1.3.1
+csySummerTimeOffset: 1.3.6.1.4.1.9.9.131.1.3.2
+csySummerTimeRecurringStart: 1.3.6.1.4.1.9.9.131.1.3.3
+csySummerTimeRecurringEnd: 1.3.6.1.4.1.9.9.131.1.3.4
+csyStandardTmZnGMTOffset: 1.3.6.1.4.1.9.9.131.1.3.5
+csySummerTmZnGMTOffset: 1.3.6.1.4.1.9.9.131.1.3.6
+csyScheduledReset: 1.3.6.1.4.1.9.9.131.1.4
+csyScheduledResetTime: 1.3.6.1.4.1.9.9.131.1.4.1
+csyScheduledResetAction: 1.3.6.1.4.1.9.9.131.1.4.2
+csyScheduledResetReason: 1.3.6.1.4.1.9.9.131.1.4.3
+csySnmpAuthentication: 1.3.6.1.4.1.9.9.131.1.5
+csySnmpAuthFail: 1.3.6.1.4.1.9.9.131.1.5.1
+csySnmpAuthFailAddressType: 1.3.6.1.4.1.9.9.131.1.5.2
+csySnmpAuthFailAddress: 1.3.6.1.4.1.9.9.131.1.5.3
+csyGeneral: 1.3.6.1.4.1.9.9.131.1.6
+csyNotificationsEnable: 1.3.6.1.4.1.9.9.131.1.6.1
+ciscoSystemMIBNotificationPrefix: 1.3.6.1.4.1.9.9.131.2
+ciscoSystemMIBNotifications: 1.3.6.1.4.1.9.9.131.2.0
+ciscoSystemMIBConformance: 1.3.6.1.4.1.9.9.131.3
+ciscoSystemMIBCompliances: 1.3.6.1.4.1.9.9.131.3.1
+ciscoSystemMIBGroups: 1.3.6.1.4.1.9.9.131.3.2
+ciscoSystemClockChanged: 1.3.6.1.4.1.9.9.131.2.0.1
+

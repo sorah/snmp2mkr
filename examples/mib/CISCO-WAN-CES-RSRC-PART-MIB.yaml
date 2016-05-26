@@ -1,0 +1,18 @@
+---
+cesmPortCnfResPartGrp: 1.3.6.1.4.1.351.110.5.3.1.2
+cesmPortCnfResPartGrpTable: 1.3.6.1.4.1.351.110.5.3.1.2.1
+cesmPortCnfResPartGrpEntry: 1.3.6.1.4.1.351.110.5.3.1.2.1.1
+cesmResPartPortNum: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.1
+cesmResPartCtrlrNum: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.2
+cesmResPartRowStatus: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.3
+cesmResPartNumOfLcnAvail: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.4
+cesmResPartLcnLow: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.5
+cesmResPartLcnHigh: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.6
+cesmResPartIngrPctBW: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.7
+cesmResPartEgrPctBW: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.8
+cesmResPartCtrlrID: 1.3.6.1.4.1.351.110.5.3.1.2.1.1.9
+ciscoWanCesRsrcPartMIB: 1.3.6.1.4.1.351.150.41
+cwcRsrcPartMIBConformance: 1.3.6.1.4.1.351.150.41.2
+cwcRsrcPartMIBCompliances: 1.3.6.1.4.1.351.150.41.2.1
+cwcRsrcPartMIBGroups: 1.3.6.1.4.1.351.150.41.2.2
+

@@ -1,0 +1,27 @@
+---
+ciscoWredMIB: 1.3.6.1.4.1.9.9.83
+ciscoWredMIBObjects: 1.3.6.1.4.1.9.9.83.1
+cwredConfig: 1.3.6.1.4.1.9.9.83.1.1
+cwredConfigGlobTable: 1.3.6.1.4.1.9.9.83.1.1.1
+cwredConfigGlobEntry: 1.3.6.1.4.1.9.9.83.1.1.1.1
+cwredConfigGlobQueueWeight: 1.3.6.1.4.1.9.9.83.1.1.1.1.1
+cwredConfigPrecedTable: 1.3.6.1.4.1.9.9.83.1.1.2
+cwredConfigPrecedEntry: 1.3.6.1.4.1.9.9.83.1.1.2.1
+cwredConfigPrecedPrecedence: 1.3.6.1.4.1.9.9.83.1.1.2.1.1
+cwredConfigPrecedMinDepthThreshold: 1.3.6.1.4.1.9.9.83.1.1.2.1.2
+cwredConfigPrecedMaxDepthThreshold: 1.3.6.1.4.1.9.9.83.1.1.2.1.3
+cwredConfigPrecedPktsDropFraction: 1.3.6.1.4.1.9.9.83.1.1.2.1.4
+cwredStats: 1.3.6.1.4.1.9.9.83.1.2
+cwredQueueTable: 1.3.6.1.4.1.9.9.83.1.2.1
+cwredQueueEntry: 1.3.6.1.4.1.9.9.83.1.2.1.1
+cwredQueueAverage: 1.3.6.1.4.1.9.9.83.1.2.1.1.1
+cwredQueueDepth: 1.3.6.1.4.1.9.9.83.1.2.1.1.2
+cwredStatTable: 1.3.6.1.4.1.9.9.83.1.2.2
+cwredStatEntry: 1.3.6.1.4.1.9.9.83.1.2.2.1
+cwredStatSwitchedPkts: 1.3.6.1.4.1.9.9.83.1.2.2.1.1
+cwredStatRandomFilteredPkts: 1.3.6.1.4.1.9.9.83.1.2.2.1.2
+cwredStatMaxFilteredPkts: 1.3.6.1.4.1.9.9.83.1.2.2.1.3
+ciscoWredMIBConformance: 1.3.6.1.4.1.9.9.83.3
+ciscoWredMIBCompliances: 1.3.6.1.4.1.9.9.83.3.1
+ciscoWredMIBGroups: 1.3.6.1.4.1.9.9.83.3.2
+

@@ -1,0 +1,20 @@
+---
+altigaFtpStatsMibModule: 1.3.6.1.4.1.3076.1.1.17.2
+altigaFtpStatsMibConformance: 1.3.6.1.4.1.3076.1.1.17.2.1
+altigaFtpStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.17.2.1.1
+alStatsFtpServerGlobal: 1.3.6.1.4.1.3076.2.1.2.12.1
+alStatsFtpClientGlobal: 1.3.6.1.4.1.3076.2.1.2.12.2
+alFtpClientStatsMaxSess: 1.3.6.1.4.1.3076.2.1.2.12.2.1
+alFtpClientStatsTotalSess: 1.3.6.1.4.1.3076.2.1.2.12.2.2
+alFtpClientStatsGoodConns: 1.3.6.1.4.1.3076.2.1.2.12.2.3
+alFtpClientStatsBadConns: 1.3.6.1.4.1.3076.2.1.2.12.2.4
+alFtpClientStatsGoodDataConns: 1.3.6.1.4.1.3076.2.1.2.12.2.5
+alFtpClientStatsBadDataConns: 1.3.6.1.4.1.3076.2.1.2.12.2.6
+alFtpClientStatsGoodFileXfers: 1.3.6.1.4.1.3076.2.1.2.12.2.7
+alFtpClientStatsBadFileXfers: 1.3.6.1.4.1.3076.2.1.2.12.2.8
+alFtpClientStatsAsciiXfers: 1.3.6.1.4.1.3076.2.1.2.12.2.9
+alFtpClientStatsBinaryXfers: 1.3.6.1.4.1.3076.2.1.2.12.2.10
+alFtpClientStatsOctetsXmit: 1.3.6.1.4.1.3076.2.1.2.12.2.11
+alFtpClientStatsOctetsRecv: 1.3.6.1.4.1.3076.2.1.2.12.2.12
+alFtpClientStatsTimeouts: 1.3.6.1.4.1.3076.2.1.2.12.2.13
+

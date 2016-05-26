@@ -1,0 +1,25 @@
+---
+ciscoPfcExtMIB: 1.3.6.1.4.1.9.9.813
+ciscoPfcExtMIBNotifs: 1.3.6.1.4.1.9.9.813.0
+ciscoPfcExtMIBObjects: 1.3.6.1.4.1.9.9.813.1
+cpfcIfTable: 1.3.6.1.4.1.9.9.813.1.1
+cpfcIfEntry: 1.3.6.1.4.1.9.9.813.1.1.1
+cpfcIfRequests: 1.3.6.1.4.1.9.9.813.1.1.1.1
+cpfcIfIndications: 1.3.6.1.4.1.9.9.813.1.1.1.2
+cpfcIfPriorityTable: 1.3.6.1.4.1.9.9.813.1.2
+cpfcIfPriorityEntry: 1.3.6.1.4.1.9.9.813.1.2.1
+cpfcIfPriorityValue: 1.3.6.1.4.1.9.9.813.1.2.1.1
+cpfcIfPriorityRequests: 1.3.6.1.4.1.9.9.813.1.2.1.2
+cpfcIfPriorityIndications: 1.3.6.1.4.1.9.9.813.1.2.1.3
+cpfcWatchdogIfQueueInfoTable: 1.3.6.1.4.1.9.9.813.1.3
+cpfcWatchdogIfQueueInfoEntry: 1.3.6.1.4.1.9.9.813.1.3.1
+cpfcWatchdogIfQueueNumber: 1.3.6.1.4.1.9.9.813.1.3.1.1
+cpfcWatchdogIfQueueState: 1.3.6.1.4.1.9.9.813.1.3.1.2
+cpfcWatchdogIfQueueShutdowns: 1.3.6.1.4.1.9.9.813.1.3.1.3
+cpfcWatchdogIfQueueRestores: 1.3.6.1.4.1.9.9.813.1.3.1.4
+cpfcWatchdogIfQueueTotalDropPkts: 1.3.6.1.4.1.9.9.813.1.3.1.5
+cpfcWatchdogIfQueueDropPkts: 1.3.6.1.4.1.9.9.813.1.3.1.6
+ciscoPfcExtMIBConform: 1.3.6.1.4.1.9.9.813.2
+ciscoPfcExtMIBCompliances: 1.3.6.1.4.1.9.9.813.2.1
+ciscoPfcExtMIBGroups: 1.3.6.1.4.1.9.9.813.2.2
+

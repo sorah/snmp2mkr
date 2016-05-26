@@ -1,0 +1,24 @@
+---
+ciscoDNSClientMIB: 1.3.6.1.4.1.9.9.436
+ciscoDNSClientMIBNotifs: 1.3.6.1.4.1.9.9.436.0
+ciscoDNSClientMIBObjects: 1.3.6.1.4.1.9.9.436.1
+cdcConfigGroup: 1.3.6.1.4.1.9.9.436.1.1
+cdcDNSConfigEnable: 1.3.6.1.4.1.9.9.436.1.1.1
+cdcNoOfDNSServerConfig: 1.3.6.1.4.1.9.9.436.1.1.2
+cdcDNSServerNextAvailIndex: 1.3.6.1.4.1.9.9.436.1.1.3
+cdcDNSServerTable: 1.3.6.1.4.1.9.9.436.1.1.4
+cdcDNSServerEntry: 1.3.6.1.4.1.9.9.436.1.1.4.1
+cdcDNSServerIndex: 1.3.6.1.4.1.9.9.436.1.1.4.1.1
+cdcDNSServerAddrType: 1.3.6.1.4.1.9.9.436.1.1.4.1.2
+cdcDNSServerAddr: 1.3.6.1.4.1.9.9.436.1.1.4.1.3
+cdcDNSServerStatus: 1.3.6.1.4.1.9.9.436.1.1.4.1.4
+cdcDefaultDNSDomainName: 1.3.6.1.4.1.9.9.436.1.1.5
+cdcDNSDomainNameTable: 1.3.6.1.4.1.9.9.436.1.1.6
+cdcDNSDomainNameEntry: 1.3.6.1.4.1.9.9.436.1.1.6.1
+cdcDNSDomainNameIndex: 1.3.6.1.4.1.9.9.436.1.1.6.1.1
+cdcDNSDomainName: 1.3.6.1.4.1.9.9.436.1.1.6.1.2
+cdcDNSDomainNameStatus: 1.3.6.1.4.1.9.9.436.1.1.6.1.3
+ciscoDNSClientMIBConformance: 1.3.6.1.4.1.9.9.436.2
+ciscoDNSClientMIBCompliances: 1.3.6.1.4.1.9.9.436.2.1
+ciscoDNSClientMIBGroups: 1.3.6.1.4.1.9.9.436.2.2
+

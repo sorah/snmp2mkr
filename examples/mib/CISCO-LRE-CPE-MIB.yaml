@@ -1,0 +1,21 @@
+---
+ciscoLreCpeMIB: 1.3.6.1.4.1.9.9.340
+clreCpeMIBNotifications: 1.3.6.1.4.1.9.9.340.0
+clreCpeMIBNotificationsPrefix: 1.3.6.1.4.1.9.9.340.0.0
+ciscoLreCpeMIBObjects: 1.3.6.1.4.1.9.9.340.1
+clreCpeDot1dTp: 1.3.6.1.4.1.9.9.340.1.1
+clreCpeDot1dTpFdbTable: 1.3.6.1.4.1.9.9.340.1.1.1
+clreCpeDot1dTpFdbEntry: 1.3.6.1.4.1.9.9.340.1.1.1.1
+clreCpeDot1dBasePortIfIndex: 1.3.6.1.4.1.9.9.340.1.1.1.1.1
+clreCpePort: 1.3.6.1.4.1.9.9.340.1.2
+clreCpePortTable: 1.3.6.1.4.1.9.9.340.1.2.1
+clreCpePortEntry: 1.3.6.1.4.1.9.9.340.1.2.1.1
+clreCpePortAdminStatus: 1.3.6.1.4.1.9.9.340.1.2.1.1.1
+clreCpePortAdminSpeed: 1.3.6.1.4.1.9.9.340.1.2.1.1.2
+clreCpePortAdminDuplex: 1.3.6.1.4.1.9.9.340.1.2.1.1.3
+clreCpePortAdminProtected: 1.3.6.1.4.1.9.9.340.1.2.1.1.4
+clreCpePortOperProtected: 1.3.6.1.4.1.9.9.340.1.2.1.1.5
+clreCpeMIBConformance: 1.3.6.1.4.1.9.9.340.2
+clreCpeMIBCompliances: 1.3.6.1.4.1.9.9.340.2.1
+clreCpeMIBGroups: 1.3.6.1.4.1.9.9.340.2.2
+

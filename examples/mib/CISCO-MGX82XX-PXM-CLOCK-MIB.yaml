@@ -1,0 +1,23 @@
+---
+pxmClockConfig: 1.3.6.1.4.1.351.110.3.16
+pxmPrimaryMuxClockSource: 1.3.6.1.4.1.351.110.3.16.1
+pxmPrimaryInbandClockSourceLineNumber: 1.3.6.1.4.1.351.110.3.16.2
+pxmPrimarySMClockSourceSlotNumber: 1.3.6.1.4.1.351.110.3.16.3
+pxmSecondaryMuxClockSource: 1.3.6.1.4.1.351.110.3.16.4
+pxmSecondaryInbandClockSourceLineNumber: 1.3.6.1.4.1.351.110.3.16.5
+pxmSecondarySMClockSourceSlotNumber: 1.3.6.1.4.1.351.110.3.16.6
+pxmCurrentClock: 1.3.6.1.4.1.351.110.3.16.7
+pxmPreviousClock: 1.3.6.1.4.1.351.110.3.16.8
+pxmExtClockPresent: 1.3.6.1.4.1.351.110.3.16.9
+pxmExtClkSrcImpedance: 1.3.6.1.4.1.351.110.3.16.10
+pxmExtClkConnectorType: 1.3.6.1.4.1.351.110.3.16.11
+pxmClkStratumLevel: 1.3.6.1.4.1.351.110.3.16.12
+pxmClkErrReason: 1.3.6.1.4.1.351.110.3.16.13
+pxmExtClock2Present: 1.3.6.1.4.1.351.110.3.16.14
+pxmExtClk2SrcImpedance: 1.3.6.1.4.1.351.110.3.16.15
+pxmExtClk2ConnectorType: 1.3.6.1.4.1.351.110.3.16.16
+ciscoMgx82xxPxmClockMIB: 1.3.6.1.4.1.351.150.72
+cmpClockMIBConformance: 1.3.6.1.4.1.351.150.72.2
+cmpClockMIBGroups: 1.3.6.1.4.1.351.150.72.2.1
+cmpClockMIBCompliances: 1.3.6.1.4.1.351.150.72.2.2
+

@@ -1,0 +1,11 @@
+---
+ciscoFipsStatsMIB: 1.3.6.1.4.1.9.9.999999
+ciscoFipsStatsMIBNotifs: 1.3.6.1.4.1.9.9.999999.0
+ciscoFipsStatsMIBObjects: 1.3.6.1.4.1.9.9.999999.1
+cfipsStats: 1.3.6.1.4.1.9.9.999999.1.1
+cfipsStatsGlobal: 1.3.6.1.4.1.9.9.999999.1.1.1
+cfipsPostStatus: 1.3.6.1.4.1.9.9.999999.1.1.1.1
+ciscoFipsStatsMIBConform: 1.3.6.1.4.1.9.9.999999.2
+ciscoFipsStatsMIBCompliances: 1.3.6.1.4.1.9.9.999999.2.1
+ciscoFipsStatsMIBGroups: 1.3.6.1.4.1.9.9.999999.2.2
+

@@ -1,0 +1,29 @@
+---
+ciscoIsdnuIfMIB: 1.3.6.1.4.1.9.9.18
+ciuIfObjects: 1.3.6.1.4.1.9.9.18.1
+ciuInterface: 1.3.6.1.4.1.9.9.18.1.1
+ciuIfStaticConfigTable: 1.3.6.1.4.1.9.9.18.1.1.1
+ciuIfStaticConfigEntry: 1.3.6.1.4.1.9.9.18.1.1.1.1
+ciuIfType: 1.3.6.1.4.1.9.9.18.1.1.1.1.1
+ciuIfStatusTable: 1.3.6.1.4.1.9.9.18.1.1.2
+ciuIfStatusEntry: 1.3.6.1.4.1.9.9.18.1.1.2.1
+ciuIfStatus: 1.3.6.1.4.1.9.9.18.1.1.2.1.1
+ciuIfEocCommand: 1.3.6.1.4.1.9.9.18.1.1.2.1.2
+ciuIfOverHeadBits: 1.3.6.1.4.1.9.9.18.1.1.2.1.3
+ciuIfFebeErrors: 1.3.6.1.4.1.9.9.18.1.1.2.1.4
+ciuIfNebeErrors: 1.3.6.1.4.1.9.9.18.1.1.2.1.5
+ciuIfLoopStatus: 1.3.6.1.4.1.9.9.18.1.1.2.1.6
+ciuIfExternalSTPort: 1.3.6.1.4.1.9.9.18.1.2
+ciuIfExternalSTPortStatusTable: 1.3.6.1.4.1.9.9.18.1.2.1
+ciuIfExternalSTPortStatusEntry: 1.3.6.1.4.1.9.9.18.1.2.1.1
+ciuIfExternalSTPortNumber: 1.3.6.1.4.1.9.9.18.1.2.1.1.1
+ciuIfExternalSTPortStatus: 1.3.6.1.4.1.9.9.18.1.2.1.1.2
+ciuIfMIBNotificationEnables: 1.3.6.1.4.1.9.9.18.1.3
+ciuIfEnableULoopStatusNotification: 1.3.6.1.4.1.9.9.18.1.3.1
+ciuIfMIBNotificationPrefix: 1.3.6.1.4.1.9.9.18.2
+ciuIfMIBNotifications: 1.3.6.1.4.1.9.9.18.2.0
+ciuIfMIBConformance: 1.3.6.1.4.1.9.9.18.3
+ciuIfMIBCompliances: 1.3.6.1.4.1.9.9.18.3.1
+ciuIfMIBGroups: 1.3.6.1.4.1.9.9.18.3.2
+ciuIfLoopStatusNotification: 1.3.6.1.4.1.9.9.18.2.0.1
+

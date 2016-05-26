@@ -1,0 +1,34 @@
+---
+ciscoPsdClientMIB: 1.3.6.1.4.1.9.9.495
+ciscoPsdClientMIBNotifs: 1.3.6.1.4.1.9.9.495.0
+ciscoPsdClientMIBObjects: 1.3.6.1.4.1.9.9.495.1
+ciscoPsdClientStatistics: 1.3.6.1.4.1.9.9.495.1.1
+cPsdClientDSWriteReq: 1.3.6.1.4.1.9.9.495.1.1.1
+cPsdClientDSReadReq: 1.3.6.1.4.1.9.9.495.1.1.2
+cPsdClientDSRdWrRetrans: 1.3.6.1.4.1.9.9.495.1.1.3
+cPsdClientDSDiskFullTrans: 1.3.6.1.4.1.9.9.495.1.1.4
+ciscoPsdClientNotifMgmt: 1.3.6.1.4.1.9.9.495.1.2
+cPsdClientNotifEnable: 1.3.6.1.4.1.9.9.495.1.2.1
+ciscoPsdClientConfigurations: 1.3.6.1.4.1.9.9.495.1.3
+cPsdClientDSTable: 1.3.6.1.4.1.9.9.495.1.3.1
+cPsdClientDSEntry: 1.3.6.1.4.1.9.9.495.1.3.1.1
+cPsdClientDSName: 1.3.6.1.4.1.9.9.495.1.3.1.1.1
+cPsdClientDSAutoRetrieve: 1.3.6.1.4.1.9.9.495.1.3.1.1.2
+cPsdClientDSMaxRetrieve: 1.3.6.1.4.1.9.9.495.1.3.1.1.3
+cPsdClientDSRowStatus: 1.3.6.1.4.1.9.9.495.1.3.1.1.4
+cPsdClientDSServerTable: 1.3.6.1.4.1.9.9.495.1.3.2
+cPsdClientDSServerEntry: 1.3.6.1.4.1.9.9.495.1.3.2.1
+cPsdClientDSServerAddressType: 1.3.6.1.4.1.9.9.495.1.3.2.1.1
+cPsdClientDSServerAddress: 1.3.6.1.4.1.9.9.495.1.3.2.1.2
+cPsdClientDSRetrieveOnly: 1.3.6.1.4.1.9.9.495.1.3.2.1.3
+cPsdClientDSServerRowStatus: 1.3.6.1.4.1.9.9.495.1.3.2.1.4
+ciscoPsdClientNotifInfo: 1.3.6.1.4.1.9.9.495.1.4
+cPsdClientNotifDSServerAddrType: 1.3.6.1.4.1.9.9.495.1.4.1
+cPsdClientNotifDSServerAddress: 1.3.6.1.4.1.9.9.495.1.4.2
+ciscoPsdClientMIBConform: 1.3.6.1.4.1.9.9.495.2
+cPsdClientMIBCompliances: 1.3.6.1.4.1.9.9.495.2.1
+cPsdClientMIBGroups: 1.3.6.1.4.1.9.9.495.2.2
+cPsdClientDownNotif: 1.3.6.1.4.1.9.9.495.0.1
+cPsdClientUpNotif: 1.3.6.1.4.1.9.9.495.0.2
+cPsdClientDiskFullNotif: 1.3.6.1.4.1.9.9.495.0.3
+

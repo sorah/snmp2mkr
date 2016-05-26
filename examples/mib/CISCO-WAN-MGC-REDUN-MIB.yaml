@@ -1,0 +1,30 @@
+---
+ciscoWanMgcRedunMIB: 1.3.6.1.4.1.351.150.22
+mgcRedundancyObjects: 1.3.6.1.4.1.351.150.22.1
+mgcRedundancyGrpTable: 1.3.6.1.4.1.351.150.22.1.1
+mgcRedundancyGrpEntry: 1.3.6.1.4.1.351.150.22.1.1.1
+mgcRedundancyGrpNum: 1.3.6.1.4.1.351.150.22.1.1.1.1
+mgcRedundancyGrpPref: 1.3.6.1.4.1.351.150.22.1.1.1.2
+mgcRedundancyGrpActState: 1.3.6.1.4.1.351.150.22.1.1.1.3
+mgcRedundancyGrpRowStatus: 1.3.6.1.4.1.351.150.22.1.1.1.4
+mgcRedundancyGrpParamTable: 1.3.6.1.4.1.351.150.22.1.2
+mgcRedundancyGrpParamEntry: 1.3.6.1.4.1.351.150.22.1.2.1
+mgcRedundancyGrpStateChangeNtfy: 1.3.6.1.4.1.351.150.22.1.2.1.1
+mgcRedundancyGrpCommState: 1.3.6.1.4.1.351.150.22.1.2.1.2
+mgcRedundancyGrpPriority: 1.3.6.1.4.1.351.150.22.1.2.1.3
+mgcRedundancyGrpProtocolTable: 1.3.6.1.4.1.351.150.22.1.3
+mgcRedundancyGrpProtocolEntry: 1.3.6.1.4.1.351.150.22.1.3.1
+mgcRedundancyGrpProtocolRowStatus: 1.3.6.1.4.1.351.150.22.1.3.1.1
+mgcRedGrpProtPersistEvtPolicy: 1.3.6.1.4.1.351.150.22.1.3.1.2
+mgcRedGrpProtQuarantinePolicy: 1.3.6.1.4.1.351.150.22.1.3.1.3
+mgcRedGrpProtSigEvtOnOffPolicy: 1.3.6.1.4.1.351.150.22.1.3.1.4
+mgcRedGrpProtProvisionalResponse: 1.3.6.1.4.1.351.150.22.1.3.1.5
+mgcRedGrpProtResponseAckAttr: 1.3.6.1.4.1.351.150.22.1.3.1.6
+mgcRedGrpProtDisconnectProcedure: 1.3.6.1.4.1.351.150.22.1.3.1.7
+mgcRedGrpProtCancelGraceful: 1.3.6.1.4.1.351.150.22.1.3.1.8
+mgcRedunNotificationPrefix: 1.3.6.1.4.1.351.150.22.2
+mgcRedunNotifications: 1.3.6.1.4.1.351.150.22.2.0
+mgcRedunMIBConformance: 1.3.6.1.4.1.351.150.22.3
+mgcRedunMIBCompliances: 1.3.6.1.4.1.351.150.22.3.1
+mgcRedunMIBGroups: 1.3.6.1.4.1.351.150.22.3.2
+

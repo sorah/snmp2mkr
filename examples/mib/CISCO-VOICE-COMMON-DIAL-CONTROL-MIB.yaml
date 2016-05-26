@@ -1,0 +1,29 @@
+---
+ciscoVoiceCommonDialControlMIB: 1.3.6.1.4.1.9.10.55
+cvCommonDcMIBObjects: 1.3.6.1.4.1.9.10.55.1
+cvCommonDcCallActive: 1.3.6.1.4.1.9.10.55.1.1
+cvCommonDcCallActiveTable: 1.3.6.1.4.1.9.10.55.1.1.1
+cvCommonDcCallActiveEntry: 1.3.6.1.4.1.9.10.55.1.1.1.1
+cvCommonDcCallActiveConnectionId: 1.3.6.1.4.1.9.10.55.1.1.1.1.1
+cvCommonDcCallActiveVADEnable: 1.3.6.1.4.1.9.10.55.1.1.1.1.2
+cvCommonDcCallActiveCoderTypeRate: 1.3.6.1.4.1.9.10.55.1.1.1.1.3
+cvCommonDcCallActiveCodecBytes: 1.3.6.1.4.1.9.10.55.1.1.1.1.4
+cvCommonDcCallActiveInBandSignaling: 1.3.6.1.4.1.9.10.55.1.1.1.1.5
+cvCommonDcCallActiveCallingName: 1.3.6.1.4.1.9.10.55.1.1.1.1.6
+cvCommonDcCallActiveCallerIDBlock: 1.3.6.1.4.1.9.10.55.1.1.1.1.7
+cvCommonDcCallHistory: 1.3.6.1.4.1.9.10.55.1.2
+cvCommonDcCallHistoryTable: 1.3.6.1.4.1.9.10.55.1.2.1
+cvCommonDcCallHistoryEntry: 1.3.6.1.4.1.9.10.55.1.2.1.1
+cvCommonDcCallHistoryConnectionId: 1.3.6.1.4.1.9.10.55.1.2.1.1.1
+cvCommonDcCallHistoryVADEnable: 1.3.6.1.4.1.9.10.55.1.2.1.1.2
+cvCommonDcCallHistoryCoderTypeRate: 1.3.6.1.4.1.9.10.55.1.2.1.1.3
+cvCommonDcCallHistoryCodecBytes: 1.3.6.1.4.1.9.10.55.1.2.1.1.4
+cvCommonDcCallHistoryInBandSignaling: 1.3.6.1.4.1.9.10.55.1.2.1.1.5
+cvCommonDcCallHistoryCallingName: 1.3.6.1.4.1.9.10.55.1.2.1.1.6
+cvCommonDcCallHistoryCallerIDBlock: 1.3.6.1.4.1.9.10.55.1.2.1.1.7
+cvCommonDcMIBNotificationPrefix: 1.3.6.1.4.1.9.10.55.2
+cvCommonDcMIBNotifications: 1.3.6.1.4.1.9.10.55.2.0
+cvCommonDcMIBConformance: 1.3.6.1.4.1.9.10.55.3
+cvCommonDcMIBCompliances: 1.3.6.1.4.1.9.10.55.3.1
+cvCommonDcMIBGroups: 1.3.6.1.4.1.9.10.55.3.2
+

@@ -1,0 +1,26 @@
+---
+ciscoFabricMcastMIB: 1.3.6.1.4.1.9.9.255
+ciscoFabricMcastMIBNotifs: 1.3.6.1.4.1.9.9.255.0
+ciscoFabricMcastMIBObjects: 1.3.6.1.4.1.9.9.255.1
+cfmGeneral: 1.3.6.1.4.1.9.9.255.1.1
+cfmGenInfoTotalFgids: 1.3.6.1.4.1.9.9.255.1.1.1
+cfmGenInfoInuseFgids: 1.3.6.1.4.1.9.9.255.1.1.2
+cfmGenInfoHighWaterInuseFgids: 1.3.6.1.4.1.9.9.255.1.1.3
+cfmPool: 1.3.6.1.4.1.9.9.255.1.2
+cfmPoolTable: 1.3.6.1.4.1.9.9.255.1.2.1
+cfmPoolEntry: 1.3.6.1.4.1.9.9.255.1.2.1.1
+cfmPoolId: 1.3.6.1.4.1.9.9.255.1.2.1.1.1
+cfmPoolName: 1.3.6.1.4.1.9.9.255.1.2.1.1.2
+cfmPoolType: 1.3.6.1.4.1.9.9.255.1.2.1.1.3
+cfmPoolTotalFgids: 1.3.6.1.4.1.9.9.255.1.2.1.1.4
+cfmPoolInuseFgids: 1.3.6.1.4.1.9.9.255.1.2.1.1.5
+cfmPoolHighWaterInuseFgids: 1.3.6.1.4.1.9.9.255.1.2.1.1.6
+cfmLr: 1.3.6.1.4.1.9.9.255.1.3
+cfmLrTable: 1.3.6.1.4.1.9.9.255.1.3.1
+cfmLrEntry: 1.3.6.1.4.1.9.9.255.1.3.1.1
+cfmLrInuseFgids: 1.3.6.1.4.1.9.9.255.1.3.1.1.1
+cfmLrHighWaterInuseFgids: 1.3.6.1.4.1.9.9.255.1.3.1.1.2
+ciscoFabricMcastMIBConform: 1.3.6.1.4.1.9.9.255.2
+cfmMIBCompliances: 1.3.6.1.4.1.9.9.255.2.1
+cfmMIBGroups: 1.3.6.1.4.1.9.9.255.2.2
+

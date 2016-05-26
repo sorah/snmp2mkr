@@ -1,0 +1,27 @@
+---
+latitudeComm: 1.3.6.1.4.1.7185
+latitudeReg: 1.3.6.1.4.1.7185.1
+latitudeModules: 1.3.6.1.4.1.7185.1.1
+latitudeGeneric: 1.3.6.1.4.1.7185.2
+latitudeProducts: 1.3.6.1.4.1.7185.3
+meetingplace: 1.3.6.1.4.1.7185.3.1
+meetingplaceConfs: 1.3.6.1.4.1.7185.3.1.1
+ciscoLatitudeMIBCompliances: 1.3.6.1.4.1.7185.3.1.1.1
+ciscoLatitudeMIBGroups: 1.3.6.1.4.1.7185.3.1.1.2
+meetingplaceObjs: 1.3.6.1.4.1.7185.3.1.2
+meetingplaceEvents: 1.3.6.1.4.1.7185.3.1.3
+meetingplaceEventsV2: 1.3.6.1.4.1.7185.3.1.3.0
+mpExCode: 1.3.6.1.4.1.7185.3.1.3.1
+mpSysUnit: 1.3.6.1.4.1.7185.3.1.3.2
+mpHwDev: 1.3.6.1.4.1.7185.3.1.3.3
+mpHwUnit: 1.3.6.1.4.1.7185.3.1.3.4
+mpHwSlot: 1.3.6.1.4.1.7185.3.1.3.5
+mpHwPort: 1.3.6.1.4.1.7185.3.1.3.6
+mpAlarmDesc: 1.3.6.1.4.1.7185.3.1.3.7
+mpT1Down: 1.3.6.1.4.1.7185.3.1.3.0.1
+mpGWSimAlarm: 1.3.6.1.4.1.7185.3.1.3.0.2
+mpMajHwAlarm: 1.3.6.1.4.1.7185.3.1.3.0.3
+mpMinHwAlarm: 1.3.6.1.4.1.7185.3.1.3.0.4
+mpMajSwAlarm: 1.3.6.1.4.1.7185.3.1.3.0.5
+mpMinSwAlarm: 1.3.6.1.4.1.7185.3.1.3.0.6
+

@@ -1,0 +1,35 @@
+---
+ciscoH320DialControlMIB: 1.3.6.1.4.1.9.10.128
+ciscoH320DialControlMIBNotifs: 1.3.6.1.4.1.9.10.128.0
+ciscoH320DialControlMIBObjects: 1.3.6.1.4.1.9.10.128.1
+cvH320CallHistory: 1.3.6.1.4.1.9.10.128.1.1
+cvH320CallHistoryTable: 1.3.6.1.4.1.9.10.128.1.1.1
+cvH320CallHistoryEntry: 1.3.6.1.4.1.9.10.128.1.1.1.1
+cvH320CallHistoryConnectionId: 1.3.6.1.4.1.9.10.128.1.1.1.1.1
+cvH320CallHistoryIncomingConnectionId: 1.3.6.1.4.1.9.10.128.1.1.1.1.2
+cvH320CallHistoryH320CallType: 1.3.6.1.4.1.9.10.128.1.1.1.1.3
+cvH320CallHistoryUsedBandwidth: 1.3.6.1.4.1.9.10.128.1.1.1.1.4
+cvH320CallHistoryTxVideoCodec: 1.3.6.1.4.1.9.10.128.1.1.1.1.5
+cvH320CallHistoryTxVideoPackets: 1.3.6.1.4.1.9.10.128.1.1.1.1.6
+cvH320CallHistoryTxVideoBytes: 1.3.6.1.4.1.9.10.128.1.1.1.1.7
+cvH320CallHistoryRxVideoCodec: 1.3.6.1.4.1.9.10.128.1.1.1.1.8
+cvH320CallHistoryRxVideoPackets: 1.3.6.1.4.1.9.10.128.1.1.1.1.9
+cvH320CallHistoryRxVideoBytes: 1.3.6.1.4.1.9.10.128.1.1.1.1.10
+cvH320CallActive: 1.3.6.1.4.1.9.10.128.1.2
+cvH320CallActiveTable: 1.3.6.1.4.1.9.10.128.1.2.1
+cvH320CallActiveEntry: 1.3.6.1.4.1.9.10.128.1.2.1.1
+cvH320CallActiveConnectionId: 1.3.6.1.4.1.9.10.128.1.2.1.1.1
+cvH320CallActiveIncomingConnectionId: 1.3.6.1.4.1.9.10.128.1.2.1.1.2
+cvH320CallActiveH320CallType: 1.3.6.1.4.1.9.10.128.1.2.1.1.3
+cvH320CallActiveUsedBandwidth: 1.3.6.1.4.1.9.10.128.1.2.1.1.4
+cvH320CallActiveTxVideoCodec: 1.3.6.1.4.1.9.10.128.1.2.1.1.5
+cvH320CallActiveTxVideoPackets: 1.3.6.1.4.1.9.10.128.1.2.1.1.6
+cvH320CallActiveTxVideoBytes: 1.3.6.1.4.1.9.10.128.1.2.1.1.7
+cvH320CallActiveRxVideoCodec: 1.3.6.1.4.1.9.10.128.1.2.1.1.8
+cvH320CallActiveRxVideoPackets: 1.3.6.1.4.1.9.10.128.1.2.1.1.9
+cvH320CallActiveRxVideoBytes: 1.3.6.1.4.1.9.10.128.1.2.1.1.10
+ciscoH320DialControlMIBConform: 1.3.6.1.4.1.9.10.128.2
+ciscoH320DialControlMIBConformance: 1.3.6.1.4.1.9.10.128.2.1
+ciscoH320DialControlMIBCompliances: 1.3.6.1.4.1.9.10.128.2.1.1
+ciscoH320DialControlMIBGroups: 1.3.6.1.4.1.9.10.128.2.1.2
+

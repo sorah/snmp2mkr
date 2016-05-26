@@ -1,0 +1,20 @@
+---
+ciscoBitsClockMIB: 1.3.6.1.4.1.9.9.459
+ciscoBitsClockMIBNotifs: 1.3.6.1.4.1.9.9.459.0
+ciscoBitsClockMIBObjects: 1.3.6.1.4.1.9.9.459.1
+cBitsClkSourceTable: 1.3.6.1.4.1.9.9.459.1.1
+cBitsClkSourceEntry: 1.3.6.1.4.1.9.9.459.1.1.1
+cBitsClkSourceRoleAdmin: 1.3.6.1.4.1.9.9.459.1.1.1.1
+cBitsClkSourceRoleCurrent: 1.3.6.1.4.1.9.9.459.1.1.1.2
+cBitsClkSourceTimestamp: 1.3.6.1.4.1.9.9.459.1.1.1.3
+cBitsClkSourceActiveSeconds: 1.3.6.1.4.1.9.9.459.1.1.1.4
+cBitsClkSourceInactiveSeconds: 1.3.6.1.4.1.9.9.459.1.1.1.5
+cBitsClkSourceDescription: 1.3.6.1.4.1.9.9.459.1.1.1.6
+cBitsClkNotifEnabled: 1.3.6.1.4.1.9.9.459.1.2
+ciscoBitsClockMIBConform: 1.3.6.1.4.1.9.9.459.2
+ciscoBitsClockMIBCompliances: 1.3.6.1.4.1.9.9.459.2.1
+ciscoBitsClockMIBGroups: 1.3.6.1.4.1.9.9.459.2.2
+ciscoBitsClockSource: 1.3.6.1.4.1.9.9.459.0.1
+ciscoBitsClockFreerun: 1.3.6.1.4.1.9.9.459.0.2
+ciscoBitsClockHoldover: 1.3.6.1.4.1.9.9.459.0.3
+

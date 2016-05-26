@@ -1,0 +1,26 @@
+---
+ciscoVlanTranslationMIB: 1.3.6.1.4.1.9.9.411
+ciscoVlanTranslationMIBNotifs: 1.3.6.1.4.1.9.9.411.0
+ciscoVlanTranslationMIBObjects: 1.3.6.1.4.1.9.9.411.1
+cvtGlobalTranslation: 1.3.6.1.4.1.9.9.411.1.1
+cvtGlobalTranslationMax: 1.3.6.1.4.1.9.9.411.1.1.1
+cvtGlobalTranslationTable: 1.3.6.1.4.1.9.9.411.1.1.2
+cvtGlobalTranslationEntry: 1.3.6.1.4.1.9.9.411.1.1.2.1
+cvtGlobalOriginalVlan: 1.3.6.1.4.1.9.9.411.1.1.2.1.1
+cvtGlobalTranslatedVlan: 1.3.6.1.4.1.9.9.411.1.1.2.1.2
+cvtGlobalTranslationEffective: 1.3.6.1.4.1.9.9.411.1.1.2.1.3
+cvtGlobalTranslationStatus: 1.3.6.1.4.1.9.9.411.1.1.2.1.4
+cvtPortBasedTranslation: 1.3.6.1.4.1.9.9.411.1.2
+cvtPortConfigTable: 1.3.6.1.4.1.9.9.411.1.2.1
+cvtPortConfigEntry: 1.3.6.1.4.1.9.9.411.1.2.1.1
+cvtPortTranslationEnabled: 1.3.6.1.4.1.9.9.411.1.2.1.1.1
+cvtPortTranslationMax: 1.3.6.1.4.1.9.9.411.1.2.1.1.2
+cvtPortTranslationTable: 1.3.6.1.4.1.9.9.411.1.2.2
+cvtPortTranslationEntry: 1.3.6.1.4.1.9.9.411.1.2.2.1
+cvtPortOriginalVlan: 1.3.6.1.4.1.9.9.411.1.2.2.1.1
+cvtPortTranslatedVlan: 1.3.6.1.4.1.9.9.411.1.2.2.1.2
+cvtPortTranslationStatus: 1.3.6.1.4.1.9.9.411.1.2.2.1.3
+ciscoVlanTranslationMIBConform: 1.3.6.1.4.1.9.9.411.2
+cvtMIBCompliances: 1.3.6.1.4.1.9.9.411.2.1
+cvtMIBGroups: 1.3.6.1.4.1.9.9.411.2.2
+

@@ -1,0 +1,37 @@
+---
+ciscoServiceControlTpStatsMIB: 1.3.6.1.4.1.9.9.634
+ciscoSCTpStatsMIBNotifs: 1.3.6.1.4.1.9.9.634.0
+ciscoSCTpStatsMIBObjects: 1.3.6.1.4.1.9.9.634.1
+cscTpTable: 1.3.6.1.4.1.9.9.634.1.1
+cscTpEntry: 1.3.6.1.4.1.9.9.634.1.1.1
+cscTpTotalHandledPackets: 1.3.6.1.4.1.9.9.634.1.1.1.1
+cscTpTotalHandledFlows: 1.3.6.1.4.1.9.9.634.1.1.1.2
+cscTpActiveFlows: 1.3.6.1.4.1.9.9.634.1.1.1.3
+cscTpTcpActiveFlows: 1.3.6.1.4.1.9.9.634.1.1.1.4
+cscTpUdpActiveFlows: 1.3.6.1.4.1.9.9.634.1.1.1.5
+cscTpTotalBlockedPackets: 1.3.6.1.4.1.9.9.634.1.1.1.6
+cscTpTotalBlockedFlows: 1.3.6.1.4.1.9.9.634.1.1.1.7
+cscTpTotalBandwidthDiscardedPackets: 1.3.6.1.4.1.9.9.634.1.1.1.8
+cscTpTotalWredDiscardedPackets: 1.3.6.1.4.1.9.9.634.1.1.1.9
+cscTpTotalFragments: 1.3.6.1.4.1.9.9.634.1.1.1.10
+cscTpTotalNonIpPackets: 1.3.6.1.4.1.9.9.634.1.1.1.11
+cscTpTotalIpChecksumErrPackets: 1.3.6.1.4.1.9.9.634.1.1.1.12
+cscTpTotalIpLengthErrPackets: 1.3.6.1.4.1.9.9.634.1.1.1.13
+cscTpTotalIpBroadcastPackets: 1.3.6.1.4.1.9.9.634.1.1.1.14
+cscTpTotalTTLErrPackets: 1.3.6.1.4.1.9.9.634.1.1.1.15
+cscTpTotalTcpUdpChksumErrPackets: 1.3.6.1.4.1.9.9.634.1.1.1.16
+cscTpHandledPacketsRate: 1.3.6.1.4.1.9.9.634.1.1.1.17
+cscTpHandledFlowsRate: 1.3.6.1.4.1.9.9.634.1.1.1.18
+cscTpFlowsCapacityUtilization: 1.3.6.1.4.1.9.9.634.1.1.1.19
+cscTpServiceLoss: 1.3.6.1.4.1.9.9.634.1.1.1.20
+cscTpStatsTrafficCountersTable: 1.3.6.1.4.1.9.9.634.1.2
+cscTpStatsTrafficCountersEntry: 1.3.6.1.4.1.9.9.634.1.2.1
+cscTpStatsTrafficCounterIndex: 1.3.6.1.4.1.9.9.634.1.2.1.1
+cscTpStatsTrafficCounterName: 1.3.6.1.4.1.9.9.634.1.2.1.2
+cscTpStatsTrafficCounterValue: 1.3.6.1.4.1.9.9.634.1.2.1.3
+cscTpStatsTrafficCounterType: 1.3.6.1.4.1.9.9.634.1.2.1.4
+cscTpCounterDiscontinuityTime: 1.3.6.1.4.1.9.9.634.1.3
+ciscoSCTpStatsMIBConform: 1.3.6.1.4.1.9.9.634.2
+cscTpStatsMIBCompliances: 1.3.6.1.4.1.9.9.634.2.1
+cscTpStatsMIBGroups: 1.3.6.1.4.1.9.9.634.2.2
+

@@ -1,0 +1,17 @@
+---
+ciscoWdsIdsMIB: 1.3.6.1.4.1.9.9.457
+ciscoWdsIdsMIBObjects: 1.3.6.1.4.1.9.9.457.1
+ciscoWdsIdsMacSpoofing: 1.3.6.1.4.1.9.9.457.1.1
+ciscoWdsIdsMaxMacAddresses: 1.3.6.1.4.1.9.9.457.1.1.1
+ciscoWdsIdsMaxEntriesPerMac: 1.3.6.1.4.1.9.9.457.1.1.2
+ciscoWdsIdsMacSpoofTable: 1.3.6.1.4.1.9.9.457.1.1.3
+ciscoWdsIdsMacSpoofEntry: 1.3.6.1.4.1.9.9.457.1.1.3.1
+ciscoWdsIdsMacSpoofStaMacAddress: 1.3.6.1.4.1.9.9.457.1.1.3.1.1
+ciscoWdsIdsMacSpoofIndex: 1.3.6.1.4.1.9.9.457.1.1.3.1.2
+ciscoWdsIdsMacSpoofClient: 1.3.6.1.4.1.9.9.457.1.1.3.1.3
+ciscoWdsIdsMacSpoofUserId: 1.3.6.1.4.1.9.9.457.1.1.3.1.4
+ciscoWdsIdsMacSpoofDetectTime: 1.3.6.1.4.1.9.9.457.1.1.3.1.5
+ciscoWdsIdsMIBConform: 1.3.6.1.4.1.9.9.457.2
+ciscoWdsIdsMIBCompliances: 1.3.6.1.4.1.9.9.457.2.1
+ciscoWdsIdsMIBGroups: 1.3.6.1.4.1.9.9.457.2.2
+

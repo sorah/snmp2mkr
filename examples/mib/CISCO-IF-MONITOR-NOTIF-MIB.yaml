@@ -1,0 +1,18 @@
+---
+ciscoIfMonitorNotifMIB: 1.3.6.1.4.1.9.10.999
+cIfMonNotifMIBNotifications: 1.3.6.1.4.1.9.10.999.0
+cIfMonNotifMIBObjects: 1.3.6.1.4.1.9.10.999.1
+cIfMonNotifCount: 1.3.6.1.4.1.9.10.999.1.1
+cIfMonNotifTable: 1.3.6.1.4.1.9.10.999.1.2
+cIfMonNotifEntry: 1.3.6.1.4.1.9.10.999.1.2.1
+cIfMonNotifLastChange: 1.3.6.1.4.1.9.10.999.1.2.1.1
+cIfMonNotifSeverity: 1.3.6.1.4.1.9.10.999.1.2.1.2
+cIfMonNotifCause: 1.3.6.1.4.1.9.10.999.1.2.1.3
+cIfMonNotifValue: 1.3.6.1.4.1.9.10.999.1.2.1.4
+cIfMonNotifThreshold: 1.3.6.1.4.1.9.10.999.1.2.1.5
+cIfMonNotifInterval: 1.3.6.1.4.1.9.10.999.1.2.1.6
+cIfMonNotifMIBConformance: 1.3.6.1.4.1.9.10.999.2
+cIfMonNotifMIBCompliances: 1.3.6.1.4.1.9.10.999.2.1
+cIfMonNotifMIBGroups: 1.3.6.1.4.1.9.10.999.2.2
+cIfMonNotifEvent: 1.3.6.1.4.1.9.10.999.0.1
+

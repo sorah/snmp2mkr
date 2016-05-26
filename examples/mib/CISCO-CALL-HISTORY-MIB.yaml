@@ -1,0 +1,33 @@
+---
+ciscoCallHistoryMib: 1.3.6.1.4.1.9.9.27
+ciscoCallHistoryMibObjects: 1.3.6.1.4.1.9.9.27.1
+ciscoCallHistory: 1.3.6.1.4.1.9.9.27.1.1
+ciscoCallHistoryTableMaxLength: 1.3.6.1.4.1.9.9.27.1.1.1
+ciscoCallHistoryRetainTimer: 1.3.6.1.4.1.9.9.27.1.1.2
+ciscoCallHistoryTable: 1.3.6.1.4.1.9.9.27.1.1.3
+ciscoCallHistoryEntry: 1.3.6.1.4.1.9.9.27.1.1.3.1
+ciscoCallHistoryStartTime: 1.3.6.1.4.1.9.9.27.1.1.3.1.1
+ciscoCallHistoryIndex: 1.3.6.1.4.1.9.9.27.1.1.3.1.2
+ciscoCallHistoryCallingNumber: 1.3.6.1.4.1.9.9.27.1.1.3.1.3
+ciscoCallHistoryCalledNumber: 1.3.6.1.4.1.9.9.27.1.1.3.1.4
+ciscoCallHistoryInterfaceNumber: 1.3.6.1.4.1.9.9.27.1.1.3.1.5
+ciscoCallHistoryDestinationAddress: 1.3.6.1.4.1.9.9.27.1.1.3.1.6
+ciscoCallHistoryDestinationHostName: 1.3.6.1.4.1.9.9.27.1.1.3.1.7
+ciscoCallHistoryCallDisconnectCause: 1.3.6.1.4.1.9.9.27.1.1.3.1.8
+ciscoCallHistoryCallConnectionTime: 1.3.6.1.4.1.9.9.27.1.1.3.1.9
+ciscoCallHistoryCallDisconnectTime: 1.3.6.1.4.1.9.9.27.1.1.3.1.10
+ciscoCallHistoryDialReason: 1.3.6.1.4.1.9.9.27.1.1.3.1.11
+ciscoCallHistoryConnectTimeOfDay: 1.3.6.1.4.1.9.9.27.1.1.3.1.12
+ciscoCallHistoryDisconnectTimeOfDay: 1.3.6.1.4.1.9.9.27.1.1.3.1.13
+ciscoCallHistoryTransmitPackets: 1.3.6.1.4.1.9.9.27.1.1.3.1.14
+ciscoCallHistoryTransmitBytes: 1.3.6.1.4.1.9.9.27.1.1.3.1.15
+ciscoCallHistoryReceivePackets: 1.3.6.1.4.1.9.9.27.1.1.3.1.16
+ciscoCallHistoryReceiveBytes: 1.3.6.1.4.1.9.9.27.1.1.3.1.17
+ciscoCallHistoryRecordedUnits: 1.3.6.1.4.1.9.9.27.1.1.3.1.18
+ciscoCallHistoryCurrency: 1.3.6.1.4.1.9.9.27.1.1.3.1.19
+ciscoCallHistoryCurrencyAmount: 1.3.6.1.4.1.9.9.27.1.1.3.1.20
+ciscoCallHistoryMultiplier: 1.3.6.1.4.1.9.9.27.1.1.3.1.21
+ciscoCallHistoryMibConformance: 1.3.6.1.4.1.9.9.27.2
+ciscoCallHistoryMibCompliances: 1.3.6.1.4.1.9.9.27.2.1
+ciscoCallHistoryMibGroups: 1.3.6.1.4.1.9.9.27.2.2
+

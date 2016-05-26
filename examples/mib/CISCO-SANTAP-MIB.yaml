@@ -1,0 +1,26 @@
+---
+ciscoSanTapMIB: 1.3.6.1.4.1.9.9.463
+ciscoSanTapMIBObjects: 1.3.6.1.4.1.9.9.463.1
+cstModuleTable: 1.3.6.1.4.1.9.9.463.1.1
+cstModuleEntry: 1.3.6.1.4.1.9.9.463.1.1.1
+cstModuleId: 1.3.6.1.4.1.9.9.463.1.1.1.1
+cstServiceConfigTable: 1.3.6.1.4.1.9.9.463.1.2
+cstServiceConfigEntry: 1.3.6.1.4.1.9.9.463.1.2.1
+cstCVTNodeWwn: 1.3.6.1.4.1.9.9.463.1.2.1.1
+cstCVTPortWwn: 1.3.6.1.4.1.9.9.463.1.2.1.2
+cstServiceConfigRowStatus: 1.3.6.1.4.1.9.9.463.1.2.1.3
+cstCVTName: 1.3.6.1.4.1.9.9.463.1.2.1.4
+cstDVTConfigTable: 1.3.6.1.4.1.9.9.463.1.3
+cstDVTConfigEntry: 1.3.6.1.4.1.9.9.463.1.3.1
+cstDVTPortWwn: 1.3.6.1.4.1.9.9.463.1.3.1.1
+cstDVTTargetVsan: 1.3.6.1.4.1.9.9.463.1.3.1.2
+cstDVTPort: 1.3.6.1.4.1.9.9.463.1.3.1.3
+cstDVTName: 1.3.6.1.4.1.9.9.463.1.3.1.4
+cstDVTRowStatus: 1.3.6.1.4.1.9.9.463.1.3.1.5
+cstDVTLunSizeHandling: 1.3.6.1.4.1.9.9.463.1.3.1.6
+cstDVTIOTimeout: 1.3.6.1.4.1.9.9.463.1.3.1.7
+ciscoSanTapMIBConformance: 1.3.6.1.4.1.9.9.463.2
+ciscoSanTapMIBCompliances: 1.3.6.1.4.1.9.9.463.2.1
+ciscoSanTapMIBGroups: 1.3.6.1.4.1.9.9.463.2.2
+ciscoSanTapNotifications: 1.3.6.1.4.1.9.9.463.3
+

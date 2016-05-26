@@ -1,0 +1,29 @@
+---
+ciscoLwappRrmMIB: 1.3.6.1.4.1.9.9.615
+ciscoLwappRrmMIBNotifs: 1.3.6.1.4.1.9.9.615.0
+ciscoLwappRrmMIBObjects: 1.3.6.1.4.1.9.9.615.1
+clrRrmConfig: 1.3.6.1.4.1.9.9.615.1.1
+clrRrmParametersTable: 1.3.6.1.4.1.9.9.615.1.1.1
+clrRrmParametersEntry: 1.3.6.1.4.1.9.9.615.1.1.1.1
+clrRrmParametersType: 1.3.6.1.4.1.9.9.615.1.1.1.1.1
+clrRrmParametersPicoCellMode: 1.3.6.1.4.1.9.9.615.1.1.1.1.2
+clrRrmTupleTable: 1.3.6.1.4.1.9.9.615.1.1.2
+clrRrmTupleEntry: 1.3.6.1.4.1.9.9.615.1.1.2.1
+clrRrmTupleRxSenseThresholdMin: 1.3.6.1.4.1.9.9.615.1.1.2.1.1
+clrRrmTupleRxSenseThresholdMax: 1.3.6.1.4.1.9.9.615.1.1.2.1.2
+clrRrmTupleRxSenseThreshold: 1.3.6.1.4.1.9.9.615.1.1.2.1.3
+clrRrmTupleCcaSenseThresholdMin: 1.3.6.1.4.1.9.9.615.1.1.2.1.4
+clrRrmTupleCcaSenseThresholdMax: 1.3.6.1.4.1.9.9.615.1.1.2.1.5
+clrRrmTupleCcaSenseThreshold: 1.3.6.1.4.1.9.9.615.1.1.2.1.6
+clrRrmTupleTransmitPowerLevelMin: 1.3.6.1.4.1.9.9.615.1.1.2.1.7
+clrRrmTupleTransmitPowerLevelMax: 1.3.6.1.4.1.9.9.615.1.1.2.1.8
+clrRrmTupleTransmitPowerLevel: 1.3.6.1.4.1.9.9.615.1.1.2.1.9
+clrRrmTupleSetDefault: 1.3.6.1.4.1.9.9.615.1.1.2.1.10
+clrRrmChannelTable: 1.3.6.1.4.1.9.9.615.1.1.4
+clrRrmChannelEntry: 1.3.6.1.4.1.9.9.615.1.1.4.1
+clrRrmChannelNum: 1.3.6.1.4.1.9.9.615.1.1.4.1.1
+clrRrmChannelDcaState: 1.3.6.1.4.1.9.9.615.1.1.4.1.2
+ciscoLwappRrmMIBConform: 1.3.6.1.4.1.9.9.615.2
+ciscoLwappRrmMIBCompliances: 1.3.6.1.4.1.9.9.615.2.1
+ciscoLwappRrmMIBGroups: 1.3.6.1.4.1.9.9.615.2.2
+

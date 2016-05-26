@@ -1,0 +1,31 @@
+---
+ciscoSwitchNetflowMIB: 1.3.6.1.4.1.9.9.737
+ciscoSwitchNetflowMIBNotifs: 1.3.6.1.4.1.9.9.737.0
+ciscoSwitchNetflowMIBObjects: 1.3.6.1.4.1.9.9.737.1
+csnAccounting: 1.3.6.1.4.1.9.9.737.1.1
+csnAccGlobal: 1.3.6.1.4.1.9.9.737.1.1.1
+csnNetflowDirectionType: 1.3.6.1.4.1.9.9.737.1.1.1.1
+csnAccNotifControl: 1.3.6.1.4.1.9.9.737.1.1.2
+csnUsageThreshExceedNotifEnable: 1.3.6.1.4.1.9.9.737.1.1.2.1
+cshAccUsageThresh: 1.3.6.1.4.1.9.9.737.1.1.3
+csnUsageThreshTable: 1.3.6.1.4.1.9.9.737.1.1.3.1
+csnUsageThreshEntry: 1.3.6.1.4.1.9.9.737.1.1.3.1.1
+csnUsageDirection: 1.3.6.1.4.1.9.9.737.1.1.3.1.1.1
+csnUsageThreshold: 1.3.6.1.4.1.9.9.737.1.1.3.1.1.2
+csnUsageInterval: 1.3.6.1.4.1.9.9.737.1.1.3.1.1.3
+csnAccUtilization: 1.3.6.1.4.1.9.9.737.1.1.4
+csnUtilizationTable: 1.3.6.1.4.1.9.9.737.1.1.4.1
+csnUtilizationEntry: 1.3.6.1.4.1.9.9.737.1.1.4.1.1
+csnUtilization: 1.3.6.1.4.1.9.9.737.1.1.4.1.1.1
+csnAccNetflowTableSize: 1.3.6.1.4.1.9.9.737.1.1.5
+csnNetflowTableSizeTable: 1.3.6.1.4.1.9.9.737.1.1.5.1
+csnNetflowTableSizeEntry: 1.3.6.1.4.1.9.9.737.1.1.5.1.1
+csnNetflowTableTotalEntries: 1.3.6.1.4.1.9.9.737.1.1.5.1.1.1
+csnAccSampler: 1.3.6.1.4.1.9.9.737.1.1.6
+csnSamplerTotal: 1.3.6.1.4.1.9.9.737.1.1.6.1
+csnSamplerAvailable: 1.3.6.1.4.1.9.9.737.1.1.6.2
+ciscoSwitchNetflowMIBConform: 1.3.6.1.4.1.9.9.737.2
+csnMIBCompliances: 1.3.6.1.4.1.9.9.737.2.1
+csnMIBGroups: 1.3.6.1.4.1.9.9.737.2.2
+csnUsageThreshExceededNotif: 1.3.6.1.4.1.9.9.737.0.1
+

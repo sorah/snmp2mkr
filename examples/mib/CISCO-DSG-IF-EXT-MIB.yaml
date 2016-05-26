@@ -1,0 +1,15 @@
+---
+ciscoDsgIfExtMIB: 1.3.6.1.4.1.9.9.777
+ciscoDsgIfExtMIBNotifs: 1.3.6.1.4.1.9.9.777.0
+ciscoDsgIfExtMIBObjects: 1.3.6.1.4.1.9.9.777.1
+cdsgIfExtClassifierTable: 1.3.6.1.4.1.9.9.777.1.1
+cdsgIfExtClassifierEntry: 1.3.6.1.4.1.9.9.777.1.1.1
+cdsgIfExtClassSrcHostName: 1.3.6.1.4.1.9.9.777.1.1.1.1
+cdsgIfExtClassDestHostName: 1.3.6.1.4.1.9.9.777.1.1.1.2
+cdsgIfExtDownstreamTable: 1.3.6.1.4.1.9.9.777.1.2
+cdsgIfExtDownstreamEntry: 1.3.6.1.4.1.9.9.777.1.2.1
+cdsgIfExtDownDsgDisable: 1.3.6.1.4.1.9.9.777.1.2.1.1
+ciscoDsgIfExtMIBConform: 1.3.6.1.4.1.9.9.777.2
+ciscoDsgIfExtMIBCompliances: 1.3.6.1.4.1.9.9.777.2.1
+ciscoDsgIfExtMIBGroups: 1.3.6.1.4.1.9.9.777.2.2
+

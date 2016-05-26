@@ -1,0 +1,36 @@
+---
+ciscoSysInfoLogMIB: 1.3.6.1.4.1.9.9.330
+ciscoSysInfoLogMIBNotifs: 1.3.6.1.4.1.9.9.330.0
+ciscoSysInfoLogMIBObjects: 1.3.6.1.4.1.9.9.330.1
+csilGlobalConfig: 1.3.6.1.4.1.9.9.330.1.1
+csilSysInfoLogEnabled: 1.3.6.1.4.1.9.9.330.1.1.1
+csilSysInfoLogNotifEnabled: 1.3.6.1.4.1.9.9.330.1.1.2
+csilServerConfig: 1.3.6.1.4.1.9.9.330.1.2
+csilMaxServerAllowed: 1.3.6.1.4.1.9.9.330.1.2.1
+csilMaxProfilePerServerAllowed: 1.3.6.1.4.1.9.9.330.1.2.2
+csilServerTable: 1.3.6.1.4.1.9.9.330.1.2.3
+csilServerEntry: 1.3.6.1.4.1.9.9.330.1.2.3.1
+csilServerIndex: 1.3.6.1.4.1.9.9.330.1.2.3.1.1
+csilServerAddressType: 1.3.6.1.4.1.9.9.330.1.2.3.1.2
+csilServerAddress: 1.3.6.1.4.1.9.9.330.1.2.3.1.3
+csilServerProfileIndex: 1.3.6.1.4.1.9.9.330.1.2.3.1.4
+csilServerProtocol: 1.3.6.1.4.1.9.9.330.1.2.3.1.5
+csilServerRcpUserName: 1.3.6.1.4.1.9.9.330.1.2.3.1.6
+csilServerInterval: 1.3.6.1.4.1.9.9.330.1.2.3.1.7
+csilServerLoggingFileName: 1.3.6.1.4.1.9.9.330.1.2.3.1.8
+csilServerLastStatus: 1.3.6.1.4.1.9.9.330.1.2.3.1.9
+csilServerRowStatus: 1.3.6.1.4.1.9.9.330.1.2.3.1.10
+csilCommandConfig: 1.3.6.1.4.1.9.9.330.1.3
+csilMaxCommandPerProfile: 1.3.6.1.4.1.9.9.330.1.3.1
+csilCommandsTable: 1.3.6.1.4.1.9.9.330.1.3.2
+csilCommandsEntry: 1.3.6.1.4.1.9.9.330.1.3.2.1
+csilCommandProfileIndex: 1.3.6.1.4.1.9.9.330.1.3.2.1.1
+csilCommandIndex: 1.3.6.1.4.1.9.9.330.1.3.2.1.2
+csilCommandString: 1.3.6.1.4.1.9.9.330.1.3.2.1.3
+csilCommandExecOrder: 1.3.6.1.4.1.9.9.330.1.3.2.1.4
+csilCommandStatus: 1.3.6.1.4.1.9.9.330.1.3.2.1.5
+ciscoSysInfoLogMIBConform: 1.3.6.1.4.1.9.9.330.2
+ciscoSysInfoLogMIBCompliances: 1.3.6.1.4.1.9.9.330.2.1
+ciscoSysInfoLogMIBGroups: 1.3.6.1.4.1.9.9.330.2.2
+csilLoggingFailNotif: 1.3.6.1.4.1.9.9.330.0.1
+

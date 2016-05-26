@@ -1,0 +1,10 @@
+---
+ciscoL2TunnelConfigCapability: 1.3.6.1.4.1.9.7.334
+cL2TunConfCapCatOSV07R0501Cat6k: 1.3.6.1.4.1.9.7.334.1
+cL2TunnelConfigCapV12R0214SX: 1.3.6.1.4.1.9.7.334.2
+cL2TunConfCapCatOSV08R0401: 1.3.6.1.4.1.9.7.334.3
+cL2TunConfCapCatOSV08R0501: 1.3.6.1.4.1.9.7.334.4
+cL2TunnelConfigCapV12R0233SXHPCat6k: 1.3.6.1.4.1.9.7.334.5
+cL2TunnelConfigCapV12R0233SXIPCat6K: 1.3.6.1.4.1.9.7.334.6
+cL2TunnelConfigCapV12R0254SGPCat4K: 1.3.6.1.4.1.9.7.334.7
+

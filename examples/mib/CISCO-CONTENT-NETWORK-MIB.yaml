@@ -1,0 +1,25 @@
+---
+ciscoContentNetworkMIB: 1.3.6.1.4.1.9.9.216
+ciscoContentNetworkMIBObjects: 1.3.6.1.4.1.9.9.216.1
+ccnReport: 1.3.6.1.4.1.9.9.216.1.1
+ccnReportDns: 1.3.6.1.4.1.9.9.216.1.1.1
+ccnReportDnsRequestRate: 1.3.6.1.4.1.9.9.216.1.1.1.1
+ccnReportDnsClientCount: 1.3.6.1.4.1.9.9.216.1.1.1.2
+ccnReportDnsRequests: 1.3.6.1.4.1.9.9.216.1.1.1.3
+ccnReportAcct: 1.3.6.1.4.1.9.9.216.1.1.2
+ccnReportAcctBytesServed: 1.3.6.1.4.1.9.9.216.1.1.2.1
+ccnReportAcctObjectsCached: 1.3.6.1.4.1.9.9.216.1.1.2.2
+ccnReportAcctCacheHitRate: 1.3.6.1.4.1.9.9.216.1.1.2.3
+ccnReportAcctCacheMissRate: 1.3.6.1.4.1.9.9.216.1.1.2.4
+ciscoContentNetworkMIBNotif: 1.3.6.1.4.1.9.9.216.2
+ccnNotifications: 1.3.6.1.4.1.9.9.216.2.0
+ccnMIBConformance: 1.3.6.1.4.1.9.9.216.3
+ccnMIBCompliances: 1.3.6.1.4.1.9.9.216.3.1
+ccnMIBGroups: 1.3.6.1.4.1.9.9.216.3.2
+ccnNotifServerStart: 1.3.6.1.4.1.9.9.216.2.0.1
+ccnNotifServerStop: 1.3.6.1.4.1.9.9.216.2.0.2
+ccnNotifOffline: 1.3.6.1.4.1.9.9.216.2.0.3
+ccnNotifNeedsAttention: 1.3.6.1.4.1.9.9.216.2.0.4
+ccnNotifWaitingForCdm: 1.3.6.1.4.1.9.9.216.2.0.5
+ccnNotifOnline: 1.3.6.1.4.1.9.9.216.2.0.6
+

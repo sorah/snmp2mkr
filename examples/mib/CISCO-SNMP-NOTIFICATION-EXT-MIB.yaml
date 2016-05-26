@@ -1,0 +1,14 @@
+---
+ciscoSnmpNotificationExtMIB: 1.3.6.1.4.1.9.9.408
+csneMIBNotifs: 1.3.6.1.4.1.9.9.408.0
+csneMIBObjects: 1.3.6.1.4.1.9.9.408.1
+csneNotifyObjects: 1.3.6.1.4.1.9.9.408.1.1
+csneSnmpNotifyFilterTable: 1.3.6.1.4.1.9.9.408.1.1.1
+csneSnmpNotifyFilterEntry: 1.3.6.1.4.1.9.9.408.1.1.1.1
+csneFilterAdminTimer: 1.3.6.1.4.1.9.9.408.1.1.1.1.1
+csneFilterOperTimer: 1.3.6.1.4.1.9.9.408.1.1.1.1.2
+csneFilterTimerUnit: 1.3.6.1.4.1.9.9.408.1.1.1.1.3
+csneMIBConform: 1.3.6.1.4.1.9.9.408.2
+csneMIBCompliances: 1.3.6.1.4.1.9.9.408.2.1
+csneMIBGroups: 1.3.6.1.4.1.9.9.408.2.2
+

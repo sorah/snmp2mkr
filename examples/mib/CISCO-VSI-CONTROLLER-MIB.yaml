@@ -1,0 +1,18 @@
+---
+ciscoVSIControllerMIB: 1.3.6.1.4.1.9.9.141
+cvcMIBObjects: 1.3.6.1.4.1.9.9.141.1
+cvcConfController: 1.3.6.1.4.1.9.9.141.1.1
+cvcConfTable: 1.3.6.1.4.1.9.9.141.1.1.1
+cvcConfEntry: 1.3.6.1.4.1.9.9.141.1.1.1.1
+cvcConfControllerID: 1.3.6.1.4.1.9.9.141.1.1.1.1.1
+cvcConfControllerType: 1.3.6.1.4.1.9.9.141.1.1.1.1.2
+cvcConfControllerShelfLocation: 1.3.6.1.4.1.9.9.141.1.1.1.1.3
+cvcConfControllerLocation: 1.3.6.1.4.1.9.9.141.1.1.1.1.4
+cvcConfControllerName: 1.3.6.1.4.1.9.9.141.1.1.1.1.5
+cvcConfVpi: 1.3.6.1.4.1.9.9.141.1.1.1.1.6
+cvcConfVci: 1.3.6.1.4.1.9.9.141.1.1.1.1.7
+cvcConfRowStatus: 1.3.6.1.4.1.9.9.141.1.1.1.1.8
+cvcMIBConformance: 1.3.6.1.4.1.9.9.141.3
+cvcMIBCompliances: 1.3.6.1.4.1.9.9.141.3.1
+cvcMIBGroups: 1.3.6.1.4.1.9.9.141.3.2
+

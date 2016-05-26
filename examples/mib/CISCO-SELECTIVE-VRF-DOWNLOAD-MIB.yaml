@@ -1,0 +1,34 @@
+---
+ciscoSelectiveVrfDownloadMIB: 1.3.6.1.4.1.9.9.775
+ciscoSelectiveVrfDownloadMIBNotifs: 1.3.6.1.4.1.9.9.775.0
+ciscoSelectiveVrfDownloadMIBObjects: 1.3.6.1.4.1.9.9.775.1
+csvdAdminEnable: 1.3.6.1.4.1.9.9.775.1.1
+csvdOperEnable: 1.3.6.1.4.1.9.9.775.1.2
+csvdEntityRoleChangeNotificationEnable: 1.3.6.1.4.1.9.9.775.1.3
+csvdCounterDiscontinuityTime: 1.3.6.1.4.1.9.9.775.1.4
+csvdStateTable: 1.3.6.1.4.1.9.9.775.1.5
+csvdStateEntry: 1.3.6.1.4.1.9.9.775.1.5.1
+csvdStateAFI: 1.3.6.1.4.1.9.9.775.1.5.1.1
+csvdStateEntityRole: 1.3.6.1.4.1.9.9.775.1.5.1.2
+csvdStateEntityRoleLastChange: 1.3.6.1.4.1.9.9.775.1.5.1.3
+csvdStateEntityRoleTransitions: 1.3.6.1.4.1.9.9.775.1.5.1.4
+csvdRoleHistory: 1.3.6.1.4.1.9.9.775.1.6
+csvdRoleHistorySize: 1.3.6.1.4.1.9.9.775.1.6.1
+csvdRoleHistoryLastIndex: 1.3.6.1.4.1.9.9.775.1.6.2
+csvdRoleHistoryTable: 1.3.6.1.4.1.9.9.775.1.6.3
+csvdRoleHistoryEntry: 1.3.6.1.4.1.9.9.775.1.6.3.1
+csvdRoleHistoryIndex: 1.3.6.1.4.1.9.9.775.1.6.3.1.1
+csvdRoleHistoryRole: 1.3.6.1.4.1.9.9.775.1.6.3.1.2
+csvdRoleHistoryRoleChangeTime: 1.3.6.1.4.1.9.9.775.1.6.3.1.3
+csvdVrfTable: 1.3.6.1.4.1.9.9.775.1.7
+csvdVrfEntry: 1.3.6.1.4.1.9.9.775.1.7.1
+csvdVrfName: 1.3.6.1.4.1.9.9.775.1.7.1.1
+csvdPrefixCount: 1.3.6.1.4.1.9.9.775.1.7.1.2
+csvdLocalPrefixCount: 1.3.6.1.4.1.9.9.775.1.7.1.3
+csvdRemotePrefixCount: 1.3.6.1.4.1.9.9.775.1.7.1.4
+csvdTableConvergedFlag: 1.3.6.1.4.1.9.9.775.1.7.1.5
+ciscoSelectiveVrfDownloadMIBConform: 1.3.6.1.4.1.9.9.775.2
+csvdMIBCompliances: 1.3.6.1.4.1.9.9.775.2.1
+csvdMIBGroups: 1.3.6.1.4.1.9.9.775.2.2
+csvdEntityRoleChangeNotification: 1.3.6.1.4.1.9.9.775.0.1
+

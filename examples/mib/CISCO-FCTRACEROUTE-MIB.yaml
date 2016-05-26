@@ -1,0 +1,30 @@
+---
+ciscoFcTraceRouteMIB: 1.3.6.1.4.1.9.9.296
+ciscoFcTraceRouteMIBObjects: 1.3.6.1.4.1.9.9.296.1
+fcTraceRouteConfiguration: 1.3.6.1.4.1.9.9.296.1.1
+fcTraceRouteTable: 1.3.6.1.4.1.9.9.296.1.1.1
+fcTraceRouteEntry: 1.3.6.1.4.1.9.9.296.1.1.1.1
+fcTraceRouteIndex: 1.3.6.1.4.1.9.9.296.1.1.1.1.1
+fcTraceRouteVsanIndex: 1.3.6.1.4.1.9.9.296.1.1.1.1.2
+fcTraceRouteTargetAddrType: 1.3.6.1.4.1.9.9.296.1.1.1.1.3
+fcTraceRouteTargetAddr: 1.3.6.1.4.1.9.9.296.1.1.1.1.4
+fcTraceRouteTimeout: 1.3.6.1.4.1.9.9.296.1.1.1.1.5
+fcTraceRouteAdminStatus: 1.3.6.1.4.1.9.9.296.1.1.1.1.6
+fcTraceRouteOperStatus: 1.3.6.1.4.1.9.9.296.1.1.1.1.7
+fcTraceRouteAgeInterval: 1.3.6.1.4.1.9.9.296.1.1.1.1.8
+fcTraceRouteTrapOnCompletion: 1.3.6.1.4.1.9.9.296.1.1.1.1.9
+fcTraceRouteRowStatus: 1.3.6.1.4.1.9.9.296.1.1.1.1.10
+fcTraceRouteResults: 1.3.6.1.4.1.9.9.296.1.2
+fcTraceRouteHopsTable: 1.3.6.1.4.1.9.9.296.1.2.1
+fcTraceRouteHopsEntry: 1.3.6.1.4.1.9.9.296.1.2.1.1
+fcTraceRouteHopsHopIndex: 1.3.6.1.4.1.9.9.296.1.2.1.1.1
+fcTraceRouteHopsHopAddr: 1.3.6.1.4.1.9.9.296.1.2.1.1.2
+fcTraceRouteHopsHopLatencyValid: 1.3.6.1.4.1.9.9.296.1.2.1.1.3
+fcTraceRouteHopsHopLatency: 1.3.6.1.4.1.9.9.296.1.2.1.1.4
+fcTraceRouteNotification: 1.3.6.1.4.1.9.9.296.1.3
+fcTraceRouteNotifications: 1.3.6.1.4.1.9.9.296.1.3.0
+fcTraceRouteMIBConformance: 1.3.6.1.4.1.9.9.296.2
+fcTraceRouteMIBCompliances: 1.3.6.1.4.1.9.9.296.2.1
+fcTraceRouteMIBGroups: 1.3.6.1.4.1.9.9.296.2.2
+fcTraceRouteCompletionNotify: 1.3.6.1.4.1.9.9.296.1.3.0.1
+

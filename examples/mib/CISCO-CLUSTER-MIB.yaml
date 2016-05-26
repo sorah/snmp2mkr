@@ -1,0 +1,34 @@
+---
+ciscoClusterMIB: 1.3.6.1.4.1.9.9.134
+ciscoClusterMIBObjects: 1.3.6.1.4.1.9.9.134.1
+ccStatus: 1.3.6.1.4.1.9.9.134.1.1
+ccStatusClusterName: 1.3.6.1.4.1.9.9.134.1.1.1
+ccStatusClusterMode: 1.3.6.1.4.1.9.9.134.1.1.2
+ccStatusCommanderTDomain: 1.3.6.1.4.1.9.9.134.1.1.3
+ccStatusCommanderTAddress: 1.3.6.1.4.1.9.9.134.1.1.4
+ccStatusCommanderMacAddress: 1.3.6.1.4.1.9.9.134.1.1.5
+ccStatusTimeOfLastChange: 1.3.6.1.4.1.9.9.134.1.1.6
+ccStatusLastNMSAddMemberTDomain: 1.3.6.1.4.1.9.9.134.1.1.7
+ccStatusLastNMSAddMemberTAddress: 1.3.6.1.4.1.9.9.134.1.1.8
+ccStatusLastFailureAddMember: 1.3.6.1.4.1.9.9.134.1.1.9
+ccStatusMaxNumberOfMembers: 1.3.6.1.4.1.9.9.134.1.1.10
+ccStatusMemberOrder: 1.3.6.1.4.1.9.9.134.1.1.11
+ccMember: 1.3.6.1.4.1.9.9.134.1.2
+ccMemberTable: 1.3.6.1.4.1.9.9.134.1.2.1
+ccMemberEntry: 1.3.6.1.4.1.9.9.134.1.2.1.1
+ccMemberMacAddress: 1.3.6.1.4.1.9.9.134.1.2.1.1.1
+ccMemberNumber: 1.3.6.1.4.1.9.9.134.1.2.1.1.2
+ccMemberOperStatus: 1.3.6.1.4.1.9.9.134.1.2.1.1.3
+ccMemberEntityLogicalIndex: 1.3.6.1.4.1.9.9.134.1.2.1.1.4
+ccMemberRowStatus: 1.3.6.1.4.1.9.9.134.1.2.1.1.5
+ccCandidate: 1.3.6.1.4.1.9.9.134.1.3
+ccCandidateTable: 1.3.6.1.4.1.9.9.134.1.3.1
+ccCandidateEntry: 1.3.6.1.4.1.9.9.134.1.3.1.1
+ccCandidateMacAddress: 1.3.6.1.4.1.9.9.134.1.3.1.1.1
+ciscoClusterMIBNotificationsPrefix: 1.3.6.1.4.1.9.9.134.2
+ciscoClusterMIBNotifications: 1.3.6.1.4.1.9.9.134.2.0
+ciscoClusterMIBConformance: 1.3.6.1.4.1.9.9.134.3
+ciscoClusterMIBCompliances: 1.3.6.1.4.1.9.9.134.3.1
+ciscoClusterMIBGroups: 1.3.6.1.4.1.9.9.134.3.2
+ccStatusMemberStatusChange: 1.3.6.1.4.1.9.9.134.2.0.1
+

@@ -1,0 +1,9 @@
+---
+ciscoSonetExtCapability: 1.3.6.1.4.1.9.7.261
+ciscoSonetExtAxsmCapabilityV2R00: 1.3.6.1.4.1.9.7.261.1
+ciscoSonetExtAxsmCapabilityV2R11: 1.3.6.1.4.1.9.7.261.2
+ciscoSonetExtAxsmeCapabilityV21R60: 1.3.6.1.4.1.9.7.261.3
+ciscoSonetExtSrmeCapabilityV3R00: 1.3.6.1.4.1.9.7.261.4
+ciscoSonetExtCapabilityV4R00: 1.3.6.1.4.1.9.7.261.5
+ciscoSonetExtCapabilityV5R00: 1.3.6.1.4.1.9.7.261.6
+

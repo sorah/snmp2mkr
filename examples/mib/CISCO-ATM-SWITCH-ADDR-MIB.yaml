@@ -1,0 +1,12 @@
+---
+ciscoAtmSwAddrMIB: 1.3.6.1.4.1.9.9.51
+ciscoAtmSwAddrMIBObjects: 1.3.6.1.4.1.9.9.51.1
+ciscoAtmSwAddrTable: 1.3.6.1.4.1.9.9.51.1.1
+ciscoAtmSwAddrEntry: 1.3.6.1.4.1.9.9.51.1.1.1
+ciscoAtmSwAddrIndex: 1.3.6.1.4.1.9.9.51.1.1.1.1
+ciscoAtmSwAddrAddress: 1.3.6.1.4.1.9.9.51.1.1.1.2
+ciscoAtmSwAddrRowStatus: 1.3.6.1.4.1.9.9.51.1.1.1.3
+ciscoAtmSwAddrMIBConformance: 1.3.6.1.4.1.9.9.51.3
+ciscoAtmSwAddrMIBCompliances: 1.3.6.1.4.1.9.9.51.3.1
+ciscoAtmSwAddrMIBGroups: 1.3.6.1.4.1.9.9.51.3.2
+

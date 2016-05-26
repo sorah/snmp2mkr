@@ -1,0 +1,31 @@
+---
+altigaHttpStatsMibModule: 1.3.6.1.4.1.3076.1.1.12.2
+altigaHttpStatsMibConformance: 1.3.6.1.4.1.3076.1.1.12.2.1
+altigaHttpStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.12.2.1.1
+alStatsHttpGlobal: 1.3.6.1.4.1.3076.2.1.2.7.1
+alHttpStatsOctetsSent: 1.3.6.1.4.1.3076.2.1.2.7.1.1
+alHttpStatsOctetsRcvd: 1.3.6.1.4.1.3076.2.1.2.7.1.2
+alHttpStatsPacketsSent: 1.3.6.1.4.1.3076.2.1.2.7.1.3
+alHttpStatsPacketsRcvd: 1.3.6.1.4.1.3076.2.1.2.7.1.4
+alHttpStatsActiveConnections: 1.3.6.1.4.1.3076.2.1.2.7.1.5
+alHttpStatsMaxConnections: 1.3.6.1.4.1.3076.2.1.2.7.1.6
+alHttpStatsActiveSessions: 1.3.6.1.4.1.3076.2.1.2.7.1.7
+alHttpStatsMaxSessions: 1.3.6.1.4.1.3076.2.1.2.7.1.8
+alHttpStatsTotalConnections: 1.3.6.1.4.1.3076.2.1.2.7.1.9
+alHttpStatsTotalSessions: 1.3.6.1.4.1.3076.2.1.2.7.1.10
+alHttpStatsSessionTable: 1.3.6.1.4.1.3076.2.1.2.7.2
+alHttpStatsSessionEntry: 1.3.6.1.4.1.3076.2.1.2.7.2.1
+alHttpStatsSessionIndex: 1.3.6.1.4.1.3076.2.1.2.7.2.1.1
+alHttpStatsSessionName: 1.3.6.1.4.1.3076.2.1.2.7.2.1.2
+alHttpStatsSessionIpAddr: 1.3.6.1.4.1.3076.2.1.2.7.2.1.3
+alHttpStatsSessionStartTime: 1.3.6.1.4.1.3076.2.1.2.7.2.1.4
+alHttpStatsSessionLoginTime: 1.3.6.1.4.1.3076.2.1.2.7.2.1.5
+alHttpStatsSessionEncr: 1.3.6.1.4.1.3076.2.1.2.7.2.1.6
+alHttpStatsSessionOctetsSent: 1.3.6.1.4.1.3076.2.1.2.7.2.1.7
+alHttpStatsSessionOctetsRcvd: 1.3.6.1.4.1.3076.2.1.2.7.2.1.8
+alHttpStatsSessionPacketsSent: 1.3.6.1.4.1.3076.2.1.2.7.2.1.9
+alHttpStatsSessionPacketsRcvd: 1.3.6.1.4.1.3076.2.1.2.7.2.1.10
+alHttpStatsSessionActiveConnections: 1.3.6.1.4.1.3076.2.1.2.7.2.1.11
+alHttpStatsSessionMaxConnections: 1.3.6.1.4.1.3076.2.1.2.7.2.1.12
+alHttpStatsSessionTotalConnections: 1.3.6.1.4.1.3076.2.1.2.7.2.1.13
+

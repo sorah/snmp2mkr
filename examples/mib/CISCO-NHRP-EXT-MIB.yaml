@@ -1,0 +1,28 @@
+---
+ciscoNhrpExtMIB: 1.3.6.1.4.1.9.9.680
+cneNotifs: 1.3.6.1.4.1.9.9.680.0
+cneObjects: 1.3.6.1.4.1.9.9.680.1
+cneGeneralObjects: 1.3.6.1.4.1.9.9.680.1.1
+cneNextHopDownReason: 1.3.6.1.4.1.9.9.680.1.1.1
+cneNHRPException: 1.3.6.1.4.1.9.9.680.1.1.2
+cneClientObjects: 1.3.6.1.4.1.9.9.680.1.2
+cneClientStatExtTable: 1.3.6.1.4.1.9.9.680.1.2.1
+cneClientStatExtEntry: 1.3.6.1.4.1.9.9.680.1.2.1.1
+cneClientStatRedirectRx: 1.3.6.1.4.1.9.9.680.1.2.1.1.1
+cneServerObjects: 1.3.6.1.4.1.9.9.680.1.3
+cneServerStatExtTable: 1.3.6.1.4.1.9.9.680.1.3.1
+cneServerStatExtEntry: 1.3.6.1.4.1.9.9.680.1.3.1.1
+cneServerStatRedirectTx: 1.3.6.1.4.1.9.9.680.1.3.1.1.1
+cneNotificationControlObjects: 1.3.6.1.4.1.9.9.680.1.4
+cneNotifEnable: 1.3.6.1.4.1.9.9.680.1.4.1
+cneConform: 1.3.6.1.4.1.9.9.680.2
+cneCompliances: 1.3.6.1.4.1.9.9.680.2.1
+cneGroups: 1.3.6.1.4.1.9.9.680.2.2
+cneNotifNextHopRegServerUp: 1.3.6.1.4.1.9.9.680.0.1
+cneNotifNextHopRegServerDown: 1.3.6.1.4.1.9.9.680.0.2
+cneNotifNextHopRegClientUp: 1.3.6.1.4.1.9.9.680.0.3
+cneNotifNextHopRegClientDown: 1.3.6.1.4.1.9.9.680.0.4
+cneNotifNextHopPeerUp: 1.3.6.1.4.1.9.9.680.0.5
+cneNotifNextHopPeerDown: 1.3.6.1.4.1.9.9.680.0.6
+cneNotifRateLimitExceeded: 1.3.6.1.4.1.9.9.680.0.7
+

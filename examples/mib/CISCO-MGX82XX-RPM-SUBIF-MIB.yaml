@@ -1,0 +1,15 @@
+---
+rpmPortTable: 1.3.6.1.4.1.351.110.5.2.9.1.1
+rpmPortEntry: 1.3.6.1.4.1.351.110.5.2.9.1.1.1
+rpmPortSlotNum: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.1
+rpmPortInterface: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.2
+rpmPortSubInterface: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.3
+rpmPortRowStatus: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.4
+rpmPortIpAddress: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.5
+rpmPortSubNetMask: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.6
+rpmPortState: 1.3.6.1.4.1.351.110.5.2.9.1.1.1.7
+ciscoMgx82xxRpmSubIfMIB: 1.3.6.1.4.1.351.150.60
+cmrSubIfMIBConformance: 1.3.6.1.4.1.351.150.60.2
+cmrSubIfMIBCompliances: 1.3.6.1.4.1.351.150.60.2.1
+cmrSubIfMIBGroups: 1.3.6.1.4.1.351.150.60.2.2
+

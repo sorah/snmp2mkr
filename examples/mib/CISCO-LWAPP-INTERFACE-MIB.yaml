@@ -1,0 +1,24 @@
+---
+ciscoLwappInterfaceMIB: 1.3.6.1.4.1.9.9.686
+ciscoLwappInterfaceMIBNotifs: 1.3.6.1.4.1.9.9.686.0
+ciscoLwappInterfaceMIBObjects: 1.3.6.1.4.1.9.9.686.1
+ciscoLwappInterfaceConfig: 1.3.6.1.4.1.9.9.686.1.1
+clInterfaceConfigTable: 1.3.6.1.4.1.9.9.686.1.1.1
+clInterfaceConfigEntry: 1.3.6.1.4.1.9.9.686.1.1.1.1
+clInterfaceName: 1.3.6.1.4.1.9.9.686.1.1.1.1.1
+clInterfaceWired: 1.3.6.1.4.1.9.9.686.1.1.1.1.2
+clInterfaceQuarantineVlanId: 1.3.6.1.4.1.9.9.686.1.1.1.1.3
+clInterfaceDhcpOpt82Enabled: 1.3.6.1.4.1.9.9.686.1.1.1.1.4
+clInterfaceGroupsConfigTable: 1.3.6.1.4.1.9.9.686.1.1.2
+clInterfaceGroupsConfigEntry: 1.3.6.1.4.1.9.9.686.1.1.2.1
+clInterfaceGroupName: 1.3.6.1.4.1.9.9.686.1.1.2.1.1
+clInterfaceGroupDescr: 1.3.6.1.4.1.9.9.686.1.1.2.1.2
+clInterfaceGroupIsQuarantine: 1.3.6.1.4.1.9.9.686.1.1.2.1.3
+clInterfaceGroupRowStatus: 1.3.6.1.4.1.9.9.686.1.1.2.1.4
+clInterfaceGroupsMappingTable: 1.3.6.1.4.1.9.9.686.1.1.3
+clInterfaceGroupsMappingEntry: 1.3.6.1.4.1.9.9.686.1.1.3.1
+clInterfaceGroupMappingRowStatus: 1.3.6.1.4.1.9.9.686.1.1.3.1.1
+ciscoLwappInterfaceMIBConform: 1.3.6.1.4.1.9.9.686.2
+ciscoLwappInterfaceMIBCompliances: 1.3.6.1.4.1.9.9.686.2.1
+ciscoLwappInterfaceMIBGroups: 1.3.6.1.4.1.9.9.686.2.2
+

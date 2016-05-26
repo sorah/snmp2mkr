@@ -1,0 +1,10 @@
+---
+altigaIpStatsMibModule: 1.3.6.1.4.1.3076.1.1.13.2
+altigaIpStatsMibConformance: 1.3.6.1.4.1.3076.1.1.13.2.1
+altigaIpStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.13.2.1.1
+alStatsIpGlobal: 1.3.6.1.4.1.3076.2.1.2.8.1
+alIpInterfaceStatsTable: 1.3.6.1.4.1.3076.2.1.2.8.1.1
+alIpInterfaceStatsEntry: 1.3.6.1.4.1.3076.2.1.2.8.1.1.1
+alIpInterfaceStatsIndex: 1.3.6.1.4.1.3076.2.1.2.8.1.1.1.1
+alIpInterfaceStatsCurrentDuplex: 1.3.6.1.4.1.3076.2.1.2.8.1.1.1.2
+

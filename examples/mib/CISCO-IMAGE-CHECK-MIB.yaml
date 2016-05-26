@@ -1,0 +1,22 @@
+---
+ciscoImageCheckMIB: 1.3.6.1.4.1.9.9.99990
+ciscoImageCheckMIBObjects: 1.3.6.1.4.1.9.9.99990.1
+ciscoImageCheck: 1.3.6.1.4.1.9.9.99990.1.1
+ciscoImageCheckOpTable: 1.3.6.1.4.1.9.9.99990.1.1.1
+ciscoImageCheckOpEntry: 1.3.6.1.4.1.9.9.99990.1.1.1.1
+ciscoImageCheckSerialNum: 1.3.6.1.4.1.9.9.99990.1.1.1.1.1
+ciscoImageCheckImageName: 1.3.6.1.4.1.9.9.99990.1.1.1.1.2
+ciscoImageCheckStatus: 1.3.6.1.4.1.9.9.99990.1.1.1.1.3
+ciscoImageCheckEntryStatus: 1.3.6.1.4.1.9.9.99990.1.1.1.1.4
+ciscoImgChkResultsTable: 1.3.6.1.4.1.9.9.99990.1.1.2
+ciscoImgChkResultsEntry: 1.3.6.1.4.1.9.9.99990.1.1.2.1
+ciscoImgChkFeatureIndex: 1.3.6.1.4.1.9.9.99990.1.1.2.1.1
+ciscoImgChkCapabIndex: 1.3.6.1.4.1.9.9.99990.1.1.2.1.2
+ciscoImgChkFeatureName: 1.3.6.1.4.1.9.9.99990.1.1.2.1.3
+ciscoImgChkCapabilityName: 1.3.6.1.4.1.9.9.99990.1.1.2.1.4
+ciscoImgChkCapabilityReq: 1.3.6.1.4.1.9.9.99990.1.1.2.1.5
+ciscoImgChkInCompDescr: 1.3.6.1.4.1.9.9.99990.1.1.2.1.6
+ciscoImageCheckMIBConformance: 1.3.6.1.4.1.9.9.99990.2
+ciscoImageCheckMIBCompliances: 1.3.6.1.4.1.9.9.99990.2.1
+ciscoImageCheckMIBGroups: 1.3.6.1.4.1.9.9.99990.2.2
+

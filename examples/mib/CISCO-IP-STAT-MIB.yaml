@@ -1,0 +1,33 @@
+---
+ciscoIpStatMIB: 1.3.6.1.4.1.9.9.84
+ciscoIpStatMIBObjects: 1.3.6.1.4.1.9.9.84.1
+cipPrecedence: 1.3.6.1.4.1.9.9.84.1.1
+cipPrecedenceTable: 1.3.6.1.4.1.9.9.84.1.1.1
+cipPrecedenceEntry: 1.3.6.1.4.1.9.9.84.1.1.1.1
+cipPrecedenceDirection: 1.3.6.1.4.1.9.9.84.1.1.1.1.1
+cipPrecedenceIpPrecedence: 1.3.6.1.4.1.9.9.84.1.1.1.1.2
+cipPrecedenceSwitchedPkts: 1.3.6.1.4.1.9.9.84.1.1.1.1.3
+cipPrecedenceSwitchedBytes: 1.3.6.1.4.1.9.9.84.1.1.1.1.4
+cipPrecedenceXTable: 1.3.6.1.4.1.9.9.84.1.1.2
+cipPrecedenceXEntry: 1.3.6.1.4.1.9.9.84.1.1.2.1
+cipPrecedenceHCSwitchedPkts: 1.3.6.1.4.1.9.9.84.1.1.2.1.1
+cipPrecedenceHCSwitchedBytes: 1.3.6.1.4.1.9.9.84.1.1.2.1.2
+cipMacIf: 1.3.6.1.4.1.9.9.84.1.2
+cipMacTable: 1.3.6.1.4.1.9.9.84.1.2.1
+cipMacEntry: 1.3.6.1.4.1.9.9.84.1.2.1.1
+cipMacDirection: 1.3.6.1.4.1.9.9.84.1.2.1.1.1
+cipMacAddress: 1.3.6.1.4.1.9.9.84.1.2.1.1.2
+cipMacSwitchedPkts: 1.3.6.1.4.1.9.9.84.1.2.1.1.3
+cipMacSwitchedBytes: 1.3.6.1.4.1.9.9.84.1.2.1.1.4
+cipMacFreeTable: 1.3.6.1.4.1.9.9.84.1.2.2
+cipMacFreeEntry: 1.3.6.1.4.1.9.9.84.1.2.2.1
+cipMacFreeDirection: 1.3.6.1.4.1.9.9.84.1.2.2.1.1
+cipMacFreeCount: 1.3.6.1.4.1.9.9.84.1.2.2.1.2
+cipMacXTable: 1.3.6.1.4.1.9.9.84.1.2.3
+cipMacXEntry: 1.3.6.1.4.1.9.9.84.1.2.3.1
+cipMacHCSwitchedPkts: 1.3.6.1.4.1.9.9.84.1.2.3.1.1
+cipMacHCSwitchedBytes: 1.3.6.1.4.1.9.9.84.1.2.3.1.2
+ciscoIpStatMIBConformance: 1.3.6.1.4.1.9.9.84.3
+ciscoIpStatMIBCompliances: 1.3.6.1.4.1.9.9.84.3.1
+ciscoIpStatMIBGroups: 1.3.6.1.4.1.9.9.84.3.2
+

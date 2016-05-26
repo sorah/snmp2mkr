@@ -1,0 +1,27 @@
+---
+ciscoMemoryPoolMIB: 1.3.6.1.4.1.9.9.48
+ciscoMemoryPoolObjects: 1.3.6.1.4.1.9.9.48.1
+ciscoMemoryPoolTable: 1.3.6.1.4.1.9.9.48.1.1
+ciscoMemoryPoolEntry: 1.3.6.1.4.1.9.9.48.1.1.1
+ciscoMemoryPoolType: 1.3.6.1.4.1.9.9.48.1.1.1.1
+ciscoMemoryPoolName: 1.3.6.1.4.1.9.9.48.1.1.1.2
+ciscoMemoryPoolAlternate: 1.3.6.1.4.1.9.9.48.1.1.1.3
+ciscoMemoryPoolValid: 1.3.6.1.4.1.9.9.48.1.1.1.4
+ciscoMemoryPoolUsed: 1.3.6.1.4.1.9.9.48.1.1.1.5
+ciscoMemoryPoolFree: 1.3.6.1.4.1.9.9.48.1.1.1.6
+ciscoMemoryPoolLargestFree: 1.3.6.1.4.1.9.9.48.1.1.1.7
+ciscoMemoryPoolLowMemoryNotifThreshold: 1.3.6.1.4.1.9.9.48.1.1.1.8
+ciscoMemoryPoolUtilizationTable: 1.3.6.1.4.1.9.9.48.1.2
+ciscoMemoryPoolUtilizationEntry: 1.3.6.1.4.1.9.9.48.1.2.1
+ciscoMemoryPoolUtilization1Min: 1.3.6.1.4.1.9.9.48.1.2.1.1
+ciscoMemoryPoolUtilization5Min: 1.3.6.1.4.1.9.9.48.1.2.1.2
+ciscoMemoryPoolUtilization10Min: 1.3.6.1.4.1.9.9.48.1.2.1.3
+ciscoMemoryPoolLowMemoryNotifEnable: 1.3.6.1.4.1.9.9.48.1.3
+ciscoMemoryPoolNotifications: 1.3.6.1.4.1.9.9.48.2
+ciscoMemoryPoolMIBNotificationPrefix: 1.3.6.1.4.1.9.9.48.2.0
+ciscoMemoryPoolConformance: 1.3.6.1.4.1.9.9.48.3
+ciscoMemoryPoolCompliances: 1.3.6.1.4.1.9.9.48.3.1
+ciscoMemoryPoolGroups: 1.3.6.1.4.1.9.9.48.3.2
+ciscoMemoryPoolLowMemoryNotif: 1.3.6.1.4.1.9.9.48.2.0.1
+ciscoMemoryPoolLowMemoryRecoveryNotif: 1.3.6.1.4.1.9.9.48.2.0.2
+

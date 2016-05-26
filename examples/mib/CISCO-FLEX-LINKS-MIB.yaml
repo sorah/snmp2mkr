@@ -1,0 +1,29 @@
+---
+ciscoFlexLinksMIB: 1.3.6.1.4.1.9.9.471
+ciscoFlexLinksMIBNotifs: 1.3.6.1.4.1.9.9.471.0
+ciscoFlexLinksMIBObjects: 1.3.6.1.4.1.9.9.471.1
+cflConfig: 1.3.6.1.4.1.9.9.471.1.1
+cflIfConfigTable: 1.3.6.1.4.1.9.9.471.1.1.1
+cflIfConfigEntry: 1.3.6.1.4.1.9.9.471.1.1.1.1
+cflIfConfigPrimary: 1.3.6.1.4.1.9.9.471.1.1.1.1.1
+cflIfConfigBackUp: 1.3.6.1.4.1.9.9.471.1.1.1.1.2
+cflIfConfigStorageType: 1.3.6.1.4.1.9.9.471.1.1.1.1.3
+cflIfConfigStatus: 1.3.6.1.4.1.9.9.471.1.1.1.1.4
+cflEnableStatusChangeNotif: 1.3.6.1.4.1.9.9.471.1.1.2
+cflIfConfigExtTable: 1.3.6.1.4.1.9.9.471.1.1.3
+cflIfConfigExtEntry: 1.3.6.1.4.1.9.9.471.1.1.3.1
+cflIfConfigMmuPrimaryVlan: 1.3.6.1.4.1.9.9.471.1.1.3.1.1
+cflIfConfigPreemptionMode: 1.3.6.1.4.1.9.9.471.1.1.3.1.2
+cflIfConfigPreemptionDelay: 1.3.6.1.4.1.9.9.471.1.1.3.1.3
+cflIfConfigPrefer2kVlan: 1.3.6.1.4.1.9.9.471.1.1.3.1.4
+cflIfConfigPrefer4kVlan: 1.3.6.1.4.1.9.9.471.1.1.3.1.5
+cflStatus: 1.3.6.1.4.1.9.9.471.1.2
+cflIfStatusTable: 1.3.6.1.4.1.9.9.471.1.2.1
+cflIfStatusEntry: 1.3.6.1.4.1.9.9.471.1.2.1.1
+cflIfIndex: 1.3.6.1.4.1.9.9.471.1.2.1.1.1
+cflIfStatus: 1.3.6.1.4.1.9.9.471.1.2.1.1.2
+ciscoFlexLinksMIBConformance: 1.3.6.1.4.1.9.9.471.2
+ciscoFlexLinksMIBCompliances: 1.3.6.1.4.1.9.9.471.2.1
+ciscoFlexLinksMIBGroups: 1.3.6.1.4.1.9.9.471.2.2
+cflIfStatusChangeNotif: 1.3.6.1.4.1.9.9.471.0.1
+

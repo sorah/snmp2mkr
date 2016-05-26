@@ -1,0 +1,27 @@
+---
+ciscoWanAtmCosbMIB: 1.3.6.1.4.1.351.150.16
+ciscoWanAtmCosbMIBObjects: 1.3.6.1.4.1.351.150.16.1
+cwacConfig: 1.3.6.1.4.1.351.150.16.1.1
+cwacStatistics: 1.3.6.1.4.1.351.150.16.1.2
+cwacStatsAlarmConfgTable: 1.3.6.1.4.1.351.150.16.1.2.1
+cwacStatsAlarmConfgEntry: 1.3.6.1.4.1.351.150.16.1.2.1.1
+cwacCosbIndex: 1.3.6.1.4.1.351.150.16.1.2.1.1.1
+cwacCosbCurrentCellsDiscThres: 1.3.6.1.4.1.351.150.16.1.2.1.1.2
+cwacStatsAlarmStatus: 1.3.6.1.4.1.351.150.16.1.2.1.1.3
+cwacValidIntervals: 1.3.6.1.4.1.351.150.16.1.2.1.1.4
+cwacIntervalTable: 1.3.6.1.4.1.351.150.16.1.2.2
+cwacIntervalEntry: 1.3.6.1.4.1.351.150.16.1.2.2.1
+cwacIntervalNumber: 1.3.6.1.4.1.351.150.16.1.2.2.1.1
+cwacIntCellArrivals: 1.3.6.1.4.1.351.150.16.1.2.2.1.2
+cwacIntCellDiscards: 1.3.6.1.4.1.351.150.16.1.2.2.1.3
+cwacIntCellDeparts: 1.3.6.1.4.1.351.150.16.1.2.2.1.4
+cwacHighIntCellArrivals: 1.3.6.1.4.1.351.150.16.1.2.2.1.5
+cwacHighIntCellDiscards: 1.3.6.1.4.1.351.150.16.1.2.2.1.6
+cwacHighIntCellDeparts: 1.3.6.1.4.1.351.150.16.1.2.2.1.7
+cwacHCIntCellArrivals: 1.3.6.1.4.1.351.150.16.1.2.2.1.8
+cwacHCIntCellDiscards: 1.3.6.1.4.1.351.150.16.1.2.2.1.9
+cwacHCIntCellDeparts: 1.3.6.1.4.1.351.150.16.1.2.2.1.10
+ciscoWanAtmCosbMIBConformance: 1.3.6.1.4.1.351.150.16.2
+ciscoWanAtmCosbMIBCompliances: 1.3.6.1.4.1.351.150.16.2.1
+ciscoWanAtmCosbMIBGroups: 1.3.6.1.4.1.351.150.16.2.2
+

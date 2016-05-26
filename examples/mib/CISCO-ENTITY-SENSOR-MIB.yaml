@@ -1,0 +1,33 @@
+---
+ciscoEntitySensorMIB: 1.3.6.1.4.1.9.9.91
+entitySensorMIBObjects: 1.3.6.1.4.1.9.9.91.1
+entSensorValues: 1.3.6.1.4.1.9.9.91.1.1
+entSensorValueTable: 1.3.6.1.4.1.9.9.91.1.1.1
+entSensorValueEntry: 1.3.6.1.4.1.9.9.91.1.1.1.1
+entSensorType: 1.3.6.1.4.1.9.9.91.1.1.1.1.1
+entSensorScale: 1.3.6.1.4.1.9.9.91.1.1.1.1.2
+entSensorPrecision: 1.3.6.1.4.1.9.9.91.1.1.1.1.3
+entSensorValue: 1.3.6.1.4.1.9.9.91.1.1.1.1.4
+entSensorStatus: 1.3.6.1.4.1.9.9.91.1.1.1.1.5
+entSensorValueTimeStamp: 1.3.6.1.4.1.9.9.91.1.1.1.1.6
+entSensorValueUpdateRate: 1.3.6.1.4.1.9.9.91.1.1.1.1.7
+entSensorMeasuredEntity: 1.3.6.1.4.1.9.9.91.1.1.1.1.8
+entSensorThresholds: 1.3.6.1.4.1.9.9.91.1.2
+entSensorThresholdTable: 1.3.6.1.4.1.9.9.91.1.2.1
+entSensorThresholdEntry: 1.3.6.1.4.1.9.9.91.1.2.1.1
+entSensorThresholdIndex: 1.3.6.1.4.1.9.9.91.1.2.1.1.1
+entSensorThresholdSeverity: 1.3.6.1.4.1.9.9.91.1.2.1.1.2
+entSensorThresholdRelation: 1.3.6.1.4.1.9.9.91.1.2.1.1.3
+entSensorThresholdValue: 1.3.6.1.4.1.9.9.91.1.2.1.1.4
+entSensorThresholdEvaluation: 1.3.6.1.4.1.9.9.91.1.2.1.1.5
+entSensorThresholdNotificationEnable: 1.3.6.1.4.1.9.9.91.1.2.1.1.6
+entSensorGlobalObjects: 1.3.6.1.4.1.9.9.91.1.3
+entSensorThreshNotifGlobalEnable: 1.3.6.1.4.1.9.9.91.1.3.1
+entitySensorMIBNotificationPrefix: 1.3.6.1.4.1.9.9.91.2
+entitySensorMIBNotifications: 1.3.6.1.4.1.9.9.91.2.0
+entitySensorMIBConformance: 1.3.6.1.4.1.9.9.91.3
+entitySensorMIBCompliances: 1.3.6.1.4.1.9.9.91.3.1
+entitySensorMIBGroups: 1.3.6.1.4.1.9.9.91.3.2
+entSensorThresholdNotification: 1.3.6.1.4.1.9.9.91.2.0.1
+entSensorThresholdRecoveryNotification: 1.3.6.1.4.1.9.9.91.2.0.2
+

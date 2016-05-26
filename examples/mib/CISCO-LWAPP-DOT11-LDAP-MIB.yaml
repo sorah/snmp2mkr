@@ -1,0 +1,32 @@
+---
+ciscoLwappDot11LdapMIB: 1.3.6.1.4.1.9.9.614
+ciscoLwappDot11LdapMIBNotifs: 1.3.6.1.4.1.9.9.614.0
+ciscoLwappDot11LdapMIBObjects: 1.3.6.1.4.1.9.9.614.1
+cldlConfig: 1.3.6.1.4.1.9.9.614.1.1
+cldlServerTable: 1.3.6.1.4.1.9.9.614.1.1.1
+cldlServerEntry: 1.3.6.1.4.1.9.9.614.1.1.1.1
+cldlServerIndex: 1.3.6.1.4.1.9.9.614.1.1.1.1.1
+cldlServerAddressType: 1.3.6.1.4.1.9.9.614.1.1.1.1.2
+cldlServerAddress: 1.3.6.1.4.1.9.9.614.1.1.1.1.3
+cldlServerPortNum: 1.3.6.1.4.1.9.9.614.1.1.1.1.4
+cldlServerState: 1.3.6.1.4.1.9.9.614.1.1.1.1.5
+cldlServerTimeout: 1.3.6.1.4.1.9.9.614.1.1.1.1.6
+cldlServerUserBase: 1.3.6.1.4.1.9.9.614.1.1.1.1.7
+cldlServerUserNameAttribute: 1.3.6.1.4.1.9.9.614.1.1.1.1.8
+cldlServerUserName: 1.3.6.1.4.1.9.9.614.1.1.1.1.9
+cldlServerSecurityEnable: 1.3.6.1.4.1.9.9.614.1.1.1.1.10
+cldlServerStorageType: 1.3.6.1.4.1.9.9.614.1.1.1.1.11
+cldlServerRowStatus: 1.3.6.1.4.1.9.9.614.1.1.1.1.12
+cldlServerBindType: 1.3.6.1.4.1.9.9.614.1.1.1.1.13
+cldlServerAuthBindUserName: 1.3.6.1.4.1.9.9.614.1.1.1.1.14
+cldlServerAuthBindPassword: 1.3.6.1.4.1.9.9.614.1.1.1.1.15
+cldlWlanLdapTable: 1.3.6.1.4.1.9.9.614.1.1.2
+cldlWlanLdapEntry: 1.3.6.1.4.1.9.9.614.1.1.2.1
+cldlWlanLdapPrimaryServerIndex: 1.3.6.1.4.1.9.9.614.1.1.2.1.1
+cldlWlanLdapSecondaryServerIndex: 1.3.6.1.4.1.9.9.614.1.1.2.1.2
+cldlWlanLdapTertiaryServerIndex: 1.3.6.1.4.1.9.9.614.1.1.2.1.3
+cldlStatus: 1.3.6.1.4.1.9.9.614.1.2
+ciscoLwappDot11LdapMIBConform: 1.3.6.1.4.1.9.9.614.2
+ciscoLwappDot11LdapMIBCompliances: 1.3.6.1.4.1.9.9.614.2.1
+ciscoLwappDot11LdapMIBGroups: 1.3.6.1.4.1.9.9.614.2.2
+

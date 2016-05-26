@@ -1,0 +1,15 @@
+---
+ascFeatures: 1.3.6.1.4.1.351.110.3.5
+redundancyAllowed: 1.3.6.1.4.1.351.110.3.5.1
+pxmFeatures: 1.3.6.1.4.1.351.110.3.15
+vsiControllersAllowed: 1.3.6.1.4.1.351.110.3.15.1
+apsCardAttributes: 1.3.6.1.4.1.351.110.3.15.2
+trkCACEnable: 1.3.6.1.4.1.351.110.3.15.3
+pxmCardCacMode: 1.3.6.1.4.1.351.110.3.15.4
+coreCardCommands: 1.3.6.1.4.1.351.110.3.20
+switchCoreCard: 1.3.6.1.4.1.351.110.3.20.1
+ciscoMgx82xxCardFeatureMIB: 1.3.6.1.4.1.351.150.74
+cmCardFeatureMIBConformance: 1.3.6.1.4.1.351.150.74.2
+cmCardFeatureMIBGroups: 1.3.6.1.4.1.351.150.74.2.1
+cmCardFeatureMIBCompliances: 1.3.6.1.4.1.351.150.74.2.2
+

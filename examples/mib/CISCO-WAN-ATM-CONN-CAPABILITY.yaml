@@ -1,0 +1,13 @@
+---
+ciscoWanAtmConnCapability: 1.3.6.1.4.1.9.7.380
+cwAtmConnCapabilityAxsmV2R0160: 1.3.6.1.4.1.9.7.380.1
+cwAtmConnCapabilityAxsmeV2R0160: 1.3.6.1.4.1.9.7.380.2
+cwAtmConnCapabilityRpmprV2R0160: 1.3.6.1.4.1.9.7.380.3
+cwAtmConnCapabilityBpxsesV3R00: 1.3.6.1.4.1.9.7.380.4
+cwAtmConnCapabilityAxsmV3R00: 1.3.6.1.4.1.9.7.380.5
+cwAtmConnCapabilityAxsmeV3R00: 1.3.6.1.4.1.9.7.380.6
+cwAtmConnCapabilityPxm1eV3R00: 1.3.6.1.4.1.9.7.380.7
+cwAtmConnCapabilityRpmprV3R00: 1.3.6.1.4.1.9.7.380.8
+cwAtmConnCapabilityRpmxfV12R02: 1.3.6.1.4.1.9.7.380.9
+cwAtmConnCapabilityV5R00: 1.3.6.1.4.1.9.7.380.10
+

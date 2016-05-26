@@ -1,0 +1,26 @@
+---
+ciscoIetfDot11QosExtMIB: 1.3.6.1.4.1.9.10.90
+ciscoIetfDot11QosExtMIBNotifs: 1.3.6.1.4.1.9.10.90.0
+ciscoIetfDot11QosExtMIBObjects: 1.3.6.1.4.1.9.10.90.1
+cid11QosExtConfig: 1.3.6.1.4.1.9.10.90.1.1
+cid11QosExtConfigTable: 1.3.6.1.4.1.9.10.90.1.1.1
+cid11QosExtConfigEntry: 1.3.6.1.4.1.9.10.90.1.1.1.1
+cid11QosExtBackoffOffset: 1.3.6.1.4.1.9.10.90.1.1.1.1.1
+cid11QosExtMaxRetry: 1.3.6.1.4.1.9.10.90.1.1.1.1.2
+cid11QosExtIfConfigTable: 1.3.6.1.4.1.9.10.90.1.1.2
+cid11QosExtIfConfigEntry: 1.3.6.1.4.1.9.10.90.1.1.2.1
+cid11QosExtOptionEnabled: 1.3.6.1.4.1.9.10.90.1.1.2.1.1
+cid11QosExtVlanTable: 1.3.6.1.4.1.9.10.90.1.1.3
+cid11QosExtVlanEntry: 1.3.6.1.4.1.9.10.90.1.1.3.1
+cid11QosExtVlanClassOfService: 1.3.6.1.4.1.9.10.90.1.1.3.1.1
+cid11QosExtQueue: 1.3.6.1.4.1.9.10.90.1.2
+cid11QosExtQueueTable: 1.3.6.1.4.1.9.10.90.1.2.1
+cid11QosExtQueueEntry: 1.3.6.1.4.1.9.10.90.1.2.1.1
+cid11QosExtQueueQuota: 1.3.6.1.4.1.9.10.90.1.2.1.1.1
+cid11QosExtNotifControl: 1.3.6.1.4.1.9.10.90.1.3
+cid11QosExtNotifEnabled: 1.3.6.1.4.1.9.10.90.1.3.1
+ciscoIetfDot11QosExtMIBConform: 1.3.6.1.4.1.9.10.90.2
+ciscoIetfD11QosExtMIBCompliances: 1.3.6.1.4.1.9.10.90.2.1
+ciscoIetfD11QosExtMIBGroups: 1.3.6.1.4.1.9.10.90.2.2
+ciscoIetfDot11QosExtChangeNotif: 1.3.6.1.4.1.9.10.90.0.1
+

@@ -1,0 +1,31 @@
+---
+ciscoLwappWebAuthMIB: 1.3.6.1.4.1.9.9.515
+ciscoLwappWebAuthMIBNotifs: 1.3.6.1.4.1.9.9.515.0
+ciscoLwappWebAuthMIBNotifObjs: 1.3.6.1.4.1.9.9.515.1
+cLWAGuestUserName: 1.3.6.1.4.1.9.9.515.1.1
+ciscoLwappWebAuthMIBObjects: 1.3.6.1.4.1.9.9.515.2
+ciscoLwappWebAuthConfig: 1.3.6.1.4.1.9.9.515.2.1
+cLWAWebAuthType: 1.3.6.1.4.1.9.9.515.2.1.1
+cLWAManufacturerLogo: 1.3.6.1.4.1.9.9.515.2.1.2
+cLWACustomLogoFileName: 1.3.6.1.4.1.9.9.515.2.1.3
+cLWACustomWebTitle: 1.3.6.1.4.1.9.9.515.2.1.4
+cLWACustomWebMessage: 1.3.6.1.4.1.9.9.515.2.1.5
+cLWACustomWebRedirectURL: 1.3.6.1.4.1.9.9.515.2.1.6
+cLWAExternalWebAuthURL: 1.3.6.1.4.1.9.9.515.2.1.7
+ciscoLwappWebAuthExtConfig: 1.3.6.1.4.1.9.9.515.2.2
+cLWAExternalWebServerTable: 1.3.6.1.4.1.9.9.515.2.2.1
+cLWAExternalWebServerEntry: 1.3.6.1.4.1.9.9.515.2.2.1.1
+cLWAExternalWebServerIndex: 1.3.6.1.4.1.9.9.515.2.2.1.1.1
+cLWAExternalWebServerAddrType: 1.3.6.1.4.1.9.9.515.2.2.1.1.2
+cLWAExternalWebServerAddr: 1.3.6.1.4.1.9.9.515.2.2.1.1.3
+cLWAExternalWebServerRowStatus: 1.3.6.1.4.1.9.9.515.2.2.1.1.4
+ciscoLwappLocalNetUserConfig: 1.3.6.1.4.1.9.9.515.2.3
+cLWALocalNetUserTable: 1.3.6.1.4.1.9.9.515.2.3.1
+cLWALocalNetUserEntry: 1.3.6.1.4.1.9.9.515.2.3.1.1
+cLWALocalNetUserName: 1.3.6.1.4.1.9.9.515.2.3.1.1.1
+cLWALocalNetUserIsGuest: 1.3.6.1.4.1.9.9.515.2.3.1.1.2
+ciscoLwappWebAuthMIBConform: 1.3.6.1.4.1.9.9.515.3
+ciscoLwappWebAuthMIBCompliances: 1.3.6.1.4.1.9.9.515.3.1
+ciscoLwappWebAuthMIBGroups: 1.3.6.1.4.1.9.9.515.3.2
+cLWAGuestUserRemoved: 1.3.6.1.4.1.9.9.515.0.1
+

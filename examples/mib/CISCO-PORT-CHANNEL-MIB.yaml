@@ -1,0 +1,35 @@
+---
+ciscoPortChannelMIB: 1.3.6.1.4.1.9.9.285
+ciscoPortChannelObjects: 1.3.6.1.4.1.9.9.285.1
+portChannelConfig: 1.3.6.1.4.1.9.9.285.1.1
+portChannelTable: 1.3.6.1.4.1.9.9.285.1.1.1
+portChannelEntry: 1.3.6.1.4.1.9.9.285.1.1.1.1
+portChannelIndex: 1.3.6.1.4.1.9.9.285.1.1.1.1.1
+portChannelIfIndex: 1.3.6.1.4.1.9.9.285.1.1.1.1.2
+portChannelAdminChannelMode: 1.3.6.1.4.1.9.9.285.1.1.1.1.3
+portChannelOperChannelMode: 1.3.6.1.4.1.9.9.285.1.1.1.1.4
+portChannelAddType: 1.3.6.1.4.1.9.9.285.1.1.1.1.5
+portChannelLastActionStatus: 1.3.6.1.4.1.9.9.285.1.1.1.1.6
+portChannelLastActionStatusCause: 1.3.6.1.4.1.9.9.285.1.1.1.1.7
+portChannelLastActionTime: 1.3.6.1.4.1.9.9.285.1.1.1.1.8
+portChannelMemberList: 1.3.6.1.4.1.9.9.285.1.1.1.1.9
+portChannelCreationTime: 1.3.6.1.4.1.9.9.285.1.1.1.1.10
+portChannelRowStatus: 1.3.6.1.4.1.9.9.285.1.1.1.1.11
+portChannelMemberOperStatus: 1.3.6.1.4.1.9.9.285.1.1.1.1.12
+portChannelProtocolEnable: 1.3.6.1.4.1.9.9.285.1.1.2
+portChannelGrpIfExtTable: 1.3.6.1.4.1.9.9.285.1.1.3
+portChannelGrpIfExtEntry: 1.3.6.1.4.1.9.9.285.1.1.3.1
+portChannelGrpIfAutoCreation: 1.3.6.1.4.1.9.9.285.1.1.3.1.1
+portChannelExtTable: 1.3.6.1.4.1.9.9.285.1.1.4
+portChannelExtEntry: 1.3.6.1.4.1.9.9.285.1.1.4.1
+portChannelExtChannelGrpMode: 1.3.6.1.4.1.9.9.285.1.1.4.1.1
+portChannelExtAutoCreated: 1.3.6.1.4.1.9.9.285.1.1.4.1.2
+portChannelExtPersistent: 1.3.6.1.4.1.9.9.285.1.1.4.1.3
+portChannelExtOperChannelGrpMode: 1.3.6.1.4.1.9.9.285.1.1.4.1.4
+portChannelStatistics: 1.3.6.1.4.1.9.9.285.1.2
+portChannelNotification: 1.3.6.1.4.1.9.9.285.1.3
+portChannelNotifications: 1.3.6.1.4.1.9.9.285.1.3.0
+portChannelMIBConformance: 1.3.6.1.4.1.9.9.285.2
+portChannelMIBCompliances: 1.3.6.1.4.1.9.9.285.2.1
+portChannelMIBGroups: 1.3.6.1.4.1.9.9.285.2.2
+

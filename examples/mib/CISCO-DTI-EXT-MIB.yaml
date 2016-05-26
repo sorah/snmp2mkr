@@ -1,0 +1,12 @@
+---
+ciscoDtiExtMIB: 1.3.6.1.4.1.9.9.822
+ciscoDtiExtNotifs: 1.3.6.1.4.1.9.9.822.0
+ciscoDtiExtObjects: 1.3.6.1.4.1.9.9.822.1
+cdeServerStatusChangeEnable: 1.3.6.1.4.1.9.9.822.1.1
+cdeClientStatusChangeEnable: 1.3.6.1.4.1.9.9.822.1.2
+ciscoDtiExtConform: 1.3.6.1.4.1.9.9.822.2
+ciscoDtiExtCompliances: 1.3.6.1.4.1.9.9.822.2.1
+ciscoDtiExtGroups: 1.3.6.1.4.1.9.9.822.2.2
+cdeServerStatusChange: 1.3.6.1.4.1.9.9.822.0.1
+cdeClientStatusChange: 1.3.6.1.4.1.9.9.822.0.2
+

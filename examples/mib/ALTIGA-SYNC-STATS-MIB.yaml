@@ -1,0 +1,30 @@
+---
+altigaSyncStatsMibModule: 1.3.6.1.4.1.3076.1.1.37.2
+altigaSyncStatsMibConformance: 1.3.6.1.4.1.3076.1.1.37.2.1
+altigaSyncStatsMibCompliances: 1.3.6.1.4.1.3076.1.1.37.2.1.1
+alStatsSyncGlobal: 1.3.6.1.4.1.3076.2.1.2.32.1
+alSyncStatsTable: 1.3.6.1.4.1.3076.2.1.2.32.2
+alSyncStatsEntry: 1.3.6.1.4.1.3076.2.1.2.32.2.1
+alSyncStatsRowStatus: 1.3.6.1.4.1.3076.2.1.2.32.2.1.1
+alSyncStatsSlot: 1.3.6.1.4.1.3076.2.1.2.32.2.1.2
+alSyncStatsConn: 1.3.6.1.4.1.3076.2.1.2.32.2.1.3
+alSyncStatsChannel: 1.3.6.1.4.1.3076.2.1.2.32.2.1.4
+alSyncStatsIfIndex: 1.3.6.1.4.1.3076.2.1.2.32.2.1.5
+alSyncStatsPortState: 1.3.6.1.4.1.3076.2.1.2.32.2.1.6
+alSyncStatsRxFrames: 1.3.6.1.4.1.3076.2.1.2.32.2.1.7
+alSyncStatsRxOctets: 1.3.6.1.4.1.3076.2.1.2.32.2.1.8
+alSyncStatsRxReplenFails: 1.3.6.1.4.1.3076.2.1.2.32.2.1.9
+alSyncStatsRxClockErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.10
+alSyncStatsRxDpllErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.11
+alSyncStatsRxFrameTooLongErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.12
+alSyncStatsRxFrameOctetAlignErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.13
+alSyncStatsRxAbortErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.14
+alSyncStatsRxCrcErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.15
+alSyncStatsRxRcvrOverrunErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.16
+alSyncStatsTxFrames: 1.3.6.1.4.1.3076.2.1.2.32.2.1.17
+alSyncStatsTxOctets: 1.3.6.1.4.1.3076.2.1.2.32.2.1.18
+alSyncStatsTxRingFullDropsErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.19
+alSyncStatsTxClockErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.20
+alSyncStatsTxFrameTooLongErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.21
+alSyncStatsTxUnderrunErrors: 1.3.6.1.4.1.3076.2.1.2.32.2.1.22
+

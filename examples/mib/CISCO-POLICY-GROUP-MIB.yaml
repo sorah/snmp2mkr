@@ -1,0 +1,33 @@
+---
+ciscoPolicyGroupMIB: 1.3.6.1.4.1.9.9.507
+ciscoPolicyGroupMIBNotifs: 1.3.6.1.4.1.9.9.507.0
+ciscoPolicyGroupMIBObjects: 1.3.6.1.4.1.9.9.507.1
+cpgGroup: 1.3.6.1.4.1.9.9.507.1.1
+cpgGroupTable: 1.3.6.1.4.1.9.9.507.1.1.1
+cpgGroupEntry: 1.3.6.1.4.1.9.9.507.1.1.1.1
+cpgGroupName: 1.3.6.1.4.1.9.9.507.1.1.1.1.1
+cpgGroupSourceType: 1.3.6.1.4.1.9.9.507.1.1.1.1.2
+cpgGroupIpAddrCount: 1.3.6.1.4.1.9.9.507.1.1.1.1.3
+cpgGroupRowStatus: 1.3.6.1.4.1.9.9.507.1.1.1.1.4
+cpgGroupIpTable: 1.3.6.1.4.1.9.9.507.1.1.2
+cpgGroupIpEntry: 1.3.6.1.4.1.9.9.507.1.1.2.1
+cpgGroupIpGroupName: 1.3.6.1.4.1.9.9.507.1.1.2.1.1
+cpgGroupIpAddrType: 1.3.6.1.4.1.9.9.507.1.1.2.1.2
+cpgGroupIpAddress: 1.3.6.1.4.1.9.9.507.1.1.2.1.3
+cpgGroupIpMask: 1.3.6.1.4.1.9.9.507.1.1.2.1.4
+cpgGroupIpSourceType: 1.3.6.1.4.1.9.9.507.1.1.2.1.5
+cpgGroupIpRowStatus: 1.3.6.1.4.1.9.9.507.1.1.2.1.6
+cpgPolicy: 1.3.6.1.4.1.9.9.507.1.2
+cpgPolicyTable: 1.3.6.1.4.1.9.9.507.1.2.1
+cpgPolicyEntry: 1.3.6.1.4.1.9.9.507.1.2.1.1
+cpgPolicyName: 1.3.6.1.4.1.9.9.507.1.2.1.1.1
+cpgPolicyGroupCount: 1.3.6.1.4.1.9.9.507.1.2.1.1.2
+cpgPolicyGroupTable: 1.3.6.1.4.1.9.9.507.1.2.2
+cpgPolicyGroupEntry: 1.3.6.1.4.1.9.9.507.1.2.2.1
+cpgPolicyGroupPolicyName: 1.3.6.1.4.1.9.9.507.1.2.2.1.1
+cpgPolicyGroupGroupName: 1.3.6.1.4.1.9.9.507.1.2.2.1.2
+cpgPolicyGroupRowStatus: 1.3.6.1.4.1.9.9.507.1.2.2.1.3
+ciscoPolicyGroupMIBConformance: 1.3.6.1.4.1.9.9.507.2
+ciscoPolicyGroupMIBCompliances: 1.3.6.1.4.1.9.9.507.2.1
+ciscoPolicyGroupMIBGroups: 1.3.6.1.4.1.9.9.507.2.2
+

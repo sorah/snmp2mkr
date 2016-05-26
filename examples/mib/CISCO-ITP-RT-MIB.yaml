@@ -1,0 +1,33 @@
+---
+ciscoItpRtMIB: 1.3.6.1.4.1.9.9.228
+cItpRouteNotifications: 1.3.6.1.4.1.9.9.228.0
+cItpRtMIBObjects: 1.3.6.1.4.1.9.9.228.1
+cItpRtScalars: 1.3.6.1.4.1.9.9.228.1.1
+cItpRtConfigLastChanged: 1.3.6.1.4.1.9.9.228.1.1.1
+cItpRtConfigLoad: 1.3.6.1.4.1.9.9.228.1.1.2
+cItpRtConfigLoadStatus: 1.3.6.1.4.1.9.9.228.1.1.3
+cItpRtStateChangeCount: 1.3.6.1.4.1.9.9.228.1.1.4
+cItpRtStateChangeNotifEnabled: 1.3.6.1.4.1.9.9.228.1.1.5
+cItpRtChangeNotifDelayTime: 1.3.6.1.4.1.9.9.228.1.1.6
+cItpRtMaxDynamicRoutes: 1.3.6.1.4.1.9.9.228.1.1.7
+cItpRtChangeNotifWindowTime: 1.3.6.1.4.1.9.9.228.1.1.8
+cItpRtChangeNotifMaxPerWindow: 1.3.6.1.4.1.9.9.228.1.1.9
+cItpRtTables: 1.3.6.1.4.1.9.9.228.1.2
+cItpRouteTable: 1.3.6.1.4.1.9.9.228.1.2.1
+cItpRouteTableEntry: 1.3.6.1.4.1.9.9.228.1.2.1.1
+cItpRouteTableName: 1.3.6.1.4.1.9.9.228.1.2.1.1.1
+cItpRouteDpc: 1.3.6.1.4.1.9.9.228.1.2.1.1.2
+cItpRouteDestLsCost: 1.3.6.1.4.1.9.9.228.1.2.1.1.3
+cItpRouteDestLinkset: 1.3.6.1.4.1.9.9.228.1.2.1.1.4
+cItpRouteMask: 1.3.6.1.4.1.9.9.228.1.2.1.1.5
+cItpRouteQos: 1.3.6.1.4.1.9.9.228.1.2.1.1.6
+cItpRouteStatus: 1.3.6.1.4.1.9.9.228.1.2.1.1.7
+cItpRouteNonAdjStatus: 1.3.6.1.4.1.9.9.228.1.2.1.1.8
+cItpRtNotificationsInfo: 1.3.6.1.4.1.9.9.228.1.3
+cItpRtNotifInfoSuppressedFlag: 1.3.6.1.4.1.9.9.228.1.3.1
+cItpRtNotifInfoStateChanges: 1.3.6.1.4.1.9.9.228.1.3.2
+cItpRtMIBConformance: 1.3.6.1.4.1.9.9.228.2
+cItpRtMIBCompliances: 1.3.6.1.4.1.9.9.228.2.1
+cItpRtMIBGroups: 1.3.6.1.4.1.9.9.228.2.2
+cItpRouteStateChange: 1.3.6.1.4.1.9.9.228.0.1
+

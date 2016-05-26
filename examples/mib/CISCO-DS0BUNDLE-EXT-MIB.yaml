@@ -1,0 +1,18 @@
+---
+ciscoDs0BundleExtMIB: 1.3.6.1.4.1.9.10.33
+ciscoDs0BundleExtMIBObjects: 1.3.6.1.4.1.9.10.33.1
+cdsx0BundleConfig: 1.3.6.1.4.1.9.10.33.1.1
+cdsx0BundleExtTable: 1.3.6.1.4.1.9.10.33.1.1.1
+cdsx0BundleExtEntry: 1.3.6.1.4.1.9.10.33.1.1.1.1
+cdsx0BundleExtDs1Index: 1.3.6.1.4.1.9.10.33.1.1.1.1.1
+cdsx0BundleExtChannelMap: 1.3.6.1.4.1.9.10.33.1.1.1.1.2
+cdsx0BundleExtEncapType: 1.3.6.1.4.1.9.10.33.1.1.1.1.3
+cdsx0BundleExtChannelRate: 1.3.6.1.4.1.9.10.33.1.1.1.1.4
+cdsx0BundleInfo: 1.3.6.1.4.1.9.10.33.1.2
+cdsx0BundleUseTable: 1.3.6.1.4.1.9.10.33.1.2.1
+cdsx0BundleUseEntry: 1.3.6.1.4.1.9.10.33.1.2.1.1
+cdsx0BundleUseDs0Used: 1.3.6.1.4.1.9.10.33.1.2.1.1.1
+ciscoDs0BundleExtMIBConformance: 1.3.6.1.4.1.9.10.33.3
+ciscoDs0BundleExtMIBCompliances: 1.3.6.1.4.1.9.10.33.3.1
+ciscoDs0BundleExtMIBGroups: 1.3.6.1.4.1.9.10.33.3.2
+

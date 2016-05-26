@@ -1,0 +1,11 @@
+---
+ciscoAtmAddrMIB: 1.3.6.1.4.1.9.10.12
+ciscoAtmAddrMIBObjects: 1.3.6.1.4.1.9.10.12.1
+ciscoAtmIfAdminAddrTable: 1.3.6.1.4.1.9.10.12.1.1
+ciscoAtmIfAdminAddrEntry: 1.3.6.1.4.1.9.10.12.1.1.1
+ciscoAtmIfAdminAddrAddress: 1.3.6.1.4.1.9.10.12.1.1.1.1
+ciscoAtmIfAdminAddrRowStatus: 1.3.6.1.4.1.9.10.12.1.1.1.2
+ciscoAtmIfAdminAddrMIBConformance: 1.3.6.1.4.1.9.10.12.3
+ciscoAtmIfAdminAddrMIBCompliances: 1.3.6.1.4.1.9.10.12.3.1
+ciscoAtmIfAdminAddrMIBGroups: 1.3.6.1.4.1.9.10.12.3.2
+

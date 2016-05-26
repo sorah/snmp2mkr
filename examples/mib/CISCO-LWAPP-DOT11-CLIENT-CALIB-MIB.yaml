@@ -1,0 +1,15 @@
+---
+ciscoLwappDot11ClientCalibMIB: 1.3.6.1.4.1.9.9.522
+ciscoLwappDot11ClientCalibMIBNotifs: 1.3.6.1.4.1.9.9.522.0
+ciscoLwappDot11ClientCalibMIBObjects: 1.3.6.1.4.1.9.9.522.1
+cldccConfig: 1.3.6.1.4.1.9.9.522.1.1
+cLD11ClientCalibTable: 1.3.6.1.4.1.9.9.522.1.1.1
+cLD11ClientCalibEntry: 1.3.6.1.4.1.9.9.522.1.1.1.1
+cLD11ClientCalibMacAddress: 1.3.6.1.4.1.9.9.522.1.1.1.1.1
+cLD11ClientCalibBeaconInterval: 1.3.6.1.4.1.9.9.522.1.1.1.1.2
+cLD11ClientCalibRowStatus: 1.3.6.1.4.1.9.9.522.1.1.1.1.3
+cLD11ClientCalibTableMaxEntries: 1.3.6.1.4.1.9.9.522.1.1.2
+ciscoLwappDot11ClientCalibMIBConform: 1.3.6.1.4.1.9.9.522.2
+ciscoLwappDot11ClientCalibMIBCompliances: 1.3.6.1.4.1.9.9.522.2.1
+ciscoLwappDot11ClientCalibMIBGroups: 1.3.6.1.4.1.9.9.522.2.2
+

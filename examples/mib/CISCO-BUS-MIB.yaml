@@ -1,0 +1,36 @@
+---
+ciscoBusMIB: 1.3.6.1.4.1.9.9.40
+ciscoBusMIBObjects: 1.3.6.1.4.1.9.9.40.1
+busTable: 1.3.6.1.4.1.9.9.40.1.1
+busEntry: 1.3.6.1.4.1.9.9.40.1.1.1
+busElanName: 1.3.6.1.4.1.9.9.40.1.1.1.1
+busIndex: 1.3.6.1.4.1.9.9.40.1.1.1.2
+busAtmAddrSpec: 1.3.6.1.4.1.9.9.40.1.1.1.3
+busAtmAddrMask: 1.3.6.1.4.1.9.9.40.1.1.1.4
+busAtmAddrActl: 1.3.6.1.4.1.9.9.40.1.1.1.5
+busIfIndex: 1.3.6.1.4.1.9.9.40.1.1.1.6
+busSubIfNum: 1.3.6.1.4.1.9.9.40.1.1.1.7
+busUpTime: 1.3.6.1.4.1.9.9.40.1.1.1.8
+busLanType: 1.3.6.1.4.1.9.9.40.1.1.1.9
+busMaxFrm: 1.3.6.1.4.1.9.9.40.1.1.1.10
+busMaxFrmAge: 1.3.6.1.4.1.9.9.40.1.1.1.11
+busOutFwdOctets: 1.3.6.1.4.1.9.9.40.1.1.1.12
+busOutFwdUcastFrms: 1.3.6.1.4.1.9.9.40.1.1.1.13
+busOutFwdNUcastFrms: 1.3.6.1.4.1.9.9.40.1.1.1.14
+busFrmTimeOuts: 1.3.6.1.4.1.9.9.40.1.1.1.15
+busMultiFwdVpi: 1.3.6.1.4.1.9.9.40.1.1.1.16
+busMultiFwdVci: 1.3.6.1.4.1.9.9.40.1.1.1.17
+busOperStatus: 1.3.6.1.4.1.9.9.40.1.1.1.18
+busAdminStatus: 1.3.6.1.4.1.9.9.40.1.1.1.19
+busStatus: 1.3.6.1.4.1.9.9.40.1.1.1.20
+busClientTable: 1.3.6.1.4.1.9.9.40.1.2
+busClientEntry: 1.3.6.1.4.1.9.9.40.1.2.1
+busClientId: 1.3.6.1.4.1.9.9.40.1.2.1.1
+busClientIfIndex: 1.3.6.1.4.1.9.9.40.1.2.1.2
+busClientMSendVpi: 1.3.6.1.4.1.9.9.40.1.2.1.3
+busClientMSendVci: 1.3.6.1.4.1.9.9.40.1.2.1.4
+busClientAtmAddress: 1.3.6.1.4.1.9.9.40.1.2.1.5
+ciscoBusMIBConformance: 1.3.6.1.4.1.9.9.40.2
+ciscoBusMIBGroups: 1.3.6.1.4.1.9.9.40.2.1
+ciscoBusMIBCompliances: 1.3.6.1.4.1.9.9.40.2.2
+

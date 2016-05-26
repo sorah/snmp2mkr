@@ -1,0 +1,29 @@
+---
+cesmPort: 1.3.6.1.4.1.351.110.5.3.1
+cesmPortCnfGrp: 1.3.6.1.4.1.351.110.5.3.1.1
+cesmPortCnfGrpTable: 1.3.6.1.4.1.351.110.5.3.1.1.1
+cesmPortCnfGrpEntry: 1.3.6.1.4.1.351.110.5.3.1.1.1.1
+cesPortNum: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.1
+cesPortRowStatus: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.2
+cesPortLineNum: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.3
+cesPortType: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.4
+cesPortDs0ConfigBitMap: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.5
+cesPortNumOfDs0Slot: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.6
+cesPortNumOfSCIPerDS0: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.7
+cesPortSpeed: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.8
+cesPortState: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.9
+cesPortBERTEnable: 1.3.6.1.4.1.351.110.5.3.1.1.1.1.10
+cesPortNextAvailable: 1.3.6.1.4.1.351.110.5.3.1.1.2
+cesPortsUsedLine1: 1.3.6.1.4.1.351.110.5.3.1.1.3
+cesPortsUsedLine2: 1.3.6.1.4.1.351.110.5.3.1.1.4
+cesPortsUsedLine3: 1.3.6.1.4.1.351.110.5.3.1.1.5
+cesPortsUsedLine4: 1.3.6.1.4.1.351.110.5.3.1.1.6
+cesPortsUsedLine5: 1.3.6.1.4.1.351.110.5.3.1.1.7
+cesPortsUsedLine6: 1.3.6.1.4.1.351.110.5.3.1.1.8
+cesPortsUsedLine7: 1.3.6.1.4.1.351.110.5.3.1.1.9
+cesPortsUsedLine8: 1.3.6.1.4.1.351.110.5.3.1.1.10
+ciscoWanCesPortMIB: 1.3.6.1.4.1.351.150.40
+ciscoWanCesPortMIBConformance: 1.3.6.1.4.1.351.150.40.2
+ciscoWanCesPortMIBGroups: 1.3.6.1.4.1.351.150.40.2.1
+ciscoWanCesPortMIBCompliances: 1.3.6.1.4.1.351.150.40.2.2
+

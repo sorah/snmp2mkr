@@ -1,0 +1,37 @@
+---
+ciscoCNOSwitchMIB: 1.3.6.1.4.1.9.10.43
+ciscoCNOSwitchMIBObjects: 1.3.6.1.4.1.9.10.43.1
+cnosSysInfo: 1.3.6.1.4.1.9.10.43.1.1
+cnosSysInfoSerialNo: 1.3.6.1.4.1.9.10.43.1.1.1
+cnosSysInfoBoardRevision: 1.3.6.1.4.1.9.10.43.1.1.2
+cnosSysInfoBootVersion: 1.3.6.1.4.1.9.10.43.1.1.3
+cnosSysInfoAddrCapacity: 1.3.6.1.4.1.9.10.43.1.1.4
+cnosSysConfig: 1.3.6.1.4.1.9.10.43.1.2
+cnosSysConfigReset: 1.3.6.1.4.1.9.10.43.1.2.1
+cnosSysConfigDefaultReset: 1.3.6.1.4.1.9.10.43.1.2.2
+cnosSysConfigMonitor: 1.3.6.1.4.1.9.10.43.1.2.3
+cnosSysConfigMonitorPort: 1.3.6.1.4.1.9.10.43.1.2.4
+cnosPort: 1.3.6.1.4.1.9.10.43.1.3
+cnosPortTable: 1.3.6.1.4.1.9.10.43.1.3.1
+cnosPortEntry: 1.3.6.1.4.1.9.10.43.1.3.1.1
+cnosPortControllerRevision: 1.3.6.1.4.1.9.10.43.1.3.1.1.1
+cnosPortName: 1.3.6.1.4.1.9.10.43.1.3.1.1.2
+cnosPortDuplexAdmin: 1.3.6.1.4.1.9.10.43.1.3.1.1.3
+cnosPortDuplexStatus: 1.3.6.1.4.1.9.10.43.1.3.1.1.4
+cnosPortSpeedAdmin: 1.3.6.1.4.1.9.10.43.1.3.1.1.5
+cnosPortSpeedStatus: 1.3.6.1.4.1.9.10.43.1.3.1.1.6
+cnosPortMonitoring: 1.3.6.1.4.1.9.10.43.1.3.1.1.7
+cnosPortLinkStatus: 1.3.6.1.4.1.9.10.43.1.3.1.1.8
+cnosPortSTPPortFastMode: 1.3.6.1.4.1.9.10.43.1.3.1.1.9
+cnosPortVlanMember: 1.3.6.1.4.1.9.10.43.1.3.1.1.10
+cnosVlan: 1.3.6.1.4.1.9.10.43.1.4
+cnosVlanTable: 1.3.6.1.4.1.9.10.43.1.4.1
+cnosVlanEntry: 1.3.6.1.4.1.9.10.43.1.4.1.1
+cnosVlanIndex: 1.3.6.1.4.1.9.10.43.1.4.1.1.1
+cnosVlanSTPState: 1.3.6.1.4.1.9.10.43.1.4.1.1.2
+ciscoCNOSwitchNotifications: 1.3.6.1.4.1.9.10.43.2
+ciscoCNOSwitchNotificationsPrefix: 1.3.6.1.4.1.9.10.43.2.0
+ciscoCNOSwitchMIBComformance: 1.3.6.1.4.1.9.10.43.3
+ciscoCNOSwitchMIBCompliances: 1.3.6.1.4.1.9.10.43.3.1
+ciscoCNOSwitchMIBGroups: 1.3.6.1.4.1.9.10.43.3.2
+

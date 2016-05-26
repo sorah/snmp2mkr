@@ -1,0 +1,15 @@
+---
+ciscoPmonMIB: 1.3.6.1.4.1.9.9.779
+ciscoPmonMIBNotifs: 1.3.6.1.4.1.9.9.779.0
+ciscoPmonMIBObjects: 1.3.6.1.4.1.9.9.779.1
+ciscoPmonStatsMIBObjects: 1.3.6.1.4.1.9.9.779.1.1
+ciscoPmonPortGroupStatsTable: 1.3.6.1.4.1.9.9.779.1.1.1
+ciscoPmonPortGroupStatsEntry: 1.3.6.1.4.1.9.9.779.1.1.1.1
+ciscoPmonPortGroupStatsType: 1.3.6.1.4.1.9.9.779.1.1.1.1.1
+ciscoPmonPortGroupIndex: 1.3.6.1.4.1.9.9.779.1.1.1.1.2
+ciscoPmonPortGroupIfIndexList: 1.3.6.1.4.1.9.9.779.1.1.1.1.3
+ciscoPmonPortGroupStatsValue: 1.3.6.1.4.1.9.9.779.1.1.1.1.4
+ciscoPmonMIBConformance: 1.3.6.1.4.1.9.9.779.2
+ciscoPmonMIBCompliances: 1.3.6.1.4.1.9.9.779.2.1
+ciscoPmonMIBGroups: 1.3.6.1.4.1.9.9.779.2.2
+

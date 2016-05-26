@@ -1,0 +1,32 @@
+---
+ciscoSaaApmMIB: 1.3.6.1.4.1.9.9.177
+ciscoSaaApmMIBObjects: 1.3.6.1.4.1.9.9.177.1
+saaApmAppl: 1.3.6.1.4.1.9.9.177.1.1
+saaApmApplMajorVersion: 1.3.6.1.4.1.9.9.177.1.1.1
+saaApmApplMinorVersion: 1.3.6.1.4.1.9.9.177.1.1.2
+saaApmApplMaxOper: 1.3.6.1.4.1.9.9.177.1.1.3
+saaApmApplFreeMemLowWaterMark: 1.3.6.1.4.1.9.9.177.1.1.4
+saaApmApplOperCapacity: 1.3.6.1.4.1.9.9.177.1.1.5
+saaApmCtrl: 1.3.6.1.4.1.9.9.177.1.2
+saaApmCtrlTable: 1.3.6.1.4.1.9.9.177.1.2.1
+saaApmCtrlEntry: 1.3.6.1.4.1.9.9.177.1.2.1.1
+saaApmCtrlIndex: 1.3.6.1.4.1.9.9.177.1.2.1.1.1
+saaApmCtrlScriptCfgURL: 1.3.6.1.4.1.9.9.177.1.2.1.1.2
+saaApmCtrlOwner: 1.3.6.1.4.1.9.9.177.1.2.1.1.3
+saaApmCtrlInitDataTrans: 1.3.6.1.4.1.9.9.177.1.2.1.1.4
+saaApmCtrlDataTransTime: 1.3.6.1.4.1.9.9.177.1.2.1.1.5
+saaApmCtrlDataTransStatus: 1.3.6.1.4.1.9.9.177.1.2.1.1.6
+saaApmCtrlStatus: 1.3.6.1.4.1.9.9.177.1.2.1.1.7
+saaApmCtrlNvgen: 1.3.6.1.4.1.9.9.177.1.2.1.1.8
+saaApmOper: 1.3.6.1.4.1.9.9.177.1.3
+saaApmOperTable: 1.3.6.1.4.1.9.9.177.1.3.1
+saaApmOperEntry: 1.3.6.1.4.1.9.9.177.1.3.1.1
+saaApmOperLastStartTime: 1.3.6.1.4.1.9.9.177.1.3.1.1.1
+saaApmOperLastEndTime: 1.3.6.1.4.1.9.9.177.1.3.1.1.2
+saaApmOperLastStatus: 1.3.6.1.4.1.9.9.177.1.3.1.1.3
+ciscoSaaApmMIBNotifPrefix: 1.3.6.1.4.1.9.9.177.2
+ciscoSaaApmMIBNotifs: 1.3.6.1.4.1.9.9.177.2.0
+ciscoSaaApmMIBConformance: 1.3.6.1.4.1.9.9.177.3
+ciscoSaaApmMIBCompliances: 1.3.6.1.4.1.9.9.177.3.1
+ciscoSaaApmMIBGroups: 1.3.6.1.4.1.9.9.177.3.2
+

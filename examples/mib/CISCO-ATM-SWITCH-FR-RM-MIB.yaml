@@ -1,0 +1,30 @@
+---
+ciscoAtmSwitchFrRmMIB: 1.3.6.1.4.1.9.9.110
+ciscoAtmSwitchFrRmMIBObjects: 1.3.6.1.4.1.9.9.110.1
+cfaAdapter: 1.3.6.1.4.1.9.9.110.1.1
+cfaAdapterIfVcQThresholdTable: 1.3.6.1.4.1.9.9.110.1.1.1
+cfaAdapterIfVcQThresholdEntry: 1.3.6.1.4.1.9.9.110.1.1.1.1
+cfaAdapterIfVcQService: 1.3.6.1.4.1.9.9.110.1.1.1.1.1
+cfaAdapterIfVcQInqDiscThresh: 1.3.6.1.4.1.9.9.110.1.1.1.1.2
+cfaAdapterIfVcQOutqDiscThresh: 1.3.6.1.4.1.9.9.110.1.1.1.1.3
+cfaAdapterIfVcQInqMarkThresh: 1.3.6.1.4.1.9.9.110.1.1.1.1.4
+cfaAdapterIfVcQOutqMarkThresh: 1.3.6.1.4.1.9.9.110.1.1.1.1.5
+cfaAdapterIfVbrServOflowTable: 1.3.6.1.4.1.9.9.110.1.1.2
+cfaAdapterIfVbrServOflowEntry: 1.3.6.1.4.1.9.9.110.1.1.2.1
+cfaAdapterIfVbrServOflow: 1.3.6.1.4.1.9.9.110.1.1.2.1.1
+cfaAdapterIfFrConfigTable: 1.3.6.1.4.1.9.9.110.1.1.3
+cfaAdapterIfFrConfigEntry: 1.3.6.1.4.1.9.9.110.1.1.3.1
+cfaAdapterIfOverbooking: 1.3.6.1.4.1.9.9.110.1.1.3.1.1
+cfaInterwork: 1.3.6.1.4.1.9.9.110.1.2
+cfaInterworkIfResourceTable: 1.3.6.1.4.1.9.9.110.1.2.1
+cfaInterworkIfResourceEntry: 1.3.6.1.4.1.9.9.110.1.2.1.1
+cfaInterworkIfVcQService: 1.3.6.1.4.1.9.9.110.1.2.1.1.1
+cfaInterworkIfRxAvailRate: 1.3.6.1.4.1.9.9.110.1.2.1.1.2
+cfaInterworkIfTxAvailRate: 1.3.6.1.4.1.9.9.110.1.2.1.1.3
+cfaInterworkIfRxAllocRate: 1.3.6.1.4.1.9.9.110.1.2.1.1.4
+cfaInterworkIfTxAllocRate: 1.3.6.1.4.1.9.9.110.1.2.1.1.5
+ciscoAtmSwitchFrRmMIBNotifications: 1.3.6.1.4.1.9.9.110.2
+ciscoAtmSwitchFrRmMIBConformance: 1.3.6.1.4.1.9.9.110.3
+ciscoAtmSwitchFrRmMIBCompliances: 1.3.6.1.4.1.9.9.110.3.1
+ciscoAtmSwitchFrRmMIBGroups: 1.3.6.1.4.1.9.9.110.3.2
+

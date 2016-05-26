@@ -1,0 +1,28 @@
+---
+ciscoWwnmgrMIB: 1.3.6.1.4.1.9.9.286
+ciscoWwnmMIBObjects: 1.3.6.1.4.1.9.9.286.1
+wwnmConfigurationGroup: 1.3.6.1.4.1.9.9.286.1.1
+wwnmSecondaryBaseMacAddress: 1.3.6.1.4.1.9.9.286.1.1.1
+wwnmSecondaryMacAddressRange: 1.3.6.1.4.1.9.9.286.1.1.2
+wwnmType1MaxWwns: 1.3.6.1.4.1.9.9.286.1.1.3
+wwnmType1AvailableWwns: 1.3.6.1.4.1.9.9.286.1.1.4
+wwnmTypeOtherMaxWwns: 1.3.6.1.4.1.9.9.286.1.1.5
+wwnmTypeOtherAvailableWwns: 1.3.6.1.4.1.9.9.286.1.1.6
+wwnmType1ReservedWwns: 1.3.6.1.4.1.9.9.286.1.1.7
+wwnmTypeOtherReservedWwns: 1.3.6.1.4.1.9.9.286.1.1.8
+wwnmVsanWwnTable: 1.3.6.1.4.1.9.9.286.1.1.9
+wwnmVsanWwnEntry: 1.3.6.1.4.1.9.9.286.1.1.9.1
+wwnmVsanWwn: 1.3.6.1.4.1.9.9.286.1.1.9.1.1
+wwnmVsanWwnStorageType: 1.3.6.1.4.1.9.9.286.1.1.9.1.2
+wwnmVsanWwnRowStatus: 1.3.6.1.4.1.9.9.286.1.1.9.1.3
+wwnmNotificationGroup: 1.3.6.1.4.1.9.9.286.1.2
+wwnmNotification: 1.3.6.1.4.1.9.9.286.1.2.1
+wwnmNotificationPrefix: 1.3.6.1.4.1.9.9.286.1.2.1.0
+ciscoWwnmMIBConformance: 1.3.6.1.4.1.9.9.286.2
+ciscoWwnmMIBCompliances: 1.3.6.1.4.1.9.9.286.2.1
+ciscoWwnmMIBGroups: 1.3.6.1.4.1.9.9.286.2.2
+wwnmType1WwnShortageNotify: 1.3.6.1.4.1.9.9.286.1.2.1.0.1
+wwnmType1WwnAvailableNotify: 1.3.6.1.4.1.9.9.286.1.2.1.0.2
+wwnmTypeOtherWwnShortageNotify: 1.3.6.1.4.1.9.9.286.1.2.1.0.3
+wwnmTypeOtherWwnAvailableNotify: 1.3.6.1.4.1.9.9.286.1.2.1.0.4
+

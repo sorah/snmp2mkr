@@ -1,0 +1,15 @@
+---
+ciscoVoaMIB: 1.3.6.1.4.1.9.9.262
+cVoaMIBObjects: 1.3.6.1.4.1.9.9.262.1
+cVoaBaseGroup: 1.3.6.1.4.1.9.9.262.1.1
+cVoaTable: 1.3.6.1.4.1.9.9.262.1.1.1
+cVoaEntry: 1.3.6.1.4.1.9.9.262.1.1.1.1
+cVoaDirection: 1.3.6.1.4.1.9.9.262.1.1.1.1.1
+cVoaAttenuationControlMode: 1.3.6.1.4.1.9.9.262.1.1.1.1.2
+cVoaAttenuation: 1.3.6.1.4.1.9.9.262.1.1.1.1.3
+cVoaAttenuationLastChange: 1.3.6.1.4.1.9.9.262.1.1.1.1.4
+cVoaDesiredPower: 1.3.6.1.4.1.9.9.262.1.1.1.1.5
+cVoaMIBConformance: 1.3.6.1.4.1.9.9.262.3
+cVoaMIBCompliances: 1.3.6.1.4.1.9.9.262.3.1
+cVoaMIBGroups: 1.3.6.1.4.1.9.9.262.3.2
+

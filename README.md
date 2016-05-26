@@ -28,111 +28,59 @@ Or install it yourself as:
 ### Configuration
 
 ``` yaml
-api_key: ... # EnvString
-#  env: MKR_API_KEY
-persist_file: ... # EnvString
-templates: # TemplateCollection
-  router: # Template
-    templates: # TemplatesList
-      - cisco-841
-  wlc: # Template
-    templates: # TemplatesList
-      - system-mib
-      - if-mib
-      - ip-mib
-      - airespace-wireless-mib_ap-as-metrics
+api_key: ...
+persist_file: ...
 
-  cisco-841: # Template
-    templates: # TemplatesList
-      - system-mib
-      - if-mib
-      - ip-mib
-
-  system-mib: # Template
-    meta: # MetaDefinition
-      keys:
-        sysdescr: 'SNMPv2-MIB::system.sysDescr.0' # oidstring
-      values:
-        sysdescr: '#{sysdescr}' # ValueDefinition
-  if-mib: # Template
-    interfaces: # InterfacesDefinition
-      keys:
-        ifDescr: 'IF-MIB::ifDescr' # Oid
-      match:
-        ifIndex: '#{index}' # TemplateString
-      values:
-        name: '#{ifDescr}' # ValueDefinition
-    metric_discoveries: # MetricDiscoveryRuleCollection
-      interface: # MetricDiscoveryRule
+templates:
+  if-mib:
+    metric_discoveries:
+      interface:
         keys:
-          ifDescr: 'IF-MIB::ifDescr' # Oid
+          ifDescr: 'IF-MIB::ifDescr'
         metrics:
-          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
-          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
-          "interface.#{ifDescr}.rxBytes.delta": # MetricDefinition
-            oid: "IF-MIB::ifInOctets.#{index}" # Oid
-            transformations: # TransformSpecificationList
-              - type: persec # TransformSpecification
-          "interface.#{ifDescr}.txBytes.delta": # MetricDefinition
-            oid: "IF-MIB::ifOutOctets.#{index}" # Oid
-            transformations: # Transformspecification
-              - type: persec # TransformSpeccifiation
-  ip-mib: # Template
-    interfaces: # InterfacesDefinition
-      keys:
-        ipAdEntIfIndex: 'IP-MIB::ipAdEntIfIndex' # Oid
-        ipAdEntAddr: 'IP-MIB::ipAdEntIfAddr' # Oid
-      match:
-        ifIndex: '#{ipAdEntIfIndex}' # TemplateString
-      values:
-        ipv4Addresses: # ValueDefinition
-          type: array_append
-          value: '#{ipAdEntAddr}' # TemplateString
-
-  airespace-wireless-mib_ap-as-metrics: # Template
-    metric_discoveries: # MetricDiscoveryRuleCollection
-      ap: # MetricDiscoveryRule
-        keys:
-          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
-        metrics:
-          "custom.wlc.ap.#{bsnAPName}.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
-          "custom.wlc.ap.#{bsnAPName}.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
-
-  airespace-wireless-mib_ap-as-hosts:
-    vhost_discoveries: # VhostsDiscoveryRuleCollection
-      ap: # VhostDiscoveryRule
-        keys:
-          bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
-        name: 'ap-#{bsnAPName}' # TemplateString
-        roles:
-          - aaa:bbb
-        metrics:
-          "custom.ap.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
-          "custom.ap.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
-
-  airespace-wireless-mib_ess:
-    metric_discoveries: # MetricDiscoveryRuleCollection
-      ap:
-        keys:
-          bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
-        metrics:
-          "custom.wlc.ess.#{bsnDot11EssSsid}.clients.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
-
+          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}"
+          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}"
+          "interface.#{ifDescr}.rxBytes.delta":
+            oid: "IF-MIB::ifInOctets.#{index}"
+            transformations:
+              - type: persec
+          "interface.#{ifDescr}.txBytes.delta":
+            oid: "IF-MIB::ifOutOctets.#{index}"
+            transformations:
+              - type: persec
 
 hosts:
-  router-001:
-    host: 192.168.10.1
+  rt01:
+    host: 192.168.1.1
+    port: 161
+    discovery_interval: 120
+    interval: 60
     snmp:
-      version: 2c
+      verison: 2c
       community: public
-      #  env: SNMP_COMMUNITY
     templates:
-      - router
-# templates_dir: # load from indivisual files
-# hosts_dir: 
+      - if-mib
 ```
 
+See [./example](./example) directory for detail
+
 ### Running
+
+```
+snmp2mkr start -c ./config.yml
+```
+
+### Test discovery
+
+```
+snmp2mkr test -c ./config.yml
+```
+
+### Importing MIB files
+
+```
+snmp2mkr import -t ./mib CISCO-PROCESS-MIB.mib
+```
 
 ## Development
 
