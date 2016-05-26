@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'snmp2mkr'
+
+exit Snmp2mkr::Cli.new(ARGV).run || 128

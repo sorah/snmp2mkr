@@ -16,8 +16,11 @@ require 'snmp2mkr/host_updater'
 
 module Snmp2mkr
   class Engine
-    def initialize(config)
+    def initialize(config, log_level: 'info', logdev: $stdout)
       @config = config
+      @log_level = log_level
+      @logdev = logdev
+
       @shutdown = nil
       @logger = new_logger('engine')
 
@@ -40,7 +43,7 @@ module Snmp2mkr
     attr_reader :logger, :config, :host_manager, :metrics_state_holder, :mib
 
     def new_logger(progname)
-      Logger.new($stdout).tap { |_| _.progname = progname; _.level = Logger::DEBUG }
+      Logger.new(@logdev).tap { |_| _.progname = progname; _.level = @log_level }
     end
 
     def prepare

@@ -1,5 +1,3 @@
 require "snmp2mkr/version"
-
-module Snmp2mkr
-  # Your code goes here...
-end
+require "snmp2mkr/cli"
+require "snmp2mkr/engine"
