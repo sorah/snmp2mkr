@@ -26,5 +26,17 @@ module Snmp2mkr
     def api_key
       @root.api_key
     end
+
+    def mib_load_path
+      @root.mib_load_path
+    end
+
+    def mib_modules
+      @root.mib_modules
+    end
+
+    def mib_no_default_modules
+      @root.mib_no_default_modules
+    end
   end
 end
