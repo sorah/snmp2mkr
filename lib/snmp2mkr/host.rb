@@ -29,11 +29,11 @@ module Snmp2mkr
     end
 
     def meta_definitions
-      @meta_definitions ||= templates.map(&:meta)
+      @meta_definitions ||= templates.map(&:meta).compact
     end
 
     def interface_definitions
-      @interface_definitions ||= templates.map(&:interfaces)
+      @interface_definitions ||= templates.map(&:interfaces).compact
     end
 
     def metric_discoveries

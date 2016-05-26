@@ -46,6 +46,7 @@ module Snmp2mkr
     def snmp_trees
       @snmp_trees ||= host.snmp do |snmp|
         oids = [*host.metric_discoveries.values, *host.vhost_discoveries.values].
+          compact.
           flat_map { |_| _.keys.values.map(&:evaluate) }.
           uniq.
           map { |_| Snmp2mkr::Oid.new(mib.name_to_oid(_), name: _) }.
