@@ -62,7 +62,7 @@ hosts:
       - if-mib
 ```
 
-See [./example](./example) directory for detail
+See [./examples](./examples) directory for detail
 
 ### Running
 
