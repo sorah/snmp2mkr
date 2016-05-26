@@ -3,9 +3,14 @@ require 'snmp'
 module Snmp2mkr
   # Wrapper of SNMP::MIB for future implementation change
   class Mib
+    DEFAULT_MODULES = ["SNMPv2-SMI", "SNMPv2-MIB", "IF-MIB", "IP-MIB", "TCP-MIB", "UDP-MIB"]
+
     class ModuleNotFound < StandardError; end
 
-    def initialize(load_path: [], modules: [], no_default_load_path: false)
+    def self.default; @default_mib ||= Mib.new; end
+    def self.default=(o); @default_mib = o; end
+
+    def initialize(load_path: [], modules: DEFAULT_MODULES, no_default_load_path: false)
       @load_path = no_default_load_path ? load_path : [*load_path, SNMP::MIB::DEFAULT_MIB_PATH]
       @mib = SNMP::MIB.new
 

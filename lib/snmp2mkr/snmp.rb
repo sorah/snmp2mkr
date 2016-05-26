@@ -8,8 +8,13 @@ module Snmp2mkr
   class Snmp
     class Closed < StandardError; end
 
+    def self.default_mib; @default_mib ||= Mib.new; end
+    def self.default_mib=(o); @default_mib = o; end
+
     def self.open(*args)
       conn = new(*args)
+      return conn unless block_given?
+
       begin
         yield conn
       ensure
@@ -17,9 +22,9 @@ module Snmp2mkr
       end
     end
 
-    def initialize(host, port: 161, community: 'public', mib: Mib.new, &block) # :nodoc:
+    def initialize(host, port: 161, community: 'public', mib: nil, &block) # :nodoc:
       @manager = SNMP::Manager.new(host: host, port: port, community: community, &block)
-      @mib = mib
+      @mib = mib || self.class.default_mib
     end
 
     attr_reader :mib
@@ -47,7 +52,7 @@ module Snmp2mkr
       raise Closed if closed?
       return to_enum(__method__, oid_) unless block_given?
 
-      oid = Snmp2mkr::Oid.new(mib.name_to_oid(oid_), name: oid_.to_s)
+      oid = oid_.kind_of?(Snmp2mkr::Oid) ? oid_ : Snmp2mkr::Oid.new(mib.name_to_oid(oid_), name: oid_.to_s)
       pointer = oid
 
       while pointer

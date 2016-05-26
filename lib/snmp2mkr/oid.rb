@@ -13,7 +13,12 @@ module Snmp2mkr
       when Array
         @ary = obj.map(&:to_i)
       when String
-        @ary = obj.split('.').map(&:to_i)
+        if obj.include?('::')
+          @name = obj
+          @ary = mib.name_to_oid(obj)
+        else
+          @ary = obj.split('.').map(&:to_i)
+        end
       end
       @str = @ary.map(&:to_s).join('.')
 
@@ -21,7 +26,7 @@ module Snmp2mkr
       when name
         @name = name
       when mib
-        @name = mib.oid_to_name(self)
+        @name ||= mib.oid_to_name(self)
       end
     end
 
@@ -48,6 +53,12 @@ module Snmp2mkr
     def subtree_of?(o)
       other = Snmp2mkr::Oid(o)
       other.subtree?(self)
+    end
+
+    def index_of(o)
+      other = Snmp2mkr::Oid(o)
+      raise ArgumntError, "#{o.inspect} is not subtree of #{self.inspect} " unless other.subtree?(self)
+      self.to_a[other.to_a.size..-1].map(&:to_s).join('.')
     end
 
     def inspect
