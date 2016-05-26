@@ -69,11 +69,11 @@ templates: # TemplateCollection
           "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
           "interface.#{ifDescr}.rxBytes.delta": # MetricDefinition
             oid: "IF-MIB::ifInOctets.#{index}" # Oid
-            transform: # TransformSpecificationList
+            transformations: # TransformSpecificationList
               - type: persec # TransformSpecification
           "interface.#{ifDescr}.txBytes.delta": # MetricDefinition
             oid: "IF-MIB::ifOutOctets.#{index}" # Oid
-            transform: # Transformspecification
+            transformations: # Transformspecification
               - type: persec # TransformSpeccifiation
   ip-mib: # Template
     interfaces: # InterfacesDefinition
