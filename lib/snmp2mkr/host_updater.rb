@@ -30,6 +30,8 @@ module Snmp2mkr
       SendRequests::HostInformation.new(host, meta: meta, interfaces: interfaces).tap do |req|
         sender_queue << req
       end
+    rescue ClosedQueueError => e
+      logger.warn "#{e.inspect} (during shutdown?)"
     end
 
     def meta

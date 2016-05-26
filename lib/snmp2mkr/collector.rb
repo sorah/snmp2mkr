@@ -37,6 +37,8 @@ module Snmp2mkr
       SendRequests::Metrics.new(metric_values).tap do |req|
         sender_queue << req
       end
+    rescue ClosedQueueError => e
+      logger.warn "#{e.inspect} (during shutdown?)"
     end
 
     def snmp_time

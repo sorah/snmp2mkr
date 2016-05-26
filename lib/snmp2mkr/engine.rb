@@ -67,7 +67,7 @@ module Snmp2mkr
       logger.info "Initial discovery completed"
     end
 
-    def start
+    def start(signals: false)
       raise 'already ran' unless @shutdown.nil?
       @shutdown = false
 
@@ -96,8 +96,27 @@ module Snmp2mkr
 
       @timer.start
 
+      handle_signals if signals
+
       initial_host_update
       load_timer
+    end
+
+    def handle_signals
+      r,w = IO.pipe
+      handler_th = Thread.new(r) { |io|
+        io.gets
+        stop
+        io.gets
+        logger.warn "Force shut down"
+        exit
+      }
+      handler = proc do
+        w.puts "quit"
+      end
+      trap(:INT, handler)
+      trap(:TERM, handler)
+      handler_th.abort_on_exception = true
     end
 
     def initial_host_update
@@ -114,25 +133,56 @@ module Snmp2mkr
 
       host_manager.each_host do |host|
         @timer.add(host.definition.discover_interval) do
+          next if @shutdown
           @worker_queue << Discoverer.new(host, host_manager: host_manager,  logger: discoverer_logger)
           @worker_queue << HostUpdater.new(host, sender_queue: @sender_queue, logger: host_updater_logger)
         end
 
         @timer.add(host.definition.interval) do
+          next if @shutdown
           @worker_queue << Collector.new(host, metrics_state_holder: metrics_state_holder, host_manager: host_manager, sender_queue: @sender_queue, logger: collector_logger)
         end
       end
     end
 
     def stop
+      logger.info "Shutting down..."
+      @shutdown = true
+      @timer.stop
+      @worker_queue.close
+      @sender_queue.close
     end
 
-    def run!
-      start
-      sleep # FIXME
+    def wait
+      @timer.join
+      [*@worker_threads, *@sender_threads].each(&:join)
+    end
+
+    def wait_stop
+      logger.debug "Waiting timer to stop"
+      @timer.join
+      logger.debug "timer stopped"
+
+      logger.debug "Waiting workers to stop"
+      @worker_threads.each { |th|
+        logger.debug "Waiting #{th.inspect}"
+        th.join
+      }
+      logger.debug "Waiting senders to stop"
+      @sender_threads.each { |th|
+        logger.debug "Waiting #{th.inspect}"
+        th.join
+      }
+    end
+
+    def run!(signals: true)
+      start(signals: signals)
+      wait
     end
 
     def shutdown!
+      stop
+      wait
     end
 
     def init
