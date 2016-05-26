@@ -3,6 +3,7 @@ require 'snmp2mkr/config_types/oid'
 require 'snmp2mkr/mib'
 require 'snmp2mkr/oid'
 require 'snmp2mkr/vhost'
+require 'snmp2mkr/send_requests/metrics'
 
 module Snmp2mkr
   class Collector
@@ -26,13 +27,16 @@ module Snmp2mkr
     end
 
     def perform!
-      vhosts.each do |vhost|
-        vhost.metrics.each do |metric|
+      metric_values = vhosts.flat_map do |vhost|
+        vhost.metrics.map do |metric|
           val = metric.evaluate(snmp_values[metric.oid.to_s], state_holder: metrics_state_holder, time: snmp_time)
-          sender_queue << [:metric, host.name, vhost.name, metric.name, val]
-        end
+          next if val.nil?
+          {vhost: vhost, host: host, name: metric.safe_name, value: val, time: snmp_time}
+        end.compact
       end
-      # FIXME: sender_queue
+      SendRequests::Metrics.new(metric_values).tap do |req|
+        sender_queue << req
+      end
     end
 
     def snmp_time

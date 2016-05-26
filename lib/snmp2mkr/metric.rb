@@ -11,6 +11,10 @@ module Snmp2mkr
 
     attr_reader :vhost_name, :name, :oid, :transformations
 
+    def safe_name
+      name.gsub(/[^a-zA-Z0-9._-]/, '-')
+    end
+
     def evaluate(varbind, state_holder: nil, time: Time.now)
       if varbind == SNMP::NoSuchObject || varbind == SNMP::NoSuchInstance
         return nil

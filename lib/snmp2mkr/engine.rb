@@ -1,5 +1,7 @@
 require 'thread'
 
+require 'mackerel/client'
+
 require 'snmp2mkr/host_manager'
 require 'snmp2mkr/metrics_state_holder'
 require 'snmp2mkr/mib'
@@ -42,7 +44,7 @@ module Snmp2mkr
     end
 
     def prepare
-      @host_manager = HostManager.new
+      @host_manager = HostManager.new(persist_file: config.persist_file.evaluate)
       @metrics_state_holder = MetricsStateHolder.new
 
       load_hosts
@@ -81,7 +83,12 @@ module Snmp2mkr
       end
 
       @sender_threads = 2.times.map do
-        EngineThreads::Sender.new(queue: @sender_queue, logger: new_logger('sender'))
+        EngineThreads::Sender.new(
+          mackerel: Mackerel::Client.new(mackerel_api_key: config.api_key.evaluate),
+          host_manager: host_manager,
+          queue: @sender_queue,
+          logger: new_logger('sender'),
+        )
       end
 
       @worker_threads.each(&:start)
@@ -89,7 +96,15 @@ module Snmp2mkr
 
       @timer.start
 
+      initial_host_update
       load_timer
+    end
+
+    def initial_host_update
+      host_updater_logger = new_logger('host_updater')
+      host_manager.each_host do |host|
+        @worker_queue << HostUpdater.new(host, sender_queue: @sender_queue, logger: host_updater_logger)
+      end
     end
 
     def load_timer

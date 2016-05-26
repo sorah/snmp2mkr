@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "snmp"
+  spec.add_dependency "mackerel-client"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"

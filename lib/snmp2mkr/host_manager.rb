@@ -5,12 +5,21 @@ require 'snmp2mkr/vhost'
 
 module Snmp2mkr
   class HostManager
-    def initialize
-      @lock= Mutex.new
+    def initialize(persist_file: nil)
+      @lock = Mutex.new
+      @host_id_lock = Mutex.new
 
       @hosts = {}
       @vhosts = {}
+      @persist_file = persist_file
+      if @persist_file && File.exist?(@persist_file)
+        @persisted = YAML.load_file(@persist_file)
+      else
+        @persisted = {host_ids: {}}
+      end
     end
+
+    attr_reader :persist_file
 
     def add_host(host)
       @lock.synchronize do
@@ -42,6 +51,35 @@ module Snmp2mkr
         hs.each do |vhost|
           yield vhost
         end
+      end
+    end
+
+    def mackerel_host_id(vh)
+      @persisted[:host_ids][vh.name]
+    end
+
+    def set_mackerel_host_id(vh, host_id)
+      @host_id_lock.synchronize do
+        @persisted[:host_ids][vh.name] = host_id
+        persist
+      end
+    end
+
+    def set_mackerel_host_id_safe(vh)
+      @host_id_lock.synchronize do
+        host_id = mackerel_host_id(vh)
+        return host_id if host_id
+        host_id = yield(vh)
+        raise TypeError unless host_id
+        @persisted[:host_ids][vh.name] = host_id.to_s
+        persist
+        return host_id
+      end
+    end
+
+    def persist
+      @lock.synchronize do
+        File.write persist_file, "#{@persisted.to_yaml}\n"
       end
     end
   end

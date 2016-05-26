@@ -3,6 +3,7 @@ require 'snmp2mkr/config_types/oid'
 require 'snmp2mkr/mib'
 require 'snmp2mkr/oid'
 require 'snmp2mkr/vhost'
+require 'snmp2mkr/send_requests/host_information'
 
 module Snmp2mkr
   class HostUpdater
@@ -26,9 +27,9 @@ module Snmp2mkr
     attr_reader :host, :sender_queue, :logger, :mib
 
     def perform!
-      # FIXME: sender_queue
-      sender_queue << [:meta, host.name, meta]
-      sender_queue << [:iface, host.name, interfaces]
+      SendRequests::HostInformation.new(host, meta: meta, interfaces: interfaces).tap do |req|
+        sender_queue << req
+      end
     end
 
     def meta
@@ -65,7 +66,7 @@ module Snmp2mkr
             iface.values[k] = v.evaluate(previous: iface.values[k])
           end
         end
-      end
+      end.map(&:values)
     end
 
     def snmp_values
