@@ -9,6 +9,13 @@ module Snmp2mkr
 
         @type = h.fetch('type')
         raise TypeError, "#{self.class} type must be a String"  unless @type.kind_of?(String)
+
+        case @type
+        when 'persec'
+          # do nothing
+        else
+          raise ArgumentError, "#{self.class} doesn't know type #{type.inspect}"
+        end
       end
 
       attr_reader :type
