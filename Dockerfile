@@ -11,7 +11,7 @@ WORKDIR /opt/snmp2mkr
 ADD Gemfile /opt/snmp2mkr
 ADD lib/snmp2mkr/version.rb /opt/snmp2mkr/lib/snmp2mkr
 ADD snmp2mkr.gemspec /opt/snmp2mkr
-RUN bundle install --jobs=3 --retry=3
+RUN bundle install --jobs=3 --retry=3 --path=/opt/snmp2mkr-gems
 
 ADD . /opt/snmp2mkr/
 
