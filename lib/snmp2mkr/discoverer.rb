@@ -96,6 +96,7 @@ module Snmp2mkr
             roles: bind_rule.roles.map(&:evaluate),
             metrics: bind_rule.metrics.evaluate.values,
             discovery_name: rule_name,
+            mib: mib,
           )
         end
       end

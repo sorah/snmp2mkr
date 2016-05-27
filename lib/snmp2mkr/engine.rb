@@ -65,7 +65,7 @@ module Snmp2mkr
     def initial_discover
       host_manager.each_host do |host|
         logger.info "Initial discovery of #{host.inspect}"
-        Snmp2mkr::Discoverer.new(host, host_manager: host_manager).perform!
+        Snmp2mkr::Discoverer.new(host, host_manager: host_manager, mib: mib).perform!
       end
       logger.info "Initial discovery completed"
     end
@@ -137,7 +137,7 @@ module Snmp2mkr
       host_manager.each_host do |host|
         @timer.add(host.definition.discover_interval) do
           next if @shutdown
-          @worker_queue << Discoverer.new(host, host_manager: host_manager,  logger: discoverer_logger)
+          @worker_queue << Discoverer.new(host, host_manager: host_manager, mib: mib, logger: discoverer_logger)
           @worker_queue << HostUpdater.new(host, sender_queue: @sender_queue, logger: host_updater_logger)
         end
 
