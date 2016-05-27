@@ -10,6 +10,10 @@ module Snmp2mkr
       @discovery_name = discovery_name
     end
 
+    def inspect
+      "#<#{self.class}:#{'%x' % __id__} #{name.inspect} (#{roles.inspect}), #{metrics.size} metrics, discovery=#{discovery_name.inspect}>"
+    end
+
     attr_reader :name, :roles, :metrics, :discovery_name
   end
 end

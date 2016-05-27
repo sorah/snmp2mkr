@@ -11,6 +11,10 @@ module Snmp2mkr
 
     attr_reader :vhost_name, :name, :oid, :transformations
 
+    def inspect
+      "#<#{self.class}:#{'%x' % __id__} #{name.inspect} => #{oid.inspect} (#{transformations.inspect})>"
+    end
+
     def safe_name
       name.gsub(/[^a-zA-Z0-9._-]/, '-')
     end

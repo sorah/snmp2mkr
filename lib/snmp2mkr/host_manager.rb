@@ -41,6 +41,14 @@ module Snmp2mkr
       @vhosts[host(name).name]
     end
 
+    def each
+      return to_enum(__method__) unless block_given?
+      @vhosts.each do |name, hs|
+        host = host(name)
+        yield host, hs
+      end
+    end
+
     def each_host(&block)
       @hosts.each_value(&block)
     end

@@ -16,7 +16,8 @@ module Snmp2mkr
         do_start
         return 0
       when 'test'
-        raise NotImplementedError
+        do_test
+        return 0
       when 'import'
         raise NotImplementedError
       else
@@ -27,6 +28,22 @@ module Snmp2mkr
       parse_argv
       engine = Engine.new(config, log_level: options[:log_level])
       engine.run!
+    end
+
+    def do_test
+      parse_argv
+      engine = Engine.new(config, log_level: options[:log_level])
+      engine.prepare
+
+      engine.host_manager.each do |host, vhosts|
+        puts "* Host #{host.inspect}"
+        vhosts.each do |vhost|
+          puts "  - #{vhost.inspect}"
+          vhost.metrics.each do |x|
+            puts "    - #{x.inspect}"
+          end
+        end
+      end
     end
 
     def parse_argv
