@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 require 'snmp2mkr'
-
+$stdout.sync = true
 exit Snmp2mkr::Cli.new(ARGV).run || 128
