@@ -6,6 +6,7 @@ require 'snmp2mkr/config_types/meta_definition'
 require 'snmp2mkr/config_types/interfaces_definition'
 require 'snmp2mkr/config_types/metric_discovery_rule_collection'
 require 'snmp2mkr/config_types/vhost_discovery_rule_collection'
+require 'snmp2mkr/config_types/graph_collection'
 
 module Snmp2mkr
   module ConfigTypes
@@ -22,6 +23,7 @@ module Snmp2mkr
         @interfaces = hash.key?('interfaces') ? InterfacesDefinition.new(hash['interfaces']) : nil
         @metric_discoveries = hash.key?('metric_discoveries') ? MetricDiscoveryRuleCollection.new(hash['metric_discoveries']) : nil
         @vhost_discoveries = hash.key?('vhost_discoveries') ? VhostDiscoveryRuleCollection.new(hash['vhost_discoveries']) : nil
+        @graphs = hash.key?('graphs') ? GraphCollection.new(hash['graphs']) : nil
       end
 
       def collect_children
@@ -32,10 +34,11 @@ module Snmp2mkr
           @interfaces,
           @metric_discoveries,
           @vhost_discoveries,
+          @graphs,
         ].compact
       end
 
-      attr_reader :name, :templates, :metrics, :meta, :interfaces, :metric_discoveries, :vhost_discoveries
+      attr_reader :name, :templates, :metrics, :meta, :interfaces, :metric_discoveries, :vhost_discoveries, :graphs
     end
   end
 end

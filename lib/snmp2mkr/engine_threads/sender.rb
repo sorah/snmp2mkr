@@ -1,5 +1,8 @@
 require 'mackerel/client'
 require 'snmp2mkr/mackerel_ext'
+require 'snmp2mkr/send_requests/host_information'
+require 'snmp2mkr/send_requests/metrics'
+require 'snmp2mkr/send_requests/graphs'
 
 module Snmp2mkr
   module EngineThreads
@@ -42,6 +45,8 @@ module Snmp2mkr
         logger.debug "sending #{job.inspect}"
 
         case job
+        when Snmp2mkr::SendRequests::Graphs
+          add_graphs job
         when Snmp2mkr::SendRequests::Metrics
           send_metrics job
         when Snmp2mkr::SendRequests::HostInformation
@@ -49,6 +54,12 @@ module Snmp2mkr
         else
           raise TypeError, "Invalid send_request: #{job.class}"
         end
+      end
+
+      def add_graphs(job)
+        logger.info "Define graphs on Mackerel: #{job.inspect}"
+        resp = mackerel.define_graphs(job.graphdefs)
+        logger.debug "Mackerel response (#{job.inspect}): #{resp.inspect}"
       end
 
       def update_host(job)

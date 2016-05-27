@@ -18,8 +18,19 @@ templates:
       - ip-mib
 
   cisco-process-mib:
-    metrics:
-      #"custom.cpu": "1.3.6.1.4.1.9.9.109.1.1.1.1.6.1"
+    metric_discoveries:
+      keys:
+        cpmCPUTotalPhysicalIndex: 'CISCO-PROCESS-MIB::cpmCPUTotalPhysicalIndex'
+      metrics:
+        "custom.cisco.cpu-utilization.#{index}.1min":  "CISCO-PROCESS-MIB::cpmCPUTotal1minRev.#{index}"
+        "custom.cisco.cpu-utilization.#{index}.5min": "CISCO-PROCESS-MIB::cpmCPUTotal5minRev.#{index}"
+    graphs:
+      "custom.cisco.cpu-utilization":
+        display_name: "CPU (Cisco cpmCPUTotal*Rev)"
+        unit: percentage
+        metrics:
+          "custom.cisco.cpu-utilization.#.1min":
+          "custom.cisco.cpu-utilization.#.5min":
 
   router-sys-meta:
     meta: # MetaDefinition

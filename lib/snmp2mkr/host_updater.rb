@@ -4,6 +4,7 @@ require 'snmp2mkr/mib'
 require 'snmp2mkr/oid'
 require 'snmp2mkr/vhost'
 require 'snmp2mkr/send_requests/host_information'
+require 'snmp2mkr/send_requests/graphs'
 
 module Snmp2mkr
   class HostUpdater
@@ -13,11 +14,12 @@ module Snmp2mkr
       end
     end
 
-    def initialize(host, sender_queue: nil, logger: Logger.new(File::NULL), mib: Mib.default)
+    def initialize(host, sender_queue: nil, logger: Logger.new(File::NULL), mib: Mib.default, graphs: false)
       @host = host
       @sender_queue = sender_queue
       @logger = logger
       @mib = mib
+      @send_graphs = graphs
     end
 
     def inspect
@@ -26,12 +28,26 @@ module Snmp2mkr
 
     attr_reader :host, :sender_queue, :logger, :mib
 
+    def send_graphs?
+      !!@send_graphs
+    end
+
     def perform!
+      if send_graphs?
+        SendRequests::Graphs.new(graphdefs).tap do |req|
+          sender_queue << req
+        end
+      end
+
       SendRequests::HostInformation.new(host, meta: meta, interfaces: interfaces).tap do |req|
         sender_queue << req
       end
     rescue ClosedQueueError => e
       logger.warn "#{e.inspect} (during shutdown?)"
+    end
+
+    def graphdefs
+      @graphdefs ||= host.graphs.each_value.map(&:for_mackerel)
     end
 
     def meta

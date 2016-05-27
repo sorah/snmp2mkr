@@ -125,7 +125,7 @@ module Snmp2mkr
     def initial_host_update
       host_updater_logger = new_logger('host_updater')
       host_manager.each_host do |host|
-        @worker_queue << HostUpdater.new(host, sender_queue: @sender_queue, logger: host_updater_logger)
+        @worker_queue << HostUpdater.new(host, graphs: true, sender_queue: @sender_queue, logger: host_updater_logger)
       end
     end
 

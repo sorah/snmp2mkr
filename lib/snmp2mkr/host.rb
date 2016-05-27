@@ -44,6 +44,10 @@ module Snmp2mkr
       @vhost_discoveries ||= templates.map(&:vhost_discoveries).compact.map(&:evaluate).inject({}) { |r,h| r.merge(h) }
     end
 
+    def graphs
+      @graphs ||= templates.map(&:graphs).compact.map(&:evaluate).inject({}) { |r,h| r.merge(h) }
+    end
+
     def snmp(mib: nil, &block)
       Snmp.open(definition.host, port: definition.port, community: definition.snmp.community.evaluate, mib: mib || @mib, &block)
     end
