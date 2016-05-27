@@ -101,7 +101,7 @@ templates:
 
   airespace-wireless-mib_ess:
     metric_discoveries: # MetricDiscoveryRuleCollection
-      ap:
+      ess:
         keys:
           bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
         metrics:
