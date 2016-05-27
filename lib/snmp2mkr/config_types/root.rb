@@ -14,7 +14,7 @@ module Snmp2mkr
 
         @mib_load_path = hash.fetch('mib_load_path', [])
         raise TypeError, "mib_load_path should be an Array" unless @mib_load_path.kind_of?(Array)
-        @mib_modules = hash.fetch('mib_load_path', [])
+        @mib_modules = hash.fetch('mib_modules', [])
         raise TypeError, "mib_modules should be an Array" unless @mib_modules.kind_of?(Array)
 
         @hosts = HostCollection.new(hash.fetch('hosts'))
