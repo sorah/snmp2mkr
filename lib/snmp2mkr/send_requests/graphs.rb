@@ -8,7 +8,7 @@ module Snmp2mkr
       end
 
       def inspect
-        "#<#{self.class}:#{'%x' % __id__}: #{graphdefs.map{ |_| _[:name] }.inspect}>"
+        "#<#{self.class}:#{'%x' % __id__}: #{graphdefs.inspect}>"
       end
 
       attr_reader :graphdefs
