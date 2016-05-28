@@ -69,13 +69,13 @@ templates:
         keys:
           ifDescr: 'IF-MIB::ifDescr' # Oid
         metrics:
-          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
-          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
-          "interface.#{ifDescr}.rxBytes.delta": # MetricDefinition
+          "interface.#{escape_dot ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
+          "interface.#{escape_dot ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
+          "interface.#{escape_dot ifDescr}.rxBytes.delta": # MetricDefinition
             oid: "IF-MIB::ifInOctets.#{index}" # Oid
             transformations: # TransformSpecificationList
               - type: persec # TransformSpecification
-          "interface.#{ifDescr}.txBytes.delta": # MetricDefinition
+          "interface.#{escape_dot ifDescr}.txBytes.delta": # MetricDefinition
             oid: "IF-MIB::ifOutOctets.#{index}" # Oid
             transformations: # Transformspecification
               - type: persec # TransformSpeccifiation
@@ -87,8 +87,8 @@ templates:
           ifDescr: 'IF-MIB::ifDescr' # Oid
         name: 'kotori-if-#{ifDescr}'
         metrics:
-          "interface.#{ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
-          "interface.#{ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
+          "interface.#{escape_dot ifDescr}.rxBytes": "IF-MIB::ifInOctets.#{index}" # MetricDefinition
+          "interface.#{escape_dot ifDescr}.txBytes": "IF-MIB::ifOutOctets.#{index}" # MetricDefinition
 
   airespace-wireless-mib_ap-as-metrics: # Template
     metric_discoveries: # MetricDiscoveryRuleCollection
@@ -96,8 +96,8 @@ templates:
         keys:
           bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
         metrics:
-          "custom.wlc.ap-clients.#{bsnAPName}.count2_4": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
-          "custom.wlc.ap-clients.#{bsnAPName}.count5": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
+          "custom.wlc.ap-clients.#{escape_dot bsnAPName}.count2_4": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.wlc.ap-clients.#{escape_dot bsnAPName}.count5": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
     graphs:
       "custom.wlc.ap-clients":
         display_name: "AP associations"
@@ -115,7 +115,7 @@ templates:
       ap: # VhostDiscoveryRule
         keys:
           bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
-        name: 'ap-#{bsnAPName}' # TemplateString
+        name: 'ap-#{escape_dot bsnAPName}' # TemplateString
         roles:
           - aaa:bbb
         metrics:
@@ -129,7 +129,7 @@ templates:
         keys:
           bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
         metrics:
-          "custom.wlc.ess-clients.#{bsnDot11EssSsid}.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
+          "custom.wlc.ess-clients.#{escape_dot bsnDot11EssSsid}.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
     graphs:
       "custom.wlc.ess-clients":
         display_name: "SSID associations"
