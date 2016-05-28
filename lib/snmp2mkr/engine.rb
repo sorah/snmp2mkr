@@ -123,9 +123,27 @@ module Snmp2mkr
     end
 
     def initial_host_update
+      logger.debug "Initial host update!"
       host_updater_logger = new_logger('host_updater')
       host_manager.each_host do |host|
         @worker_queue << HostUpdater.new(host, graphs: true, sender_queue: @sender_queue, logger: host_updater_logger)
+      end
+      i = 0
+      until @worker_queue.empty?
+        if i == 10
+          logger.warn "Initial host update taking time... (#{@worker_queue.size} remaining)"
+        elsif i > 10 && (i % 6 == 0)
+          logger.warn "Still waiting for initial host update... (#{@worker_queue.size} remaining)"
+        elsif i % 2 == 0
+          logger.debug "Waiting for initial host update... (#{@worker_queue.size} remaining)"
+        end
+        i += 1
+        sleep 0.5
+      end
+      if i >= 10
+        logger.info "Initial host update completed"
+      else
+        logger.debug "Initial host update completed"
       end
     end
 
