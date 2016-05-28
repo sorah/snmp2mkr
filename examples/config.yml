@@ -19,11 +19,12 @@ templates:
 
   cisco-process-mib:
     metric_discoveries:
-      keys:
-        cpmCPUTotalPhysicalIndex: 'CISCO-PROCESS-MIB::cpmCPUTotalPhysicalIndex'
-      metrics:
-        "custom.cisco.cpu-utilization.#{index}.1min":  "CISCO-PROCESS-MIB::cpmCPUTotal1minRev.#{index}"
-        "custom.cisco.cpu-utilization.#{index}.5min": "CISCO-PROCESS-MIB::cpmCPUTotal5minRev.#{index}"
+      cpm:
+        keys:
+          cpmCPUTotalPhysicalIndex: 'CISCO-PROCESS-MIB::cpmCPUTotalPhysicalIndex'
+        metrics:
+          "custom.cisco.cpu-utilization.#{index}.1min":  "CISCO-PROCESS-MIB::cpmCPUTotal1minRev.#{index}"
+          "custom.cisco.cpu-utilization.#{index}.5min": "CISCO-PROCESS-MIB::cpmCPUTotal5minRev.#{index}"
     graphs:
       "custom.cisco.cpu-utilization":
         display_name: "CPU (Cisco cpmCPUTotal*Rev)"
@@ -95,8 +96,19 @@ templates:
         keys:
           bsnAPName: 'AIRESPACE-WIRELESS-MIB::bsnAPName' # Oid
         metrics:
-          "custom.wlc.ap.#{bsnAPName}.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
-          "custom.wlc.ap.#{bsnAPName}.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
+          "custom.wlc.ap-clients.#{bsnAPName}.count2_4": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
+          "custom.wlc.ap-clients.#{bsnAPName}.count5": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
+    graphs:
+      "custom.wlc.ap-clients":
+        display_name: "AP associations"
+        unit: integer
+        metrics:
+          "custom.wlc.ap-clients.#.count2_4":
+            display_name: "2.4GHz"
+            stacked: true
+          "custom.wlc.ap-clients.#.count5":
+            display_name: "5GHz"
+            stacked: true
 
   airespace-wireless-mib_ap-as-hosts:
     vhost_discoveries: # VhostsDiscoveryRuleCollection
@@ -110,13 +122,22 @@ templates:
           "custom.ap.clients.2_4.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.0' # MetricDefinition
           "custom.ap.clients.5.count": 'AIRESPACE-WIRELESS-MIB::bsnApIfNoOfUsers.#{index}.1' # MetricDefinition
 
+
   airespace-wireless-mib_ess:
     metric_discoveries: # MetricDiscoveryRuleCollection
       ess:
         keys:
           bsnDot11EssSsid: 'AIRESPACE-WIRELESS-MIB::bsnDot11EssSsid'
         metrics:
-          "custom.wlc.ess.#{bsnDot11EssSsid}.clients.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
+          "custom.wlc.ess-clients.#{bsnDot11EssSsid}.count": 'AIRESPACE-WIRELESS-MIB::bsnDot11EssNumberOfMobileStations.#{index}'
+    graphs:
+      "custom.wlc.ess-clients":
+        display_name: "SSID associations"
+        unit: integer
+        metrics:
+          "custom.wlc.ess-clients.#.count":
+            stacked: true
+
 
 hosts:
   rt01:
